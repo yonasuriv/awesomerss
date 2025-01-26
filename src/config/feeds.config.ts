@@ -132,6 +132,11 @@ export const feedsConfig: Feed[] = [
     category: "Security"
   },
   {
+    name: "Dark Reading",
+    url: "https://www.darkreading.com/rss.xml",
+    category: "Security"
+  },
+  {
     name: "Wiz Research",
     url: "https://www.wiz.io/feed/tag/research/rss.xml",
     category: "Cloud Security"
