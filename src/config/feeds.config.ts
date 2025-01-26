@@ -135,5 +135,20 @@ export const feedsConfig: Feed[] = [
     name: "Wiz Research",
     url: "https://www.wiz.io/feed/tag/research/rss.xml",
     category: "Cloud Security"
+  },
+   {
+    name: "TechCrunch",
+    url: "https://techcrunch.com/feed/",
+    category: "Technology"
+  },
+  {
+    name: "NASA Breaking News",
+    url: "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+    category: "Science"
+  },
+  {
+    name: "BBC World News",
+    url: "http://feeds.bbci.co.uk/news/world/rss.xml",
+    category: "News"
   }
 ];
