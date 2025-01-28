@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Rss, History, Bookmark, Tag, Advanced, X } from 'lucide-react';
+import { Home, Rss, History, Bookmark, Tag, Settings2, X } from 'lucide-react';
 
 interface SidebarProps {
   darkMode: boolean;
@@ -16,7 +16,7 @@ export function Sidebar({ darkMode, isOpen, onClose, activeTab, onTabChange }: S
     { icon: History, label: 'History' },
     { icon: Bookmark, label: 'Bookmarks' },
     { icon: Tag, label: 'Categories' },
-    { icon: Advanced, label: 'Advanced' },
+    { icon: Settings2, label: 'Advanced' },
   ];
 
   return (
