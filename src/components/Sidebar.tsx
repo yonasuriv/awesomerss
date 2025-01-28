@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Rss, History, Bookmark, Tag, Settings2, X } from 'lucide-react';
+import { Home, Rss, History, Bookmark, Tag, Settings2, X , MessageCircleHeart, ScrollText, BookOpenText, Link, Star, Menu} from 'lucide-react';
 
 interface SidebarProps {
   darkMode: boolean;
@@ -16,11 +16,11 @@ export function Sidebar({ darkMode, isOpen, onClose, activeTab, onTabChange }: S
     // { icon: History, label: 'History' },
     // { icon: Bookmark, label: 'Bookmarks' },
     // { icon: Tag, label: 'Categories' },
-    { id: 'feedback', icon: message-circle-heart, label: 'Feedback' },
-    { id: 'changelog', icon: book-open-text, label: 'Changelog' },
-    { id: 'documentation', icon: book-open-text, label: 'Documentation' },
-    { id: 'submitlink', icon: link, label: 'Submit a link' },
-    { id: 'starrepo', icon: star, label: 'Star Repository' },
+    { id: 'feedback', icon: MessageCircleHeart, label: 'Feedback' },
+    { id: 'changelog', icon: ScrollText, label: 'Changelog' },
+    { id: 'documentation', icon: BookOpenText, label: 'Documentation' },
+    { id: 'submitlink', icon: Link, label: 'Submit a link' },
+    { id: 'starrepo', icon: Star, label: 'Star Repository' },
   ];
 
   return (
