@@ -64,7 +64,7 @@ export function SettingsModal({ isOpen, onClose, settings, onSettingsChange, dar
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-lg font-medium mb-3">Display</h3>
             <button
               onClick={() => onSettingsChange({ ...settings, showImages: !settings.showImages })}
@@ -79,7 +79,7 @@ export function SettingsModal({ isOpen, onClose, settings, onSettingsChange, dar
               <Image className="h-5 w-5" />
               <span>Show Images</span>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

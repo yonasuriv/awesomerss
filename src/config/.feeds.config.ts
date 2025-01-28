@@ -2,6 +2,21 @@ import type { Feed } from '../types';
 
 export const feedsConfig: Feed[] = [
   {
+    name: "NASA Breaking News",
+    url: "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+    category: "Science"
+  },
+  {
+    name: "BBC World News",
+    url: "http://feeds.bbci.co.uk/news/world/rss.xml",
+    category: "News"
+  },
+  {
+    name: "TechCrunch",
+    url: "https://techcrunch.com/feed/",
+    category: "Technology"
+  },
+  {
     name: "Bishop Fox Technology",
     url: "https://bishopfox.com/feeds/technology.rss",
     category: "Security"
@@ -41,11 +56,11 @@ export const feedsConfig: Feed[] = [
     url: "https://ramimac.me/feed.xml",
     category: "Security"
   },
-  {
-    name: "CloudSecList",
-    url: "https://cloudseclist.com/feed.xml",
-    category: "Cloud Security"
-  },
+  // {
+  //   name: "CloudSecList",
+  //   url: "https://cloudseclist.com/feed.xml",
+  //   category: "Cloud Security"
+  // },
   {
     name: "Google Project Zero",
     url: "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -142,21 +157,6 @@ export const feedsConfig: Feed[] = [
     category: "Cloud Security"
   },
   {
-    name: "TechCrunch",
-    url: "https://techcrunch.com/feed/",
-    category: "Technology"
-  },
-  {
-    name: "NASA Breaking News",
-    url: "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-    category: "Science"
-  },
-  {
-    name: "BBC World News",
-    url: "http://feeds.bbci.co.uk/news/world/rss.xml",
-    category: "News"
-  },
-  {
     name: "Hack The Box All Content",
     url: "https://www.hackthebox.com/rss/blog/all",
     category: "Security"
@@ -174,7 +174,7 @@ export const feedsConfig: Feed[] = [
   {
     name: "Hack The Box Cyber Teams",
     url: "https://www.hackthebox.com/rss/blog/cyber-teams",
-    category: "HSecurity"
+    category: "Security"
   },
   {
     name: "Hack The Box Education",

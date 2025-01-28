@@ -11,8 +11,8 @@ interface SidebarProps {
 
 export function Sidebar({ darkMode, isOpen, onClose, activeTab, onTabChange }: SidebarProps) {
   const menuItems = [
-    { id: 'rss' as const, icon: Rss, label: 'RSS Feeds' },
-    { id: 'daily' as const, icon: Home, label: 'Daily.dev' },
+    { id: 'rss' as const, icon: Rss, label: 'Nitro RSS' },
+    { id: 'daily' as const, icon: Home, label: 'Home' },
     { icon: History, label: 'History' },
     { icon: Bookmark, label: 'Bookmarks' },
     { icon: Tag, label: 'Categories' },

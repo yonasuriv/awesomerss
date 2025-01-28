@@ -35,9 +35,9 @@ export function FeedCard({ item, darkMode, showImage }: FeedCardProps) {
           />
         </div>
       ) : (
-        <div className="aspect-[2/1] bg-gray-100 flex items-center justify-center">
-          <span className="text-gray-400">No image available</span>
-        </div>
+        // <div className="aspect-[2/1] bg-gray-100 flex items-center justify-center">
+        //   <span className="text-gray-400">No image available</span>
+        // </div>
       )}
 
       <div className="p-4 flex flex-col flex-grow">

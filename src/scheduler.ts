@@ -3,10 +3,7 @@ import fs from 'fs';
 import { fetchData } from './main';
 
 const urls = [
-  'https://www.skybound.link/index.xml',
-  'https://dirkjanm.io/feed.xml',
-  // ...other URLs...
-];
+  // TO-DO: ADD Fetch URLs
 
 const job = new CronJob('0 */6 * * *', async () => {
   for (const url of urls) {
