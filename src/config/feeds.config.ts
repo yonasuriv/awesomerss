@@ -141,7 +141,7 @@ export const feedsConfig: Feed[] = [
     url: "https://www.wiz.io/feed/tag/research/rss.xml",
     category: "Cloud Security"
   },
-   {
+  {
     name: "TechCrunch",
     url: "https://techcrunch.com/feed/",
     category: "Technology"
@@ -155,5 +155,75 @@ export const feedsConfig: Feed[] = [
     name: "BBC World News",
     url: "http://feeds.bbci.co.uk/news/world/rss.xml",
     category: "News"
+  },
+  {
+    name: "Hack The Box All Content",
+    url: "https://www.hackthebox.com/rss/blog/all",
+    category: "Security"
+  },
+  {
+    name: "Hack The Box Red Teaming",
+    url: "https://www.hackthebox.com/rss/blog/red-teaming",
+    category: "Security"
+  },
+  {
+    name: "Hack The Box Blue Teaming",
+    url: "https://www.hackthebox.com/rss/blog/blue-teaming",
+    category: "Security"
+  },
+  {
+    name: "Hack The Box Cyber Teams",
+    url: "https://www.hackthebox.com/rss/blog/cyber-teams",
+    category: "HSecurity"
+  },
+  {
+    name: "Hack The Box Education",
+    url: "https://www.hackthebox.com/rss/blog/education",
+    category: "Security"
+  },
+  {
+    name: "Hack The Box CISO Diaries",
+    url: "https://www.hackthebox.com/rss/blog/ciso-diaries",
+    category: "Security"
+  },
+  {
+    name: "Hack The Box Events",
+    url: "https://www.hackthebox.com/rss/blog/events",
+    category: "Security"
+  },
+  {
+    name: "Hack The Box HTB Insider",
+    url: "https://www.hackthebox.com/rss/blog/htb-insider",
+    category: "Security"
+  },
+  {
+    name: "Hack The Box Customer Stories",
+    url: "https://www.hackthebox.com/rss/blog/customer-stories",
+    category: "Security"
+  },
+  {
+    name: "Hack The Box Write-Ups",
+    url: "https://www.hackthebox.com/rss/blog/write-ups",
+    category: "Security"
+  },
+  {
+    name: "Hack The Box CVE Explained",
+    url: "https://www.hackthebox.com/rss/blog/cve-explained",
+    category: "Security"
+  },
+  {
+    name: "Hack The Box News",
+    url: "https://www.hackthebox.com/rss/blog/news",
+    category: "Security"
+  },
+  {
+    name: "Career Stories",
+    url: "https://www.hackthebox.com/rss/blog/career-stories",
+    category: "Security"
+  },
+  {
+    name: "Humans of HTB",
+    url: "https://www.hackthebox.com/rss/blog/humans-of-htb",
+    category: "Security"
   }
 ];
