@@ -16,11 +16,11 @@ export function Sidebar({ darkMode, isOpen, onClose, activeTab, onTabChange }: S
     // { icon: History, label: 'History' },
     // { icon: Bookmark, label: 'Bookmarks' },
     // { icon: Tag, label: 'Categories' },
-    { id: 'feedback', icon: MessageCircleHeart, label: 'Feedback' },
-    { id: 'changelog', icon: ScrollText, label: 'Changelog' },
-    { id: 'documentation', icon: BookOpenText, label: 'Documentation' },
-    { id: 'submitlink', icon: Link, label: 'Submit a link' },
-    { id: 'starrepo', icon: Star, label: 'Star Repository' },
+    { icon: MessageCircleHeart, label: 'Feedback' },
+    { icon: Link, label: 'Submit a link' },
+    { icon: ScrollText, label: 'Changelog' },
+    { icon: BookOpenText, label: 'Documentation' },
+    { icon: Star, label: 'Star Repository' },
   ];
 
   return (
