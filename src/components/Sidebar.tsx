@@ -12,7 +12,7 @@ interface SidebarProps {
 export function Sidebar({ darkMode, isOpen, onClose, activeTab, onTabChange }: SidebarProps) {
   const menuItems = [
     { id: 'rss' as const, icon: Home, label: 'Home' },
-    { id: 'daily' as const, icon: Plugins, label: 'Plugins' },
+    { id: 'daily' as const, icon: Home, label: 'Plugins' },
     // { icon: History, label: 'History' },
     // { icon: Bookmark, label: 'Bookmarks' },
     // { icon: Tag, label: 'Categories' },
