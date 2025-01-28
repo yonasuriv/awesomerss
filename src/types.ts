@@ -28,3 +28,29 @@ export interface Settings {
   showImages: boolean;
   layout: 'grid' | 'list';
 }
+
+export interface DailyDevUser {
+  id: string;
+  name: string;
+  image: string;
+  username: string;
+}
+
+export interface DailyDevPost {
+  id: string;
+  title: string;
+  permalink: string;
+  publishedAt: string;
+  createdAt: string;
+  image: string;
+  readTime: number;
+  tags: string[];
+  source: {
+    name: string;
+    image: string;
+  };
+  author: {
+    name: string;
+    image: string;
+  };
+}

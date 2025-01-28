@@ -5,12 +5,14 @@ interface SidebarProps {
   darkMode: boolean;
   isOpen: boolean;
   onClose: () => void;
+  activeTab: 'rss' | 'daily';
+  onTabChange: (tab: 'rss' | 'daily') => void;
 }
 
-export function Sidebar({ darkMode, isOpen, onClose }: SidebarProps) {
+export function Sidebar({ darkMode, isOpen, onClose, activeTab, onTabChange }: SidebarProps) {
   const menuItems = [
-    { icon: Home, label: 'Home' },
-    { icon: Rss, label: 'My Feeds' },
+    { id: 'rss' as const, icon: Rss, label: 'RSS Feeds' },
+    { id: 'daily' as const, icon: Home, label: 'Daily.dev' },
     { icon: History, label: 'History' },
     { icon: Bookmark, label: 'Bookmarks' },
     { icon: Tag, label: 'Categories' },
@@ -19,7 +21,6 @@ export function Sidebar({ darkMode, isOpen, onClose }: SidebarProps) {
 
   return (
     <>
-      {/* Overlay */}
       {isOpen && (
         <div
           className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"
@@ -27,7 +28,6 @@ export function Sidebar({ darkMode, isOpen, onClose }: SidebarProps) {
         />
       )}
 
-      {/* Sidebar */}
       <div
         className={`fixed top-0 left-0 h-full w-64 ${
           darkMode ? 'bg-[#0f1613] border-[#1a2420]' : 'bg-white border-gray-200'
@@ -55,17 +55,24 @@ export function Sidebar({ darkMode, isOpen, onClose }: SidebarProps) {
             <ul className="space-y-2">
               {menuItems.map((item) => (
                 <li key={item.label}>
-                  <a
-                    href="#"
-                    className={`flex items-center space-x-3 px-4 py-3 rounded-md transition-colors ${
-                      darkMode
+                  <button
+                    onClick={() => {
+                      if ('id' in item) {
+                        onTabChange(item.id);
+                        onClose();
+                      }
+                    }}
+                    className={`w-full flex items-center space-x-3 px-4 py-3 rounded-md transition-colors ${
+                      'id' in item && activeTab === item.id
+                        ? 'bg-[#40f8b5] text-[#0a0f0d]'
+                        : darkMode
                         ? 'text-gray-300 hover:bg-[#1a2420]'
                         : 'text-gray-700 hover:bg-gray-100'
                     }`}
                   >
                     <item.icon className="h-5 w-5" />
                     <span>{item.label}</span>
-                  </a>
+                  </button>
                 </li>
               ))}
             </ul>
