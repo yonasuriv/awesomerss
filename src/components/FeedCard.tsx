@@ -44,6 +44,17 @@ export function FeedCard({ item, darkMode, showImage }: FeedCardProps) {
         <a 
           href={item.link}
           target="_blank"
+          rel="noopener noreferrer"
+          className={`text-sm mb-3 ${
+            darkMode ? 'text-gray-400' : 'text-gray-500'
+          }`}
+        >
+          {item.feedName}
+        </a>
+
+        <a 
+          href={item.link}
+          target="_blank"
           rel="noopener noreferrer" 
           className={`text-lg font-semibold mb-2 hover:underline ${
             darkMode ? 'text-gray-100' : 'text-gray-900'
@@ -52,16 +63,9 @@ export function FeedCard({ item, darkMode, showImage }: FeedCardProps) {
           {item.title}
         </a>
 
-        <a 
-          href={item.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`text-sm mb-3 ${
-            darkMode ? 'text-gray-400' : 'text-gray-500'
-          }`}
-        >
-          {item.feedName}
-        </a>
+        <p className={`text-sm mb-3 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+          {item.description}
+        </p>
 
         <div className="space-y-4 flex-grow">
           <div className="flex flex-wrap gap-2">

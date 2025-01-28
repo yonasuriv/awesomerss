@@ -1,46 +1,26 @@
-# RSS Reader
+# Awesome RSS
 
-A beautiful RSS feed reader with dark mode support and category filtering.
+Awesome RSS is a personal feed aggregator that fetches and displays RSS feeds from various sources.
 
 ## Features
 
-- 🌓 Dark/Light mode with persistent preference
-- 📱 Responsive design
-- 🏷️ Category-based filtering
-- 🎨 Beautiful UI with smooth transitions
-- ⚡ Fast and efficient feed loading
+- Fetches RSS feeds every 6 hours and saves them to XML files.
+- Displays feed items with titles, descriptions, and images.
+- Handles CORS issues and improves loading times.
+
+## Usage
+
+1. Clone the repository.
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Build the project: `npm run build`
+5. Start the scheduler: `npm run start:scheduler`
 
 ## Configuration
 
-To add or modify RSS feeds, edit the `src/config/feeds.config.ts` file. Each feed should have the following structure:
+- Update the `src/utils/imageFetcher.ts` file with your Google and Unsplash API keys.
+- Add your RSS feed URLs to the `src/scheduler.ts` file.
 
-```typescript
-{
-  name: "Feed Name",
-  url: "https://feed-url.com/rss",
-  category: "Category Name"
-}
-```
+## License
 
-## Development
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-## Deployment
-
-1. Fork this repository
-2. Update the `base` property in `vite.config.ts` with your repository name
-3. Enable GitHub Pages in your repository settings:
-   - Go to Settings > Pages
-   - Set the source to "GitHub Actions"
-4. Push your changes to the main branch
-
-The site will be automatically deployed to GitHub Pages.
+This project is licensed under the MIT License.

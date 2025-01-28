@@ -5,10 +5,12 @@ import './index.css';
 
 async function fetchData(url: string) {
   try {
-    const response = await fetch(url, {
-      mode: 'no-cors'
-    });
-    // ...existing code...
+    const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`);
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    const data = await response.json();
+    return data.contents;
   } catch (error) {
     console.error('Failed to fetch data:', error);
   }
