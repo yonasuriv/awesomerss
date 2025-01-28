@@ -172,7 +172,7 @@ function App() {
                     className={`p-2 rounded-md ${darkMode ? 'bg-[#1a2420] text-gray-300 hover:bg-[#243430]' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'} transition-colors`}
                     aria-label="Settings"
                   >
-                    <Settings2 className="w-5 h-5" />
+                    <Menu className="w-5 h-5" />
                   </button>
                 </div>
               </div>
