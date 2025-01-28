@@ -2,14 +2,14 @@ import type { Feed } from '../types';
 
 export const feedsConfig: Feed[] = [
   {
-    name: "NASA Breaking News",
-    url: "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-    category: "Science"
-  },
-  {
     name: "BBC World News",
     url: "http://feeds.bbci.co.uk/news/world/rss.xml",
     category: "News"
+  },
+  {
+    name: "NASA Breaking News",
+    url: "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+    category: "Science"
   },
   {
     name: "TechCrunch",

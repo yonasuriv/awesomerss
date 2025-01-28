@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Rss, History, Bookmark, Tag, Settings2, X } from 'lucide-react';
+import { Home, Rss, History, Bookmark, Tag, Advanced, X } from 'lucide-react';
 
 interface SidebarProps {
   darkMode: boolean;
@@ -11,12 +11,12 @@ interface SidebarProps {
 
 export function Sidebar({ darkMode, isOpen, onClose, activeTab, onTabChange }: SidebarProps) {
   const menuItems = [
-    { id: 'rss' as const, icon: Rss, label: 'Nitro RSS' },
-    { id: 'daily' as const, icon: Home, label: 'Home' },
+    { id: 'rss' as const, icon: Home, label: 'Home' },
+    { id: 'daily' as const, icon: Plugins, label: 'Plugin' },
     { icon: History, label: 'History' },
     { icon: Bookmark, label: 'Bookmarks' },
     { icon: Tag, label: 'Categories' },
-    { icon: Settings2, label: 'Settings' },
+    { icon: Advanced, label: 'Advanced' },
   ];
 
   return (

@@ -100,7 +100,7 @@ export function FeedCard({ item, darkMode, showImage }: FeedCardProps) {
             className={`inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium transition-colors ${
               darkMode 
                 ? 'bg-[#1a2420] text-gray-300 hover:bg-[#243430]' 
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                : 'bg-[#0e1217] text-gray-700 hover:bg-gray-200'
             }`}
           >
             Read post
