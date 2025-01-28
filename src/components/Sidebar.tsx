@@ -12,11 +12,14 @@ interface SidebarProps {
 export function Sidebar({ darkMode, isOpen, onClose, activeTab, onTabChange }: SidebarProps) {
   const menuItems = [
     { id: 'rss' as const, icon: Home, label: 'Home' },
-    { id: 'daily' as const, icon: Plugins, label: 'Plugin' },
-    { icon: History, label: 'History' },
-    { icon: Bookmark, label: 'Bookmarks' },
-    { icon: Tag, label: 'Categories' },
-    { icon: Settings2, label: 'Advanced' },
+    { id: 'daily' as const, icon: Plugins, label: 'Plugins' },
+    // { icon: History, label: 'History' },
+    // { icon: Bookmark, label: 'Bookmarks' },
+    // { icon: Tag, label: 'Categories' },
+    { icon: Settings2, label: 'Feedback' },
+    { icon: Settings2, label: 'Changelog' },
+    { icon: Settings2, label: 'Documentation' },
+    { icon: Settings2, label: 'Submit a link' },
   ];
 
   return (
