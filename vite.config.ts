@@ -7,4 +7,9 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  build: {
+    rollupOptions: {
+      external: ['module-name-to-externalize'] // Replace 'module-name-to-externalize' with the actual module name
+    }
+  }
 });
