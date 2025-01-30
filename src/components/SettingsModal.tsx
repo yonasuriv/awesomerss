@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, LayoutGrid, LayoutList, Image } from 'lucide-react';
+import { X, LayoutGrid, LayoutList, Image, Plus, Trash } from 'lucide-react';
 import type { Settings } from '../types';
 
 interface SettingsModalProps {
@@ -11,7 +11,31 @@ interface SettingsModalProps {
 }
 
 export function SettingsModal({ isOpen, onClose, settings, onSettingsChange, darkMode }: SettingsModalProps) {
+  const [newHeader, setNewHeader] = React.useState({ name: '', value: '' });
+
   if (!isOpen) return null;
+
+  const addCustomHeader = () => {
+    if (newHeader.name && newHeader.value) {
+      onSettingsChange({
+        ...settings,
+        customHeaders: {
+          ...settings.customHeaders,
+          [newHeader.name]: newHeader.value
+        }
+      });
+      setNewHeader({ name: '', value: '' });
+    }
+  };
+
+  const removeCustomHeader = (headerName: string) => {
+    const newHeaders = { ...settings.customHeaders };
+    delete newHeaders[headerName];
+    onSettingsChange({
+      ...settings,
+      customHeaders: newHeaders
+    });
+  };
 
   return (
     <>
@@ -64,7 +88,7 @@ export function SettingsModal({ isOpen, onClose, settings, onSettingsChange, dar
             </div>
           </div>
 
-          {/* <div>
+          <div>
             <h3 className="text-lg font-medium mb-3">Display</h3>
             <button
               onClick={() => onSettingsChange({ ...settings, showImages: !settings.showImages })}
@@ -79,7 +103,113 @@ export function SettingsModal({ isOpen, onClose, settings, onSettingsChange, dar
               <Image className="h-5 w-5" />
               <span>Show Images</span>
             </button>
-          </div> */}
+          </div>
+
+          <div>
+            <h3 className="text-lg font-medium mb-3">Daily.dev Plugin Headers</h3>
+            <div className="space-y-3">
+              {Object.entries(settings.customHeaders || {}).map(([name, value]) => (
+                <div key={name} className="flex items-center space-x-2">
+                  <div className={`flex-1 p-2 rounded ${
+                    darkMode ? 'bg-[#1a2420]' : 'bg-gray-100'
+                  }`}>
+                    <div className="text-sm font-medium">{name}</div>
+                    <div className="text-sm opacity-75">{value}</div>
+                  </div>
+                  <button
+                    onClick={() => removeCustomHeader(name)}
+                    className={`p-2 rounded-md ${
+                      darkMode ? 'bg-[#1a2420] hover:bg-[#243430]' : 'bg-gray-100 hover:bg-gray-200'
+                    }`}
+                  >
+                    <Trash className="h-4 w-4" />
+                  </button>
+                </div>
+              ))}
+              
+              <div className="space-y-2">
+                <input
+                  value="das"
+                  onChange={(e) => setNewHeader({ ...newHeader, name: e.target.value })}
+                  className={`w-full p-2 rounded-md ${
+                    darkMode
+                      ? 'bg-[#1a2420] text-gray-300 border-[#243430]'
+                      : 'bg-gray-100 text-gray-700 border-gray-200'
+                  } border`}
+                />
+                <input
+                  type="text"
+                  placeholder="das value"
+                  value={newHeader.value}
+                  onChange={(e) => setNewHeader({ ...newHeader, value: e.target.value })}
+                  className={`w-full p-2 rounded-md ${
+                    darkMode
+                      ? 'bg-[#1a2420] text-gray-300 border-[#243430]'
+                      : 'bg-gray-100 text-gray-700 border-gray-200'
+                  } border`}
+                />
+
+                <input
+                  type="text"
+                  placeholder="Header Name"
+                  value="da2"
+                  onChange={(e) => setNewHeader({ ...newHeader, name: e.target.value })}
+                  className={`w-full p-2 rounded-md ${
+                    darkMode
+                      ? 'bg-[#1a2420] text-gray-300 border-[#243430]'
+                      : 'bg-gray-100 text-gray-700 border-gray-200'
+                  } border`}
+                />
+                <input
+                  type="text"
+                  placeholder="da2 value"
+                  value={newHeader.value}
+                  onChange={(e) => setNewHeader({ ...newHeader, value: e.target.value })}
+                  className={`w-full p-2 rounded-md ${
+                    darkMode
+                      ? 'bg-[#1a2420] text-gray-300 border-[#243430]'
+                      : 'bg-gray-100 text-gray-700 border-gray-200'
+                  } border`}
+                />
+
+<input
+                  type="text"
+                  placeholder="Header Name"
+                  value="da3"
+                  onChange={(e) => setNewHeader({ ...newHeader, name: e.target.value })}
+                  className={`w-full p-2 rounded-md ${
+                    darkMode
+                      ? 'bg-[#1a2420] text-gray-300 border-[#243430]'
+                      : 'bg-gray-100 text-gray-700 border-gray-200'
+                  } border`}
+                />
+                <input
+                  type="text"
+                  placeholder="da3 value"
+                  value={newHeader.value}
+                  onChange={(e) => setNewHeader({ ...newHeader, value: e.target.value })}
+                  className={`w-full p-2 rounded-md ${
+                    darkMode
+                      ? 'bg-[#1a2420] text-gray-300 border-[#243430]'
+                      : 'bg-gray-100 text-gray-700 border-gray-200'
+                  } border`}
+                />
+                <h3 className="text-lg font-medium mb-3">Custom Headers</h3>
+                
+                <button
+                  onClick={addCustomHeader}
+                  className={`w-full flex items-center justify-center space-x-2 px-4 py-2 rounded-md ${
+                    darkMode
+                      ? 'bg-[#1a2420] text-gray-300 hover:bg-[#243430]'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  }`}
+                >
+                  <Plus className="h-4 w-4" />
+                  <span>Add Header</span>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

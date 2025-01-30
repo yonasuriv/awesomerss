@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Rss, History, Bookmark, Tag, Settings2, X , MessageCircleHeart, ScrollText, BookOpenText, Link, Star, Menu} from 'lucide-react';
+import { Home, Rss, X, Code, MessageSquareText, MessageCircleHeart, ScrollText, BookOpenText, Link, Star, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface SidebarProps {
   darkMode: boolean;
@@ -7,15 +7,26 @@ interface SidebarProps {
   onClose: () => void;
   activeTab: 'rss' | 'daily';
   onTabChange: (tab: 'rss' | 'daily') => void;
+  collapsed: boolean;
+  onCollapse: () => void;
 }
 
-export function Sidebar({ darkMode, isOpen, onClose, activeTab, onTabChange }: SidebarProps) {
+export function Sidebar({ 
+  darkMode, 
+  isOpen, 
+  onClose, 
+  activeTab, 
+  onTabChange,
+  collapsed,
+  onCollapse 
+}: SidebarProps) {
   const menuItems = [
     { id: 'rss' as const, icon: Home, label: 'Home' },
-    { id: 'daily' as const, icon: Home, label: 'Plugins' },
+    { id: 'daily' as const, icon: Code, label: 'Plugins' },
     // { icon: History, label: 'History' },
     // { icon: Bookmark, label: 'Bookmarks' },
     // { icon: Tag, label: 'Categories' },
+    { icon: MessageSquareText, label: 'Blog' },
     { icon: MessageCircleHeart, label: 'Feedback' },
     { icon: Link, label: 'Submit a link' },
     { icon: ScrollText, label: 'Changelog' },
@@ -33,9 +44,11 @@ export function Sidebar({ darkMode, isOpen, onClose, activeTab, onTabChange }: S
       )}
 
       <div
-        className={`fixed top-0 left-0 h-full w-64 ${
+        className={`fixed top-0 left-0 h-full ${
+          collapsed ? 'w-20' : 'w-64'
+        } ${
           darkMode ? 'bg-[#0f1613] border-[#1a2420]' : 'bg-white border-gray-200'
-        } border-r shadow-lg transform transition-transform duration-300 ease-in-out z-50 ${
+        } border-r shadow-lg transform transition-all duration-300 ease-in-out z-50 ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
         } lg:translate-x-0`}
       >
@@ -43,16 +56,32 @@ export function Sidebar({ darkMode, isOpen, onClose, activeTab, onTabChange }: S
           <div className="flex items-center justify-between mb-8">
             <div className="flex items-center">
               <Rss className="h-6 w-6 text-[#40f8b5]" />
-              <span className={`ml-3 font-semibold ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
-                RSS Reader
-              </span>
+              {!collapsed && (
+                <span className={`ml-3 font-semibold ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
+                  RSS Reader
+                </span>
+              )}
             </div>
-            <button
-              onClick={onClose}
-              className="lg:hidden p-2 rounded-md hover:bg-gray-100 dark:hover:bg-[#1a2420]"
-            >
-              <X className="h-5 w-5" />
-            </button>
+            <div className="flex items-center">
+              <button
+                onClick={onCollapse}
+                className={`p-2 rounded-md ${
+                  darkMode ? 'hover:bg-[#1a2420]' : 'hover:bg-gray-100'
+                } lg:block hidden`}
+              >
+                {collapsed ? (
+                  <ChevronRight className={`h-5 w-5 ${darkMode ? 'text-gray-300' : 'text-gray-600'}`} />
+                ) : (
+                  <ChevronLeft className={`h-5 w-5 ${darkMode ? 'text-gray-300' : 'text-gray-600'}`} />
+                )}
+              </button>
+              <button
+                onClick={onClose}
+                className="lg:hidden p-2 rounded-md hover:bg-gray-100 dark:hover:bg-[#1a2420]"
+              >
+                <X className="h-5 w-5" />
+              </button>
+            </div>
           </div>
 
           <nav>
@@ -66,7 +95,7 @@ export function Sidebar({ darkMode, isOpen, onClose, activeTab, onTabChange }: S
                         onClose();
                       }
                     }}
-                    className={`w-full flex items-center space-x-3 px-4 py-3 rounded-md transition-colors ${
+                    className={`w-full flex items-center ${collapsed ? 'justify-center' : 'space-x-3'} px-4 py-3 rounded-md transition-colors ${
                       'id' in item && activeTab === item.id
                         ? 'bg-[#40f8b5] text-[#0a0f0d]'
                         : darkMode
@@ -75,7 +104,7 @@ export function Sidebar({ darkMode, isOpen, onClose, activeTab, onTabChange }: S
                     }`}
                   >
                     <item.icon className="h-5 w-5" />
-                    <span>{item.label}</span>
+                    {!collapsed && <span>{item.label}</span>}
                   </button>
                 </li>
               ))}
