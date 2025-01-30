@@ -1,35 +1,48 @@
-import React, { useState, useEffect } from 'react';
-import { Rss, Loader2, Moon, Sun, Settings2, Menu, AlertCircle } from 'lucide-react';
-import { feedsConfig } from './config/feeds.config';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { Rss, Loader2, Moon, Sun, Settings2, Menu, AlertCircle, Calendar } from 'lucide-react';
 import { FeedCard } from './components/FeedCard';
 import { Sidebar } from './components/Sidebar';
 import { SettingsModal } from './components/SettingsModal';
 import { DailyDevFeed } from './components/DailyDevFeed';
 import { UserProfile } from './components/UserProfile';
 import { getDailyDevUser } from './services/dailydev';
-import type { ParsedFeed, FeedItem, Settings, DailyDevUser } from './types';
+import { loadFeeds } from './services/feeds';
+import type { FeedItem, Settings, DailyDevUser } from './types';
+
+const ITEMS_PER_PAGE = 32;
 
 function App() {
   const [feeds, setFeeds] = useState<FeedItem[]>([]);
+  const [displayedFeeds, setDisplayedFeeds] = useState<FeedItem[]>([]);
   const [loading, setLoading] = useState(true);
+  const [loadingMore, setLoadingMore] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
+  const [selectedDate, setSelectedDate] = useState<string>(
+    new Date().toISOString().split('T')[0]
+  );
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [activeTab, setActiveTab] = useState<'rss' | 'daily'>('rss');
   const [user, setUser] = useState<DailyDevUser | null>(null);
+  const [page, setPage] = useState(0);
+  const observerTarget = useRef<HTMLDivElement>(null);
+  
   const [settings, setSettings] = useState<Settings>(() => {
     const saved = localStorage.getItem('settings');
-    return saved ? JSON.parse(saved) : { showImages: true, layout: 'grid' };
+    return saved ? JSON.parse(saved) : {
+      showImages: true,
+      layout: 'grid',
+      sidebarCollapsed: false
+    };
   });
+
   const [darkMode, setDarkMode] = useState(() => {
     if (typeof window !== 'undefined') {
       return localStorage.getItem('darkMode') === 'true';
     }
     return false;
   });
-
-  const categories = ['All', ...new Set(feedsConfig.map(feed => feed.category))];
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', darkMode);
@@ -48,71 +61,49 @@ function App() {
     checkUser();
   }, []);
 
+  const loadMoreFeeds = useCallback(() => {
+    if (loadingMore) return;
+    
+    setLoadingMore(true);
+    const start = page * ITEMS_PER_PAGE;
+    const end = start + ITEMS_PER_PAGE;
+    const newFeeds = feeds.slice(start, end);
+    
+    setDisplayedFeeds(prev => [...prev, ...newFeeds]);
+    setPage(prev => prev + 1);
+    setLoadingMore(false);
+  }, [feeds, page, loadingMore]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      entries => {
+        if (entries[0].isIntersecting && displayedFeeds.length < feeds.length) {
+          loadMoreFeeds();
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (observerTarget.current) {
+      observer.observe(observerTarget.current);
+    }
+
+    return () => observer.disconnect();
+  }, [loadMoreFeeds, displayedFeeds.length, feeds.length]);
+
   useEffect(() => {
     const fetchFeeds = async () => {
       setLoading(true);
       setError(null);
       
       try {
-        const feedPromises = feedsConfig.map(async (feed) => {
-          try {
-            // Use a CORS proxy to fetch the RSS feeds
-            const proxyUrl = 'https://api.allorigins.win/raw?url=';
-            const response = await fetch(`${proxyUrl}${encodeURIComponent(feed.url)}`);
-            
-            if (!response.ok) {
-              throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            
-            const text = await response.text();
-            const parser = new DOMParser();
-            const xml = parser.parseFromString(text, 'text/xml');
-            
-            // Parse the RSS feed
-            const items = Array.from(xml.querySelectorAll('item')).map(item => {
-              const title = item.querySelector('title')?.textContent || '';
-              const link = item.querySelector('link')?.textContent || '';
-              const pubDate = item.querySelector('pubDate')?.textContent || '';
-              const description = item.querySelector('description')?.textContent || '';
-              
-              // Try to find an image in the description or content
-              let thumbnail = '';
-              const content = item.querySelector('content\\:encoded, encoded')?.textContent || description;
-              const imgMatch = content.match(/<img[^>]+src="([^">]+)"/);
-              if (imgMatch) {
-                thumbnail = imgMatch[1];
-              }
-              
-              const author = item.querySelector('author, dc\\:creator')?.textContent || '';
-              
-              return {
-                title,
-                link,
-                pubDate,
-                description,
-                thumbnail,
-                author,
-                category: feed.category,
-                feedName: feed.name
-              };
-            });
-            
-            return items;
-          } catch (error) {
-            console.warn(`Failed to fetch feed ${feed.name}:`, error);
-            return []; // Return empty array for failed feeds
-          }
-        });
-
-        const results = await Promise.all(feedPromises);
-        const allFeeds = results.flat().sort((a, b) => 
-          new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
-        );
+        const allFeeds = await loadFeeds(selectedDate);
+        setFeeds(allFeeds);
+        setDisplayedFeeds(allFeeds.slice(0, ITEMS_PER_PAGE));
+        setPage(1);
         
         if (allFeeds.length === 0) {
           setError('No feeds could be loaded. Please check your internet connection and try again.');
-        } else {
-          setFeeds(allFeeds);
         }
       } catch (error) {
         console.error('Error fetching feeds:', error);
@@ -123,11 +114,11 @@ function App() {
     };
 
     fetchFeeds();
-  }, []);
+  }, [selectedDate]);
 
   const filteredFeeds = selectedCategory === 'All'
-    ? feeds
-    : feeds.filter(feed => feed.category === selectedCategory);
+    ? displayedFeeds
+    : displayedFeeds.filter(feed => feed.category === selectedCategory);
 
   return (
     <div className={`min-h-screen ${darkMode ? 'bg-[#0a0f0d]' : 'bg-gray-50'} transition-colors duration-200`}>
@@ -137,9 +128,14 @@ function App() {
         onClose={() => setSidebarOpen(false)}
         activeTab={activeTab}
         onTabChange={setActiveTab}
+        collapsed={settings.sidebarCollapsed}
+        onCollapse={() => setSettings(prev => ({
+          ...prev,
+          sidebarCollapsed: !prev.sidebarCollapsed
+        }))}
       />
 
-      <div className="lg:pl-64">
+      <div className={`transition-all duration-200 ${settings.sidebarCollapsed ? 'lg:pl-20' : 'lg:pl-64'}`}>
         <header className={`${darkMode ? 'bg-[#0f1613] border-[#1a2420]' : 'bg-white border-gray-200'} border-b shadow-sm sticky top-0 z-10`}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex items-center justify-between">
@@ -152,12 +148,25 @@ function App() {
                 >
                   <Menu className="h-6 w-6" />
                 </button>
-                {/* <Rss className="h-6 w-6 text-[#40f8b5] ml-2 lg:ml-0" />
+                <Rss className="h-6 w-6 text-[#40f8b5] ml-2 lg:ml-0" />
                 <h1 className={`ml-3 text-xl font-semibold ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
                   RSS Reader
-                </h1> */}
+                </h1>
               </div>
               <div className="flex items-center space-x-4">
+                <div className="flex items-center space-x-2">
+                  <input
+                    type="date"
+                    value={selectedDate}
+                    onChange={(e) => setSelectedDate(e.target.value)}
+                    className={`px-3 py-2 rounded-md text-sm ${
+                      darkMode
+                        ? 'bg-[#1a2420] text-gray-300 border-[#243430]'
+                        : 'bg-gray-100 text-gray-700 border-gray-200'
+                    } border`}
+                  />
+                  <Calendar className={`h-5 w-5 ${darkMode ? 'text-gray-300' : 'text-gray-600'}`} />
+                </div>
                 <UserProfile user={user} darkMode={darkMode} />
                 <div className="flex items-center space-x-2">
                   <button
@@ -172,30 +181,11 @@ function App() {
                     className={`p-2 rounded-md ${darkMode ? 'bg-[#1a2420] text-gray-300 hover:bg-[#243430]' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'} transition-colors`}
                     aria-label="Settings"
                   >
-                    <Menu className="w-5 h-5" />
+                    <Settings2 className="w-5 h-5" />
                   </button>
                 </div>
               </div>
             </div>
-            {activeTab === 'rss' && (
-              <div className="mt-4 flex space-x-2 overflow-x-auto pb-2">
-                {categories.map((category) => (
-                  <button
-                    key={category}
-                    onClick={() => setSelectedCategory(category)}
-                    className={`px-4 py-2 rounded-md text-sm font-medium transition-colors whitespace-nowrap ${
-                      selectedCategory === category
-                        ? 'bg-[#40f8b5] text-[#0a0f0d]'
-                        : darkMode 
-                          ? 'bg-[#1a2420] text-gray-300 hover:bg-[#243430]'
-                          : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                    }`}
-                  >
-                    {category}
-                  </button>
-                ))}
-              </div>
-            )}
           </div>
         </header>
 
@@ -211,19 +201,28 @@ function App() {
                 <p className={`text-lg ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>{error}</p>
               </div>
             ) : (
-              <div className={`${settings.layout === 'grid' 
-                ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6' 
-                : 'space-y-4'}`}
-              >
-                {filteredFeeds.map((item, index) => (
-                  <FeedCard 
-                    key={index} 
-                    item={item} 
-                    darkMode={darkMode}
-                    showImage={settings.showImages}
-                  />
-                ))}
-              </div>
+              <>
+                <div className={`${settings.layout === 'grid' 
+                  ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6' 
+                  : 'space-y-4'}`}
+                >
+                  {filteredFeeds.map((item, index) => (
+                    <FeedCard 
+                      key={`${item.link}-${index}`}
+                      item={item} 
+                      darkMode={darkMode}
+                      showImage={settings.showImages && settings.layout === 'grid'}
+                      layout={settings.layout}
+                    />
+                  ))}
+                </div>
+                <div ref={observerTarget} className="h-10" />
+                {loadingMore && (
+                  <div className="flex justify-center mt-4">
+                    <Loader2 className="w-6 h-6 animate-spin text-[#40f8b5]" />
+                  </div>
+                )}
+              </>
             )
           ) : (
             <DailyDevFeed

@@ -6,9 +6,10 @@ interface FeedCardProps {
   item: FeedItem;
   darkMode: boolean;
   showImage: boolean;
+  layout: 'grid' | 'list';
 }
 
-export function FeedCard({ item, darkMode, showImage }: FeedCardProps) {
+export function FeedCard({ item, darkMode, showImage, layout }: FeedCardProps) {
   const date = new Date(item.pubDate);
   const formattedDate = date.toLocaleDateString('en-US', {
     year: 'numeric',
@@ -18,6 +19,52 @@ export function FeedCard({ item, darkMode, showImage }: FeedCardProps) {
 
   // Extract hashtags from description or use category
   const hashtags = item.description?.match(/#\w+/g) || [`#${item.category.toLowerCase()}`];
+
+  if (layout === 'list') {
+    return (
+      <div className={`${
+        darkMode ? 'bg-[#0f1613] hover:bg-[#1a2420]' : 'bg-white hover:bg-gray-50'
+      } p-4 rounded-lg transition-all duration-200`}>
+        <div className="flex items-center justify-between">
+          <div className="flex-1">
+            <a 
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer" 
+              className={`text-base font-medium hover:underline ${
+                darkMode ? 'text-gray-100' : 'text-gray-900'
+              }`}
+            >
+              {item.title}
+            </a>
+            <div className="flex items-center mt-1 space-x-4">
+              <span className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                {item.feedName}
+              </span>
+              <div className="flex items-center space-x-1">
+                <Calendar className={`w-4 h-4 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`} />
+                <span className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                  {formattedDate}
+                </span>
+              </div>
+            </div>
+          </div>
+          <a
+            href={item.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`ml-4 p-2 rounded-md transition-colors ${
+              darkMode 
+                ? 'bg-[#1a2420] text-gray-300 hover:bg-[#243430]' 
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+            }`}
+          >
+            <ExternalLink className="w-4 h-4" />
+          </a>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className={`${

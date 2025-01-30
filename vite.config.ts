@@ -3,13 +3,17 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/rss/',
+  base: '/rss-reader/',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  // Ensure feed files are served correctly
+  publicDir: 'public',
   build: {
     rollupOptions: {
-      external: ['module-name-to-externalize'] // Replace 'module-name-to-externalize' with the actual module name
-    }
-  }
+      input: {
+        main: 'index.html',
+      },
+    },
+  },
 });

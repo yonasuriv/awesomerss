@@ -1,0 +1,24 @@
+{
+  "feeds": [
+    {
+      "name": "Hacking The Cloud",
+      "url": "https://hackingthe.cloud/feed_rss_created.xml",
+      "priority": 1
+    },
+    {
+      "name": "AWS Steele",
+      "url": "https://awsteele.com/feed.xml",
+      "priority": 1
+    },
+    {
+      "name": "CloudSecList",
+      "url": "https://cloudseclist.com/feed.xml",
+      "priority": 1
+    },
+    {
+      "name": "Wiz Research",
+      "url": "https://www.wiz.io/feed/tag/research/rss.xml",
+      "priority": 2
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "feeds": [
+    {
+      "name": "BBC World News",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "priority": 1
+    }
+  ]
+}
