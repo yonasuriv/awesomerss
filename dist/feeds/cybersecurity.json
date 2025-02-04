@@ -1,0 +1,29 @@
+{
+  "feeds": [
+    {
+      "name": "Bishop Fox Technology",
+      "url": "https://bishopfox.com/feeds/technology.rss",
+      "priority": 1
+    },
+    {
+      "name": "Frichetten Blog",
+      "url": "https://frichetten.com/blog/index.xml",
+      "priority": 1
+    },
+    {
+      "name": "PortSwigger Research",
+      "url": "https://portswigger.net/research/rss",
+      "priority": 2
+    },
+    {
+      "name": "SpecterOps Blog",
+      "url": "https://posts.specterops.io/feed",
+      "priority": 2
+    },
+    {
+      "name": "TrustedSec",
+      "url": "https://trustedsec.com/feed.rss",
+      "priority": 1
+    }
+  ]
+}
