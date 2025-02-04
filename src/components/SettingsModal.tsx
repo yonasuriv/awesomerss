@@ -106,7 +106,7 @@ export function SettingsModal({ isOpen, onClose, settings, onSettingsChange, dar
           </div>
 
           <div>
-            <h3 className="text-lg font-medium mb-3">Daily.dev Plugin Headers</h3>
+            <h3 className="text-lg font-medium mb-3">Custom Headers</h3>
             <div className="space-y-3">
               {Object.entries(settings.customHeaders || {}).map(([name, value]) => (
                 <div key={name} className="flex items-center space-x-2">
@@ -129,30 +129,9 @@ export function SettingsModal({ isOpen, onClose, settings, onSettingsChange, dar
               
               <div className="space-y-2">
                 <input
-                  value="das"
-                  onChange={(e) => setNewHeader({ ...newHeader, name: e.target.value })}
-                  className={`w-full p-2 rounded-md ${
-                    darkMode
-                      ? 'bg-[#1a2420] text-gray-300 border-[#243430]'
-                      : 'bg-gray-100 text-gray-700 border-gray-200'
-                  } border`}
-                />
-                <input
-                  type="text"
-                  placeholder="das value"
-                  value={newHeader.value}
-                  onChange={(e) => setNewHeader({ ...newHeader, value: e.target.value })}
-                  className={`w-full p-2 rounded-md ${
-                    darkMode
-                      ? 'bg-[#1a2420] text-gray-300 border-[#243430]'
-                      : 'bg-gray-100 text-gray-700 border-gray-200'
-                  } border`}
-                />
-
-                <input
                   type="text"
                   placeholder="Header Name"
-                  value="da2"
+                  value={newHeader.name}
                   onChange={(e) => setNewHeader({ ...newHeader, name: e.target.value })}
                   className={`w-full p-2 rounded-md ${
                     darkMode
@@ -162,7 +141,7 @@ export function SettingsModal({ isOpen, onClose, settings, onSettingsChange, dar
                 />
                 <input
                   type="text"
-                  placeholder="da2 value"
+                  placeholder="Header Value"
                   value={newHeader.value}
                   onChange={(e) => setNewHeader({ ...newHeader, value: e.target.value })}
                   className={`w-full p-2 rounded-md ${
@@ -171,31 +150,6 @@ export function SettingsModal({ isOpen, onClose, settings, onSettingsChange, dar
                       : 'bg-gray-100 text-gray-700 border-gray-200'
                   } border`}
                 />
-
-<input
-                  type="text"
-                  placeholder="Header Name"
-                  value="da3"
-                  onChange={(e) => setNewHeader({ ...newHeader, name: e.target.value })}
-                  className={`w-full p-2 rounded-md ${
-                    darkMode
-                      ? 'bg-[#1a2420] text-gray-300 border-[#243430]'
-                      : 'bg-gray-100 text-gray-700 border-gray-200'
-                  } border`}
-                />
-                <input
-                  type="text"
-                  placeholder="da3 value"
-                  value={newHeader.value}
-                  onChange={(e) => setNewHeader({ ...newHeader, value: e.target.value })}
-                  className={`w-full p-2 rounded-md ${
-                    darkMode
-                      ? 'bg-[#1a2420] text-gray-300 border-[#243430]'
-                      : 'bg-gray-100 text-gray-700 border-gray-200'
-                  } border`}
-                />
-                <h3 className="text-lg font-medium mb-3">Custom Headers</h3>
-                
                 <button
                   onClick={addCustomHeader}
                   className={`w-full flex items-center justify-center space-x-2 px-4 py-2 rounded-md ${

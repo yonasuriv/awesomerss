@@ -19,20 +19,28 @@ async function loadFeedConfig(category: string): Promise<Feed[]> {
 }
 
 async function loadAllFeedConfigs(): Promise<Feed[]> {
-  const categories = ['cybersecurity', 'cloud-security', 'tech', 'science', 'news'];
+  const categories = ['cybersecurity', 'tech', 'science', 'news'];
   const feedsPromises = categories.map(loadFeedConfig);
   const feedsArrays = await Promise.all(feedsPromises);
   return feedsArrays.flat();
 }
 
-export async function loadFeeds(selectedDate: string | null, customHeaders: Record<string, string> = {}): Promise<FeedItem[]> {
+function shuffleArray<T>(array: T[]): T[] {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
+}
+
+export async function loadFeeds(isExploreMode: boolean): Promise<FeedItem[]> {
   const feedConfigs = await loadAllFeedConfigs();
   const proxyUrl = 'https://api.allorigins.win/raw?url=';
   
   const feedPromises = feedConfigs.map(async (feed) => {
     try {
-      const headers = new Headers(customHeaders);
-      const response = await fetch(`${proxyUrl}${encodeURIComponent(feed.url)}`, { headers });
+      const response = await fetch(`${proxyUrl}${encodeURIComponent(feed.url)}`);
       
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -47,16 +55,6 @@ export async function loadFeeds(selectedDate: string | null, customHeaders: Reco
         const link = item.querySelector('link')?.textContent || '';
         const pubDate = item.querySelector('pubDate')?.textContent || '';
         const description = item.querySelector('description')?.textContent || '';
-        const pubDateTime = new Date(pubDate);
-        
-        // If selectedDate is null, show all dates
-        // Otherwise, only show items from the selected date
-        if (selectedDate) {
-          const selectedDateTime = new Date(selectedDate);
-          if (pubDateTime.toDateString() !== selectedDateTime.toDateString()) {
-            return null;
-          }
-        }
         
         // Extract embedded content
         const content = item.querySelector('content\\:encoded, encoded')?.textContent || description;
@@ -76,6 +74,15 @@ export async function loadFeeds(selectedDate: string | null, customHeaders: Reco
           }
         }
         
+        // If no thumbnail found, use a placeholder
+        // if (!thumbnail) {
+        //   thumbnail = `https://source.unsplash.com/featured/800x400/?${encodeURIComponent(feed.category.toLowerCase())}`;
+        // }
+
+        if (!thumbnail) {
+          thumbnail = `/rss-now/assets/placeholder.png`;
+        }
+        
         const author = item.querySelector('author, dc\\:creator')?.textContent || '';
         
         return {
@@ -89,7 +96,7 @@ export async function loadFeeds(selectedDate: string | null, customHeaders: Reco
           feedName: feed.name,
           priority: feed.priority
         };
-      }).filter((item): item is FeedItem => item !== null);
+      });
       
       return items;
     } catch (error) {
@@ -99,19 +106,24 @@ export async function loadFeeds(selectedDate: string | null, customHeaders: Reco
   });
 
   const results = await Promise.all(feedPromises);
-  const allFeeds = results.flat().sort((a, b) => {
-    // First sort by date (newest first)
-    const dateA = new Date(a.pubDate).getTime();
-    const dateB = new Date(b.pubDate).getTime();
-    if (dateB !== dateA) return dateB - dateA;
-    
-    // If same date, sort by priority
-    return b.priority - a.priority;
-  });
+  let allFeeds = results.flat();
+
+  if (isExploreMode) {
+    // In explore mode, shuffle the feeds randomly
+    allFeeds = shuffleArray(allFeeds);
+  } else {
+    // In latest mode, sort by date and priority
+    allFeeds.sort((a, b) => {
+      const dateA = new Date(a.pubDate).getTime();
+      const dateB = new Date(b.pubDate).getTime();
+      if (dateB !== dateA) return dateB - dateA;
+      return b.priority - a.priority;
+    });
+  }
   
   return allFeeds;
 }
 
 export function getCategories(): string[] {
-  return ['All', 'Cybersecurity', 'Cloud Security', 'Tech', 'Science', 'News'];
+  return ['All', 'Cybersecurity', 'Tech', 'Science', 'News'];
 }

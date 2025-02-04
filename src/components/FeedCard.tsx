@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Calendar, ExternalLink } from 'lucide-react';
 import { FeedItem } from '../types';
 
@@ -17,15 +17,44 @@ export function FeedCard({ item, darkMode, showImage, layout }: FeedCardProps) {
     day: 'numeric',
   });
 
-  // Extract hashtags from description or use category
-  const hashtags = item.description?.match(/#\w+/g) || [`#${item.category.toLowerCase()}`];
+  const [favicon, setFavicon] = useState<string>('');
+
+  useEffect(() => {
+    const getFavicon = () => {
+      try {
+        const url = new URL(item.link);
+        return `${url.protocol}//${url.hostname}/favicon.ico`;
+      } catch {
+        return '';
+      }
+    };
+    setFavicon(getFavicon());
+  }, [item.link]);
+
+  const stripHtml = (html: string) => {
+    const tmp = document.createElement('div');
+    tmp.innerHTML = html;
+    return tmp.textContent || tmp.innerText || '';
+  };
+
+  const summary = stripHtml(item.description).slice(0, 150) + '...';
 
   if (layout === 'list') {
     return (
       <div className={`${
         darkMode ? 'bg-[#0f1613] hover:bg-[#1a2420]' : 'bg-white hover:bg-gray-50'
       } p-4 rounded-lg transition-all duration-200`}>
-        <div className="flex items-center justify-between">
+        <div className="flex items-start">
+          {favicon && (
+            <img
+              src={favicon}
+              alt=""
+              className="w-6 h-6 mt-1 mr-4"
+              onError={(e) => {
+                e.currentTarget.style.display = 'none';
+              }}
+            />
+          )}
           <div className="flex-1">
             <a 
               href={item.link}
@@ -37,7 +66,10 @@ export function FeedCard({ item, darkMode, showImage, layout }: FeedCardProps) {
             >
               {item.title}
             </a>
-            <div className="flex items-center mt-1 space-x-4">
+            <p className={`mt-1 text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+              {summary}
+            </p>
+            <div className="flex items-center mt-2 space-x-4">
               <span className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
                 {item.feedName}
               </span>
@@ -70,36 +102,21 @@ export function FeedCard({ item, darkMode, showImage, layout }: FeedCardProps) {
     <div className={`${
       darkMode ? 'bg-[#0f1613] hover:bg-[#1a2420]' : 'bg-white hover:bg-gray-50'
     } rounded-lg overflow-hidden transition-all duration-200 flex flex-col`}>
-      {showImage && item.thumbnail ? (
+      {showImage && item.thumbnail && (
         <div className="aspect-[2/1] overflow-hidden bg-gray-100">
           <img
             src={item.thumbnail}
             alt={item.title}
             className="w-full h-full object-cover"
+            loading="lazy"
             onError={(e) => {
-              e.currentTarget.src = 'https://placehold.co/300x150/gray/white?text=No+Image';
+              e.currentTarget.src = '/assets/placeholder.png';
             }}
           />
         </div>
-      ) : (
-        <div className="aspect-[2/1] bg-gray-100 flex items-center justify-center">
-          <span className="text-gray-400">No image available</span>
-        </div>
-        )
-      }
+      )}
 
       <div className="p-4 flex flex-col flex-grow">
-        <a 
-          href={item.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`text-sm mb-3 ${
-            darkMode ? 'text-gray-400' : 'text-gray-500'
-          }`}
-        >
-          {item.feedName}
-        </a>
-
         <a 
           href={item.link}
           target="_blank"
@@ -111,28 +128,22 @@ export function FeedCard({ item, darkMode, showImage, layout }: FeedCardProps) {
           {item.title}
         </a>
 
-        <p className={`text-sm mb-3 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-          {item.description}
+        <p className={`text-sm mb-3 ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+          {summary}
         </p>
 
-        <div className="space-y-4 flex-grow">
-          <div className="flex flex-wrap gap-2">
-            {hashtags.slice(0, 3).map((tag, index) => (
-              <span
-                key={index}
-                className={`text-sm ${
-                  darkMode ? 'text-gray-400' : 'text-gray-600'
-                }`}
-                // If you wanna display the tags, uncoment it and paste it between the > <
-                // {tag} 
-              >
-                
-              </span>
-            ))}
-          </div>
-        </div>
+        <a 
+          href={item.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`text-sm mb-3 ${
+            darkMode ? 'text-gray-400' : 'text-gray-500'
+          }`}
+        >
+          {item.feedName}
+        </a>
 
-        <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+        <div className="flex items-center justify-between mt-auto pt-4 border-t border-gray-200 dark:border-gray-700">
           <div className="flex items-center space-x-2">
             <Calendar className={`w-4 h-4 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`} />
             <span className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
@@ -147,7 +158,7 @@ export function FeedCard({ item, darkMode, showImage, layout }: FeedCardProps) {
             className={`inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium transition-colors ${
               darkMode 
                 ? 'bg-[#1a2420] text-gray-300 hover:bg-[#243430]' 
-                : 'bg-[#0e1217] text-gray-100 hover:bg-gray-200'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
             }`}
           >
             Read post

@@ -20,7 +20,7 @@ export function UserProfile({ user, darkMode }: UserProfileProps) {
         }`}
       >
         <LogIn className="w-5 h-5" />
-        <span>Login</span>
+        <span>Login with Daily.dev</span>
       </button>
     );
   }

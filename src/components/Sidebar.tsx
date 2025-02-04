@@ -1,12 +1,10 @@
 import React from 'react';
-import { Home, Rss, X, Terminal, MessageSquareText, MessageCircleHeart, ScrollText, BookOpenText, Link, Star, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Home, Rss, History, Bookmark, Tag, Settings2, MessageCircleHeart, ScrollText, BookOpenText, Link, Star, Menu, X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface SidebarProps {
   darkMode: boolean;
   isOpen: boolean;
   onClose: () => void;
-  activeTab: 'rss' | 'daily';
-  onTabChange: (tab: 'rss' | 'daily') => void;
   collapsed: boolean;
   onCollapse: () => void;
 }
@@ -14,19 +12,16 @@ interface SidebarProps {
 export function Sidebar({ 
   darkMode, 
   isOpen, 
-  onClose, 
-  activeTab, 
-  onTabChange,
+  onClose,
   collapsed,
   onCollapse 
 }: SidebarProps) {
   const menuItems = [
     { id: 'rss' as const, icon: Home, label: 'Home' },
-    { id: 'daily' as const, icon: Terminal, label: 'Plugins' },
+    // { icon: Home, label: 'Plugins' },
     // { icon: History, label: 'History' },
     // { icon: Bookmark, label: 'Bookmarks' },
     // { icon: Tag, label: 'Categories' },
-    { icon: MessageSquareText, label: 'Blog' },
     { icon: MessageCircleHeart, label: 'Feedback' },
     { icon: Link, label: 'Submit a link' },
     { icon: ScrollText, label: 'Changelog' },
@@ -55,7 +50,7 @@ export function Sidebar({
         <div className="p-4">
           <div className="flex items-center justify-between mb-8">
             <div className="flex items-center">
-              <Rss className="h-6 w-9 text-[#40f8b5]" />
+              <Rss className="h-6 w-6 text-[#40f8b5]" />
               {!collapsed && (
                 <span className={`ml-3 font-semibold ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
                   RSS Reader
@@ -70,9 +65,9 @@ export function Sidebar({
                 } lg:block hidden`}
               >
                 {collapsed ? (
-                  <ChevronRight className={`h-5 w-5 lg:hidden ${darkMode ? 'text-gray-300' : 'text-gray-600'}`} />
+                  <ChevronRight className={`h-5 w-5 ${darkMode ? 'text-gray-300' : 'text-gray-600'}`} />
                 ) : (
-                  <ChevronLeft className={`h-5 w-5 ${darkMode ? 'text-gray-300' : 'text-gray-600' }`} />
+                  <ChevronLeft className={`h-5 w-5 ${darkMode ? 'text-gray-300' : 'text-gray-600'}`} />
                 )}
               </button>
               <button
@@ -89,16 +84,8 @@ export function Sidebar({
               {menuItems.map((item) => (
                 <li key={item.label}>
                   <button
-                    onClick={() => {
-                      if ('id' in item) {
-                        onTabChange(item.id);
-                        onClose();
-                      }
-                    }}
-                    className={`w-full flex items-center ${collapsed ? 'justify-center' : 'space-x-3'} px-2 py-3 rounded-md transition-colors ${
-                      'id' in item && activeTab === item.id
-                        ? 'bg-[#40f8b5] text-[#0a0f0d]'
-                        : darkMode
+                    className={`w-full flex items-center ${collapsed ? 'justify-center' : 'space-x-3'} px-4 py-3 rounded-md transition-colors ${
+                      darkMode
                         ? 'text-gray-300 hover:bg-[#1a2420]'
                         : 'text-gray-700 hover:bg-gray-100'
                     }`}
