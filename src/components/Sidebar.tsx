@@ -52,9 +52,9 @@ export function Sidebar({
             <div className="flex items-center">
               <Rss className="h-6 w-6 text-[#40f8b5]" />
               {!collapsed && (
-               // <span className={`ml-3 font-semibold ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
-               //    Sidebar Title
-               // </span>
+                <span className={`ml-3 font-semibold ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
+                   // Title
+                </span>
               )}
             </div>
             <div className="flex items-center">
