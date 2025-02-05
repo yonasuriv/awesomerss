@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Rss, History, Bookmark, Tag, Settings2, MessageCircleHeart, ScrollText, BookOpenText, Link, Star, Menu, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Home, Rss, History, Bookmark, Tag, Settings2, MessageCircleHeart, ScrollText, BookOpenText, Link, GitFork, Star, Menu, X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface SidebarProps {
   darkMode: boolean;
@@ -16,17 +16,60 @@ export function Sidebar({
   collapsed,
   onCollapse 
 }: SidebarProps) {
+  const [starred, setStarred] = useState(false);
+  const [username, setUsername] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchGitHubUsername = async () => {
+      try {
+        const response = await fetch('https://api.github.com/user', {
+          headers: {
+            Authorization: `token YOUR_GITHUB_PERSONAL_ACCESS_TOKEN`,
+            Accept: 'application/vnd.github.v3+json',
+          },
+        });
+        const data = await response.json();
+        setUsername(data.login);
+      } catch (error) {
+        console.error('Error fetching GitHub username:', error);
+      }
+    };
+
+    fetchGitHubUsername();
+  }, []);
+
+  const handleStarRepo = async () => {
+    if (!username) return;
+    try {
+      await fetch(`https://api.github.com/user/starred/${username}/yonasuriv/rss`, {
+        method: 'PUT',
+        headers: {
+          Authorization: `token YOUR_GITHUB_PERSONAL_ACCESS_TOKEN`,
+          Accept: 'application/vnd.github.v3+json',
+        },
+      });
+      setStarred(true);
+    } catch (error) {
+      console.error('Error starring the repository:', error);
+    }
+  };
+  
   const menuItems = [
     { id: 'rss' as const, icon: Home, label: 'Home' },
     // { icon: Home, label: 'Plugins' },
     // { icon: History, label: 'History' },
     // { icon: Bookmark, label: 'Bookmarks' },
     // { icon: Tag, label: 'Categories' },
-    { icon: MessageCircleHeart, label: 'Feedback' },
-    { icon: Link, label: 'Submit a link' },
-    { icon: ScrollText, label: 'Changelog' },
-    { icon: BookOpenText, label: 'Documentation' },
-    { icon: Star, label: 'Star Repository' },
+    { icon: MessageCircleHeart, label: 'Feedback', href: 'https://github.com/yonasuriv/rss/issues', target: '_blank' },
+    { icon: Link, label: 'Submit a link', href: 'https://github.com/yonasuriv/rss/issues/new?template=feed-update--new-feed-request.md', target: '_blank' },
+    { icon: ScrollText, label: 'Changelog', href: 'https://github.com/yonasuriv/rss/issues', target: '_blank' },
+    { icon: BookOpenText, label: 'Documentation', href: 'https://github.com/yonasuriv/rss/issues', target: '_blank' },
+    { 
+      icon: Star, 
+      label: starred ? 'Starred!' : 'Star Repository', 
+      onClick: handleStarRepo
+    },
+    { icon: GitFork, label: 'Fork Repository', href: 'https://github.com/yonasuriv/rss/fork', target: '_blank' },
   ];
 
   return (
