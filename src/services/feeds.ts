@@ -75,9 +75,10 @@ export async function loadFeeds(isExploreMode: boolean): Promise<FeedItem[]> {
         }
         
         // If no thumbnail found, use a placeholder
-        // if (!thumbnail) {
-        //   thumbnail = `https://source.unsplash.com/featured/800x400/?${encodeURIComponent(feed.category.toLowerCase())}`;
-        // }
+        if (!thumbnail) {
+          // thumbnail = `https://source.unsplash.com/featured/800x400/?${encodeURIComponent(feed.category.toLowerCase())}`;
+          thumbnail = `https://raw.githubusercontent.com/yonasuriv/rss/refs/heads/main/public/assets/placeholder.png`;
+        }
 
         const author = item.querySelector('author, dc\\:creator')?.textContent || '';
         
