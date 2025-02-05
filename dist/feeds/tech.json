@@ -1,9 +1,0 @@
-{
-  "feeds": [
-    {
-      "name": "TechCrunch",
-      "url": "https://techcrunch.com/feed/",
-      "priority": 3
-    }
-  ]
-}
