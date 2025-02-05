@@ -99,6 +99,11 @@
       "name": "Hack The Box Red Teaming",
       "url": "https://www.hackthebox.com/rss/blog/red-teaming",
       "priority": 20
+    },
+    {
+      "name": "Wiz Research",
+      "url": "https://www.wiz.io/feed/tag/research/rss.xml",
+      "priority": 3
     }
   ]
 }
