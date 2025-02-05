@@ -36,7 +36,7 @@ function shuffleArray<T>(array: T[]): T[] {
 
 const getUnsplashImage = async (category: string): Promise<string> => {
   try {
-    const response = await fetch(`https://source.unsplash.com/random/800x400/?${encodeURIComponent(category)}`);
+    const response = await fetch(`https://unsplash.com/s/photos/?${encodeURIComponent(category)}?license=free`);
     return response.url; // The actual image URL from Unsplash
   } catch (error) {
     console.warn(`Failed to fetch Unsplash image for ${category}:`, error);
