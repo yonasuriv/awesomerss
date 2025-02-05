@@ -4,6 +4,8 @@
 
 Personal RSS feed reader with dark mode support and category filtering. Build your own locally or go live.
 
+> Current Status: Alpha
+
 ## Features
 
 - 🌓 Dark/Light mode with persistent preference
