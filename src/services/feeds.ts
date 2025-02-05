@@ -34,41 +34,34 @@ function shuffleArray<T>(array: T[]): T[] {
   return newArray;
 }
 
-const getUnsplashImage = async (category: string): Promise<string> => {
-  try {
-    const response = await fetch(`https://unsplash.com/s/photos/${encodeURIComponent(category)}?license=free`);
-    return response.url; // The actual image URL from Unsplash
-  } catch (error) {
-    console.warn(`Failed to fetch Unsplash image for ${category}:`, error);
-    return 'https://via.placeholder.com/800x400?text=No+Image'; // Fallback placeholder
-  }
-};
-
 export async function loadFeeds(isExploreMode: boolean): Promise<FeedItem[]> {
   const feedConfigs = await loadAllFeedConfigs();
   const proxyUrl = 'https://api.allorigins.win/raw?url=';
-
+  
   const feedPromises = feedConfigs.map(async (feed) => {
     try {
       const response = await fetch(`${proxyUrl}${encodeURIComponent(feed.url)}`);
+      
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
-
+      
       const text = await response.text();
       const parser = new DOMParser();
       const xml = parser.parseFromString(text, 'text/xml');
-
-      const items = await Promise.all(Array.from(xml.querySelectorAll('item')).map(async (item) => {
+      
+      const items = Array.from(xml.querySelectorAll('item')).map(item => {
         const title = item.querySelector('title')?.textContent || '';
         const link = item.querySelector('link')?.textContent || '';
         const pubDate = item.querySelector('pubDate')?.textContent || '';
         const description = item.querySelector('description')?.textContent || '';
-
+        
+        // Extract embedded content
         const content = item.querySelector('content\\:encoded, encoded')?.textContent || description;
         const mediaContent = item.querySelector('media\\:content, content');
         const enclosure = item.querySelector('enclosure');
-
+        
+        // Try different methods to get the thumbnail
         let thumbnail = '';
         if (mediaContent?.getAttribute('url')) {
           thumbnail = mediaContent.getAttribute('url') || '';
@@ -80,14 +73,14 @@ export async function loadFeeds(isExploreMode: boolean): Promise<FeedItem[]> {
             thumbnail = imgMatch[1];
           }
         }
-
-        // If no thumbnail is found, fetch a random image from Unsplash
-        if (!thumbnail) {
-          thumbnail = await getUnsplashImage(feed.category.toLowerCase());
-        }
+        
+        // If no thumbnail found, use a placeholder
+        // if (!thumbnail) {
+        //   thumbnail = `https://source.unsplash.com/featured/800x400/?${encodeURIComponent(feed.category.toLowerCase())}`;
+        // }
 
         const author = item.querySelector('author, dc\\:creator')?.textContent || '';
-
+        
         return {
           title,
           link,
@@ -99,8 +92,8 @@ export async function loadFeeds(isExploreMode: boolean): Promise<FeedItem[]> {
           feedName: feed.name,
           priority: feed.priority
         };
-      }));
-
+      });
+      
       return items;
     } catch (error) {
       console.warn(`Failed to fetch feed ${feed.name}:`, error);
@@ -112,8 +105,10 @@ export async function loadFeeds(isExploreMode: boolean): Promise<FeedItem[]> {
   let allFeeds = results.flat();
 
   if (isExploreMode) {
+    // In explore mode, shuffle the feeds randomly
     allFeeds = shuffleArray(allFeeds);
   } else {
+    // In latest mode, sort by date and priority
     allFeeds.sort((a, b) => {
       const dateA = new Date(a.pubDate).getTime();
       const dateB = new Date(b.pubDate).getTime();
@@ -121,7 +116,7 @@ export async function loadFeeds(isExploreMode: boolean): Promise<FeedItem[]> {
       return b.priority - a.priority;
     });
   }
-
+  
   return allFeeds;
 }
 
