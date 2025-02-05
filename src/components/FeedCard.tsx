@@ -110,7 +110,7 @@ export function FeedCard({ item, darkMode, showImage, layout }: FeedCardProps) {
             className="w-full h-full object-cover"
             loading="lazy"
             onError={(e) => {
-              e.currentTarget.src = '/assets/placeholder.png';
+              e.currentTarget.src = 'https://raw.githubusercontent.com/yonasuriv/rss/refs/heads/main/public/assets/placeholder.png';
             }}
           />
         </div>
