@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Home, Rss, History, Bookmark, Tag, Settings2, MessageCircleHeart, ScrollText, BookOpenText, Link, GitFork, Star, Menu, X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface SidebarProps {
