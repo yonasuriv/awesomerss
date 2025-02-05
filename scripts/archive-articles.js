@@ -1,12 +1,12 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { loadFeeds } from '../src/services/feeds.js';
+import { loadFeeds } from '../src/services/feeds.ts';
 
 async function ensureDirectoryExists(dirPath) {
   try {
     await fs.mkdir(dirPath, { recursive: true });
   } catch (error) {
-    if (error.code !== 'EEXIST') {
+    if (error.code !== 'EXIST') {
       throw error;
     }
   }
