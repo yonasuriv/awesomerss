@@ -1,6 +1,8 @@
-# RSS Reader
+# Nitro RSS 
 
-A beautiful RSS feed reader with dark mode support and category filtering.
+![Image](https://github.com/user-attachments/assets/336a680b-158d-458b-9c1a-7c7308be871e)
+
+Personal RSS feed reader with dark mode support and category filtering. Build your own locally or go live.
 
 ## Features
 
