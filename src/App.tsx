@@ -134,7 +134,7 @@ function App() {
                 </button>
                 <Rss className="h-6 w-6 text-[#40f8b5] ml-2 lg:ml-0" />
                 <h1 className={`ml-3 text-xl font-semibold ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
-                  RSS Reader
+                  Nitro RSS
                 </h1>
               </div>
               <div className="flex items-center space-x-4">
