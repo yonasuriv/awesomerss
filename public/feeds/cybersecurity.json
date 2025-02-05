@@ -8,22 +8,97 @@
     {
       "name": "Frichetten Blog",
       "url": "https://frichetten.com/blog/index.xml",
-      "priority": 1
+      "priority": 2
     },
     {
       "name": "PortSwigger Research",
       "url": "https://portswigger.net/research/rss",
-      "priority": 2
+      "priority": 3
     },
     {
       "name": "SpecterOps Blog",
       "url": "https://posts.specterops.io/feed",
-      "priority": 2
+      "priority": 4
     },
     {
       "name": "TrustedSec",
       "url": "https://trustedsec.com/feed.rss",
-      "priority": 1
+      "priority": 5
+    },
+    {
+      "name": "Rami Mac",
+      "url": "https://ramimac.me/feed.xml",
+      "priority": 6
+    },
+    {
+      "name": "Google Project Zero",
+      "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
+      "priority": 7
+    },
+    {
+      "name": "Google Online Security Blog",
+      "url": "https://feeds.feedburner.com/GoogleOnlineSecurityBlog",
+      "priority": 8
+    },
+    {
+      "name": "Skybound",
+      "url": "https://www.skybound.link/index.xml",
+      "priority": 9
+    },
+    {
+      "name": "Riccardo Ancarani",
+      "url": "https://riccardoancarani.github.io/feed.xml",
+      "priority": 10
+    },
+    {
+      "name": "Trail of Bits Blog",
+      "url": "https://blog.trailofbits.com/feed/",
+      "priority": 11
+    },
+    {
+      "name": "Alex Plaskett",
+      "url": "https://alexplaskett.github.io/feed.xml",
+      "priority": 12
+    },
+    {
+      "name": "Ethical Chaos",
+      "url": "https://ethicalchaos.dev/feed/",
+      "priority": 13
+    },
+    {
+      "name": "Enigma0x3",
+      "url": "https://enigma0x3.net/feed/",
+      "priority": 14
+    },
+    {
+      "name": "Mathy Vanhoef",
+      "url": "https://www.mathyvanhoef.com/feeds/posts/default",
+      "priority": 15
+    },
+    {
+      "name": "Soatok Blog",
+      "url": "https://soatok.blog/feed/",
+      "priority": 16
+    },
+    {
+      "name": "Elie.net",
+      "url": "https://elie.net/rss.xml",
+      "priority": 17
+    },
+    {
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "priority": 18
+    },
+    {
+      "name": "Hack The Box All Content",
+      "url": "https://www.hackthebox.com/rss/blog/all",
+      "priority": 19
+    },
+    {
+      "name": "Hack The Box Red Teaming",
+      "url": "https://www.hackthebox.com/rss/blog/red-teaming",
+      "priority": 20
     }
   ]
 }
