@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Home, Rss, History, Bookmark, Tag, Settings2, MessageCircleHeart, ScrollText, BookOpenText, Link, GitFork, Star, Menu, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import React, { useState } from 'react';
+import { Rss, History, Bookmark, Tag, Settings2, ChevronDown, ChevronRight, Home, Star, MessageCircle, Link2, ScrollText } from 'lucide-react';
+import metadata from '../metadata.json';
 
 interface SidebarProps {
   darkMode: boolean;
@@ -9,6 +10,15 @@ interface SidebarProps {
   onCollapse: () => void;
 }
 
+interface MenuSection {
+  title: string;
+  items: {
+    icon: React.ElementType;
+    label: string;
+    href?: string;
+  }[];
+}
+
 export function Sidebar({ 
   darkMode, 
   isOpen, 
@@ -16,61 +26,47 @@ export function Sidebar({
   collapsed,
   onCollapse 
 }: SidebarProps) {
-  const [starred, setStarred] = useState(false);
-  const [username, setUsername] = useState<string | null>(null);
+  const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
+    'Main': true,
+    'Categories': true,
+    'Links': true
+  });
 
-  useEffect(() => {
-    const fetchGitHubUsername = async () => {
-      try {
-        const response = await fetch('https://api.github.com/user', {
-          headers: {
-            Authorization: `token YOUR_GITHUB_PERSONAL_ACCESS_TOKEN`,
-            Accept: 'application/vnd.github.v3+json',
-          },
-        });
-        const data = await response.json();
-        setUsername(data.login);
-      } catch (error) {
-        console.error('Error fetching GitHub username:', error);
-      }
-    };
-
-    fetchGitHubUsername();
-  }, []);
-
-  const handleStarRepo = async () => {
-    if (!username) return;
-    try {
-      await fetch(`https://api.github.com/user/starred/${username}/yonasuriv/rss`, {
-        method: 'PUT',
-        headers: {
-          Authorization: `token YOUR_GITHUB_PERSONAL_ACCESS_TOKEN`,
-          Accept: 'application/vnd.github.v3+json',
-        },
-      });
-      setStarred(true);
-    } catch (error) {
-      console.error('Error starring the repository:', error);
-    }
-  };
-  
-  const menuItems = [
-    { id: 'rss' as const, icon: Home, label: 'Home' },
-    // { icon: Home, label: 'Plugins' },
-    // { icon: History, label: 'History' },
-    // { icon: Bookmark, label: 'Bookmarks' },
-    // { icon: Tag, label: 'Categories' },
-    { icon: MessageCircleHeart, label: 'Feedback', href: 'https://github.com/yonasuriv/rss/issues', target: '_blank' },
-    { icon: Link, label: 'Submit a link', href: 'https://github.com/yonasuriv/rss/issues/new?template=feed-update--new-feed-request.md', target: '_blank' },
-    { icon: ScrollText, label: 'Changelog', href: 'https://github.com/yonasuriv/rss/issues', target: '_blank' },
-    { icon: BookOpenText, label: 'Documentation', href: 'https://github.com/yonasuriv/rss/issues', target: '_blank' },
-    { 
-      icon: Star, 
-      label: starred ? 'Starred!' : 'Star Repository', 
-      onClick: handleStarRepo
+  const menuSections: MenuSection[] = [
+    {
+      title: 'Main',
+      items: [
+        { icon: Home, label: 'Home' },
+        { icon: History, label: 'History' },
+        { icon: Bookmark, label: 'Bookmarks' }
+      ]
     },
-    { icon: GitFork, label: 'Fork Repository', href: 'https://github.com/yonasuriv/rss/fork', target: '_blank' },
+    {
+      title: 'Categories',
+      items: [
+        { icon: Tag, label: 'Cybersecurity' },
+        { icon: Tag, label: 'Tech' },
+        { icon: Tag, label: 'Science' },
+        { icon: Tag, label: 'World' }
+      ]
+    },
+    {
+      title: 'Links',
+      items: [
+        { icon: Star, label: 'Star on GitHub', href: metadata.repository },
+        { icon: MessageCircle, label: 'Feedback' },
+        { icon: Link2, label: 'Submit RSS' },
+        { icon: ScrollText, label: 'Changelog', href: 'https://example.com' }
+      ]
+    }
   ];
+
+  const toggleSection = (title: string) => {
+    setExpandedSections(prev => ({
+      ...prev,
+      [title]: !prev[title]
+    }));
+  };
 
   return (
     <>
@@ -82,7 +78,7 @@ export function Sidebar({
       )}
 
       <div
-        className={`fixed top-0 left-0 h-full ${
+        className={`fixed top-0 left-0 h-full flex flex-col ${
           collapsed ? 'w-20' : 'w-64'
         } ${
           darkMode ? 'bg-[#0f1613] border-[#1a2420]' : 'bg-white border-gray-200'
@@ -90,57 +86,97 @@ export function Sidebar({
           isOpen ? 'translate-x-0' : '-translate-x-full'
         } lg:translate-x-0`}
       >
-        <div className="p-4">
-          <div className="flex items-center justify-between mb-8">
-            <div className="flex items-center">
-              <Rss className="h-6 w-6 text-[#40f8b5]" />
-              {!collapsed && (
-                // Sidebar title if enabled should be writen in the span below
-                <span className={`ml-3 font-semibold ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
-                   
-                </span>
-              )}
-            </div>
-            <div className="flex items-center">
-              <button
-                onClick={onCollapse}
-                className={`p-2 rounded-md ${
-                  darkMode ? 'hover:bg-[#1a2420]' : 'hover:bg-gray-100'
-                } lg:block hidden`}
-              >
-                {collapsed ? (
-                  <ChevronRight className={`h-5 w-5 ${darkMode ? 'text-gray-300' : 'text-gray-600'}`} />
-                ) : (
-                  <ChevronLeft className={`h-5 w-5 ${darkMode ? 'text-gray-300' : 'text-gray-600'}`} />
-                )}
-              </button>
-              <button
-                onClick={onClose}
-                className="lg:hidden p-2 rounded-md hover:bg-gray-100 dark:hover:bg-[#1a2420]"
-              >
-                <X className="h-5 w-5" />
-              </button>
-            </div>
-          </div>
+        <button
+          onClick={onCollapse}
+          className={`w-full p-4 flex items-center transition-colors ${
+            darkMode ? 'hover:bg-[#1a2420]' : 'hover:bg-gray-100'
+          }`}
+        >
+          <Rss className="h-6 w-6 text-[#40f8b5]" />
+          {!collapsed && (
+            <span className={`ml-3 font-semibold ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
+              RSS Reader
+            </span>
+          )}
+        </button>
 
-          <nav>
-            <ul className="space-y-2">
-              {menuItems.map((item) => (
-                <li key={item.label}>
+        <div className="flex-1 overflow-y-auto">
+          <nav className="p-4">
+            {menuSections.map((section) => (
+              <div key={section.title} className="mb-6">
+                {!collapsed && (
                   <button
-                    className={`w-full flex items-center ${collapsed ? 'justify-center' : 'space-x-3'} px-4 py-3 rounded-md transition-colors ${
-                      darkMode
-                        ? 'text-gray-300 hover:bg-[#1a2420]'
-                        : 'text-gray-700 hover:bg-gray-100'
+                    onClick={() => toggleSection(section.title)}
+                    className={`w-full flex items-center justify-between mb-2 px-2 py-1 rounded-md ${
+                      darkMode ? 'text-gray-400 hover:text-gray-300' : 'text-gray-600 hover:text-gray-900'
                     }`}
                   >
-                    <item.icon className="h-5 w-5" />
-                    {!collapsed && <span>{item.label}</span>}
+                    <span className="text-sm font-medium">{section.title}</span>
+                    {expandedSections[section.title] ? (
+                      <ChevronDown className="h-4 w-4" />
+                    ) : (
+                      <ChevronRight className="h-4 w-4" />
+                    )}
                   </button>
-                </li>
-              ))}
-            </ul>
+                )}
+                {(collapsed || expandedSections[section.title]) && (
+                  <ul className="space-y-1">
+                    {section.items.map((item) => (
+                      <li key={item.label}>
+                        {item.href ? (
+                          <a
+                            href={item.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`flex items-center ${collapsed ? 'justify-center' : 'space-x-3'} px-4 py-3 rounded-md transition-colors ${
+                              darkMode
+                                ? 'text-gray-300 hover:bg-[#1a2420]'
+                                : 'text-gray-700 hover:bg-gray-100'
+                            }`}
+                          >
+                            <item.icon className="h-5 w-5" />
+                            {!collapsed && <span>{item.label}</span>}
+                          </a>
+                        ) : (
+                          <button
+                            className={`w-full flex items-center ${collapsed ? 'justify-center' : 'space-x-3'} px-4 py-3 rounded-md transition-colors ${
+                              darkMode
+                                ? 'text-gray-300 hover:bg-[#1a2420]'
+                                : 'text-gray-700 hover:bg-gray-100'
+                            }`}
+                          >
+                            <item.icon className="h-5 w-5" />
+                            {!collapsed && <span>{item.label}</span>}
+                          </button>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            ))}
           </nav>
+        </div>
+
+        <div className="p-4 border-t border-gray-200 dark:border-gray-800">
+          <button
+            onClick={() => window.location.href = ''}
+            className={`w-full flex items-center ${collapsed ? 'justify-center' : 'space-x-3'} px-4 py-3 rounded-md transition-colors ${
+              darkMode
+                ? 'text-gray-300 hover:bg-[#1a2420]'
+                : 'text-gray-700 hover:bg-gray-100'
+            }`}
+          >
+            <Settings2 className="h-5 w-5" />
+            {!collapsed && <span>Settings</span>}
+          </button>
+
+          {!collapsed && (
+            <div className={`mt-4 text-xs text-center ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
+              <div>Version {metadata.version}</div>
+              <div className="mt-1">{metadata.copyright}</div>
+            </div>
+          )}
         </div>
       </div>
     </>
