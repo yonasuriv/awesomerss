@@ -53,9 +53,9 @@ export function Sidebar({
     {
       title: 'Links',
       items: [
-        { icon: Star, label: 'Star on GitHub', href: 'https://github.com/yonasuriv/rss/fork' }
-        { icon: MessageCircle, label: 'Feedback', href: 'https://github.com/yonasuriv/rss/issues/new?template=Blank+issue' }
-        { icon: Link2, label: 'Submit RSS', href: 'https://github.com/yonasuriv/rss/issues/new?template=feed-update--new-feed-request.md' }
+        { icon: Star, label: 'Star on GitHub', href: 'https://github.com/yonasuriv/rss/fork' },
+        { icon: MessageCircle, label: 'Feedback', href: 'https://github.com/yonasuriv/rss/issues/new?template=Blank+issue' },
+        { icon: Link2, label: 'Submit RSS', href: 'https://github.com/yonasuriv/rss/issues/new?template=feed-update--new-feed-request.md' },
         { icon: ScrollText, label: 'Changelog', href: 'https://github.com/yonasuriv/rss/wiki' }
       ]
     }
