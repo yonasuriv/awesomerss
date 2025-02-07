@@ -106,6 +106,11 @@
       "priority": 20
     },
     {
+      "name": "Altion DK",
+      "url": "https://www.altion.dk/feed.xml",
+      "priority": 20
+    },
+    {
       "name": "Wiz Research",
       "url": "https://www.wiz.io/feed/tag/research/rss.xml",
       "priority": 3
