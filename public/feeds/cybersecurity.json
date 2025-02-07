@@ -101,6 +101,11 @@
       "priority": 20
     },
     {
+      "name": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/feed",
+      "priority": 20
+    },
+    {
       "name": "Wiz Research",
       "url": "https://www.wiz.io/feed/tag/research/rss.xml",
       "priority": 3
