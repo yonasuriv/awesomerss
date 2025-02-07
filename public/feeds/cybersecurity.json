@@ -8,112 +8,112 @@
     {
       "name": "Frichetten Blog",
       "url": "https://frichetten.com/blog/index.xml",
-      "priority": 2
+      "priority": 1
     },
     {
       "name": "PortSwigger Research",
       "url": "https://portswigger.net/research/rss",
-      "priority": 3
+      "priority": 1
     },
     {
       "name": "SpecterOps Blog",
       "url": "https://posts.specterops.io/feed",
-      "priority": 4
+      "priority": 1
     },
     {
       "name": "TrustedSec",
       "url": "https://trustedsec.com/feed.rss",
-      "priority": 5
+      "priority": 1
     },
     {
       "name": "Rami Mac",
       "url": "https://ramimac.me/feed.xml",
-      "priority": 6
+      "priority": 1
     },
     {
       "name": "Google Project Zero",
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
-      "priority": 7
+      "priority": 1
     },
     {
       "name": "Google Online Security Blog",
       "url": "https://feeds.feedburner.com/GoogleOnlineSecurityBlog",
-      "priority": 8
+      "priority": 1
     },
     {
       "name": "Skybound",
       "url": "https://www.skybound.link/index.xml",
-      "priority": 9
+      "priority": 1
     },
     {
       "name": "Riccardo Ancarani",
       "url": "https://riccardoancarani.github.io/feed.xml",
-      "priority": 10
+      "priority": 1
     },
     {
       "name": "Trail of Bits Blog",
       "url": "https://blog.trailofbits.com/feed/",
-      "priority": 11
+      "priority": 1
     },
     {
       "name": "Alex Plaskett",
       "url": "https://alexplaskett.github.io/feed.xml",
-      "priority": 12
+      "priority": 1
     },
     {
       "name": "Ethical Chaos",
       "url": "https://ethicalchaos.dev/feed/",
-      "priority": 13
+      "priority": 1
     },
     {
       "name": "Enigma0x3",
       "url": "https://enigma0x3.net/feed/",
-      "priority": 14
+      "priority": 1
     },
     {
       "name": "Mathy Vanhoef",
       "url": "https://www.mathyvanhoef.com/feeds/posts/default",
-      "priority": 15
+      "priority": 1
     },
     {
       "name": "Soatok Blog",
       "url": "https://soatok.blog/feed/",
-      "priority": 16
+      "priority": 1
     },
     {
       "name": "Elie.net",
       "url": "https://elie.net/rss.xml",
-      "priority": 17
+      "priority": 1
     },
     {
       "name": "Dark Reading",
       "url": "https://www.darkreading.com/rss.xml",
-      "priority": 18
+      "priority": 1
     },
     {
       "name": "Hack The Box All Content",
       "url": "https://www.hackthebox.com/rss/blog/all",
-      "priority": 19
+      "priority": 1
     },
     {
       "name": "Hack The Box Red Teaming",
       "url": "https://www.hackthebox.com/rss/blog/red-teaming",
-      "priority": 20
+      "priority": 1
     },
     {
       "name": "Bleeping Computer",
       "url": "https://www.bleepingcomputer.com/feed",
-      "priority": 20
+      "priority": 1
     },
     {
       "name": "Altion DK",
       "url": "https://www.altion.dk/feed.xml",
-      "priority": 20
+      "priority": 1
     },
     {
       "name": "Wiz Research",
       "url": "https://www.wiz.io/feed/tag/research/rss.xml",
-      "priority": 3
+      "priority": 1
     }
   ]
 }
