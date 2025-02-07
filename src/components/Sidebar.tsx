@@ -53,10 +53,10 @@ export function Sidebar({
     {
       title: 'Links',
       items: [
-        { icon: Star, label: 'Star on GitHub', href: metadata.repository },
-        { icon: MessageCircle, label: 'Feedback' },
-        { icon: Link2, label: 'Submit RSS' },
-        { icon: ScrollText, label: 'Changelog', href: 'https://example.com' }
+        { icon: Star, label: 'Star on GitHub', href: 'https://github.com/yonasuriv/rss/fork' }
+        { icon: MessageCircle, label: 'Feedback', href: 'https://github.com/yonasuriv/rss/issues/new?template=Blank+issue' }
+        { icon: Link2, label: 'Submit RSS', href: 'https://github.com/yonasuriv/rss/issues/new?template=feed-update--new-feed-request.md' }
+        { icon: ScrollText, label: 'Changelog', href: 'https://github.com/yonasuriv/rss/wiki' }
       ]
     }
   ];
@@ -95,7 +95,7 @@ export function Sidebar({
           <Rss className="h-6 w-6 text-[#40f8b5]" />
           {!collapsed && (
             <span className={`ml-3 font-semibold ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
-              RSS Reader
+              NITRO RSS
             </span>
           )}
         </button>
