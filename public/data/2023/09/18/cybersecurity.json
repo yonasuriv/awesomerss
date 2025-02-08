@@ -1,0 +1,11 @@
+[
+    {
+        "title": "38TB of data accidentally exposed by Microsoft AI researchers",
+        "date": "Mon, 18 Sep 2023 13:01:29 GMT",
+        "permalink": "https://www.wiz.io/blog/38-terabytes-of-private-data-accidentally-exposed-by-microsoft-ai-researchers",
+        "image": null,
+        "summary": "Wiz Research found a data exposure incident on Microsoft’s AI GitHub repository, including over 30,000 internal Microsoft Teams messages – all caused by one misconfigured SAS token",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

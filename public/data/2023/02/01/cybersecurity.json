@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Spoofy: An Email Domain Spoofing Tool",
+        "date": "Wed, 01 Feb 2023 07:00:00 -0800",
+        "permalink": "https://bishopfox.com/blog/spoofy-email-domain-spoofing",
+        "image": null,
+        "summary": "In this blog, take a deep dive into Spoofy, an opensource tool that offers bulk domain lookup based on DMARC and SPF records.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

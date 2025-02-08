@@ -1,0 +1,30 @@
+[
+    {
+        "title": "A new path for Kyber on the web",
+        "date": "2024-09-13T12:04:00.000-04:00",
+        "permalink": "http://security.googleblog.com/2024/09/a-new-path-for-kyber-on-web.html",
+        "image": null,
+        "summary": "Posted by David Adrian, David Benjamin, Bob Beck & Devon O'Brien, Chrome Team\n\nWe previously posted about experimenting with a hybrid post-quantum key exchange, and enabling it for 100% of Chrome Desktop clients.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "E2EE for the Fediverse Update – We’re Going Post-Quantum",
+        "date": "Fri, 13 Sep 2024 10:25:12 +0000",
+        "permalink": "https://soatok.blog/2024/09/13/e2ee-for-the-fediverse-update-were-going-post-quantum/",
+        "image": null,
+        "summary": "In 2022, I wrote about my plan to build end-to-end encryption for the Fediverse.",
+        "category": "cybersecurity",
+        "tags": [
+            "Cryptography",
+            "Fediverse E2EE Project",
+            "Open Source",
+            "E2EE",
+            "end-to-end encryption",
+            "fediverse",
+            "FIPS",
+            "Mastodon",
+            "post-quantum cryptography"
+        ]
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Intune Attack Paths — Part 1",
+        "date": "Wed, 15 Jan 2025 17:33:08 GMT",
+        "permalink": "https://posts.specterops.io/intune-attack-paths-part-1-4ad1882c1811?source=rss----f05f8696e3cc---4",
+        "image": null,
+        "summary": "Intune Attack Paths — Part 1Prior WorkSeveral people have recently produced high-quality work around Intune tradecraft.",
+        "category": "cybersecurity",
+        "tags": [
+            "attack-path-management",
+            "microsoft",
+            "cloud-computing",
+            "bloodhound-enterprise",
+            "cybersecurity"
+        ]
+    },
+    {
+        "title": "Don’t Use Session (Signal Fork)",
+        "date": "Wed, 15 Jan 2025 04:24:03 +0000",
+        "permalink": "https://soatok.blog/2025/01/14/dont-use-session-signal-fork/",
+        "image": null,
+        "summary": "Last year, I outlined the specific requirements that an app needs to have in order for me to consider it a Signal competitor.",
+        "category": "cybersecurity",
+        "tags": [
+            "Cryptography",
+            "Software Security",
+            "Vulnerability",
+            "AES-GCM",
+            "Android",
+            "asymmetric cryptography",
+            "cryptography",
+            "E2EE",
+            "Ed25519",
+            "Java",
+            "Kotlin",
+            "messaging apps",
+            "Online Privacy",
+            "private messaging",
+            "Session",
+            "Signal",
+            "Signal alternatives",
+            "vuln"
+        ]
+    },
+    {
+        "title": "Tracking cloud-fluent threat actors - Part two: Behavioral cloud IOCs",
+        "date": "Wed, 15 Jan 2025 09:56:28 GMT",
+        "permalink": "https://www.wiz.io/blog/detecting-behavioral-cloud-indicators-of-compromise-iocs",
+        "image": null,
+        "summary": "Discover how behavioral cloud IOCs can expose malicious activity as we break down real-world examples to reveal actionable detection techniques.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

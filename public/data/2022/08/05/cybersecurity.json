@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Securing Azure middleware agents with new auto-patching capabilities",
+        "date": "Fri, 05 Aug 2022 05:55:47 GMT",
+        "permalink": "https://www.wiz.io/blog/auto-patching-for-omi",
+        "image": null,
+        "summary": "Wiz finds Azure customers remain unpatched from cloud middleware vulnerability and collaborates with Microsoft to introduce an auto-patching solution against cloud middleware security issues and make the cloud safer",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Revisiting OMI: Analysis of CVE-2022-29149, a privilege escalation vulnerability in Azure OMI",
+        "date": "Fri, 05 Aug 2022 05:51:58 GMT",
+        "permalink": "https://www.wiz.io/blog/omi-returns-lpe-technical-analysis",
+        "image": null,
+        "summary": "Affected organizations are required to update installed agents that use the OMI cloud middleware software",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

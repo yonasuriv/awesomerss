@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Leaky Vessels: runC and BuildKit container escape vulnerabilities - everything you need to know",
+        "date": "Mon, 05 Feb 2024 17:28:28 GMT",
+        "permalink": "https://www.wiz.io/blog/leaky-vessels-container-escape-vulnerabilities",
+        "image": null,
+        "summary": "Detect and mitigate “Leaky Vessels”, container escape vulnerabilities affecting runC and BuildKit.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

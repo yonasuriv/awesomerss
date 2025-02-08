@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Role Chain Juggling",
+        "date": "Wed, 03 Feb 2021 03:20:50 +0000",
+        "permalink": "https://hackingthe.cloud/aws/post_exploitation/role-chain-juggling/",
+        "image": null,
+        "summary": "Keep your access by chaining assume-role calls.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "User Data Script Persistence",
+        "date": "Wed, 03 Feb 2021 03:20:50 +0000",
+        "permalink": "https://hackingthe.cloud/aws/post_exploitation/user_data_script_persistence/",
+        "image": null,
+        "summary": "Maintain access to an EC2 instance and it's IAM role via user data scripts.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

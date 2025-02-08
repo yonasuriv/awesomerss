@@ -1,0 +1,11 @@
+[
+    {
+        "title": "PAN-OS CVE-2024-3400: Patch Your Palo Alto Firewalls",
+        "date": "Fri, 19 Apr 2024 08:16:00 -0700",
+        "permalink": "https://bishopfox.com/blog/pan-os-cve-2024-3400-patch-your-palo-alto-firewalls",
+        "image": null,
+        "summary": "Bishop Fox shares limited details about mitigation bypasses for PAN-OS CVE-2024-3400 in an effort to be maximally useful for defenders, while minimally useful for opportunistic attackers.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

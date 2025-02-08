@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Broken Hill: A Productionized Greedy Coordinate Gradient Attack Tool for Use Against Large Language Models",
+        "date": "Tue, 24 Sep 2024 08:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/brokenhill-attack-tool-largelanguagemodels-llm",
+        "image": null,
+        "summary": "Walkthrough the GCG attack at a high level and be introduced to Broken Hill – Bishop Fox’s newly-released tool that can perform the GCG attack against a variety of popular LLMs.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Google & Arm - Raising The Bar on GPU Security",
+        "date": "2024-09-24T12:00:00.000-04:00",
+        "permalink": "http://security.googleblog.com/2024/09/google-arm-raising-bar-on-gpu-security.html",
+        "image": null,
+        "summary": "Posted by Xuan Xing, Eugene Rodionov, Jon Bottarini, Adam Bacchus - Android Red Team;\n\t    Amit Chaudhary, Lyndon Fawcett, Joseph Artgole - Arm Product Security Team\n\nWho cares about GPUs?\n\nYou, me, and the entire ecosystem! GPUs (graphics processing units) are critical in delivering rich visual experiences on mobile devices.",
+        "category": "cybersecurity",
+        "tags": [
+            "android",
+            "android security",
+            "pixel"
+        ]
+    },
+    {
+        "title": "Cybersecurity's dark secrets: 3 confessions from industry experts",
+        "date": "Tue, 24 Sep 2024 10:17:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/defcon-confessions",
+        "image": null,
+        "summary": "From gnawing imposter syndrome to communication challenges with execs, cyber pros at DEF CON anonymously shared their “unfiltered truths” about working in the industry.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

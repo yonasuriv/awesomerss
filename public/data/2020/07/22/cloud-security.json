@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Bypass GuardDuty Pentest Findings for the AWS CLI",
+        "date": "Wed, 22 Jul 2020 02:58:24 +0000",
+        "permalink": "https://hackingthe.cloud/aws/avoiding-detection/guardduty-pentest/",
+        "image": null,
+        "summary": "Prevent Kali Linux, ParrotOS, and Pentoo Linux from throwing GuardDuty alerts by modifying the User Agent string when using the AWS CLI.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Bypass Credential Exfiltration Detection",
+        "date": "Wed, 22 Jul 2020 02:58:24 +0000",
+        "permalink": "https://hackingthe.cloud/aws/avoiding-detection/steal-keys-undetected/",
+        "image": null,
+        "summary": "When stealing IAM credentials from an EC2 instance you can avoid a GuardDuty detection by using VPC Endpoints.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

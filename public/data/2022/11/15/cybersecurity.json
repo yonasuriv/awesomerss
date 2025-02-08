@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Stealing passwords from infosec Mastodon - without bypassing CSP",
+        "date": "Tue, 15 Nov 2022 14:00:03 GMT",
+        "permalink": "https://portswigger.net/research/stealing-passwords-from-infosec-mastodon-without-bypassing-csp",
+        "image": null,
+        "summary": "The story of how I could steal credentials on Infosec Mastodon with a HTML injection vulnerability, without needing to bypass CSP.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

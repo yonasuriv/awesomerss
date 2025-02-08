@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Multiple Internet to Baseband Remote Code Execution Vulnerabilities in Exynos Modems",
+        "date": "2023-03-16T11:07:00.015-07:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2023/03/multiple-internet-to-baseband-remote-rce.html",
+        "image": null,
+        "summary": "Posted by Tim Willis, Project Zero\n\nIn late 2022 and early 2023, Project Zero reported eighteen 0-day vulnerabilities in Exynos Modems produced by Samsung Semiconductor.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

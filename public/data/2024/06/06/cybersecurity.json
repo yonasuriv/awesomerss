@@ -1,0 +1,20 @@
+[
+    {
+        "title": "The Unmask IAM Permission: API Gateway Access Logging",
+        "date": "Thu, 06 Jun 2024 15:26:00 -0700",
+        "permalink": "https://bishopfox.com/blog/unmask-iam-permissions-api-gateway-access-logging",
+        "image": null,
+        "summary": "Unlock the secrets to securing your AWS environment! Learn the intricacies of IAM permissions and how to protect your Amazon API Gateway access logs.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Leveraging Virtual Reality to Enhance Diversity and Inclusion training at Google",
+        "date": "Thu, 06 Jun 2024 00:00:00 GMT",
+        "permalink": "https://elie.net/publication/leveraging-virtual-reality-to-enhance-diversity-and-inclusion-training-at-google",
+        "image": "https://elie.net//_astro/leveraging-virtual-reality-to-enhance-diversity-and-inclusion-training-at-google.BYvO3QTD.jpg",
+        "summary": "This case-study explores the effectiveness of virtual reality (VR) for diversity, equity, and inclusion (DEI) training through the lens of a custom VR application developped to train Google employees.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

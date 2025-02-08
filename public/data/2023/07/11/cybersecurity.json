@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Exploiting XSS in hidden inputs and meta tags",
+        "date": "Tue, 11 Jul 2023 13:00:00 GMT",
+        "permalink": "https://portswigger.net/research/exploiting-xss-in-hidden-inputs-and-meta-tags",
+        "image": null,
+        "summary": "In this post we are going to show how you can (ab)use the new HTML popup functionality in Chrome to exploit XSS in meta tags and hidden inputs.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "PyLoose: Python-based fileless malware targets cloud workloads to deliver cryptominer",
+        "date": "Tue, 11 Jul 2023 13:39:41 GMT",
+        "permalink": "https://www.wiz.io/blog/pyloose-first-python-based-fileless-attack-on-cloud-workloads",
+        "image": null,
+        "summary": "PyLoose is a newly discovered Python-based fileless malware targeting cloud workloads.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

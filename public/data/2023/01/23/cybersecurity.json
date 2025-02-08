@@ -1,0 +1,20 @@
+[
+    {
+        "title": "A Look at AWS API Protocols",
+        "date": "Mon, 23 Jan 2023 00:00:40 -0600",
+        "permalink": "https://frichetten.com/blog/aws-api-protocols/",
+        "image": null,
+        "summary": "An introduction to AWS API protocols and how they work.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Enhancing Kubernetes security with user namespaces",
+        "date": "Mon, 23 Jan 2023 15:29:10 GMT",
+        "permalink": "https://www.wiz.io/blog/enhancing-kubernetes-security-with-user-namespaces",
+        "image": null,
+        "summary": "Learn how to improve cluster security with user namespaces, a new feature introduced in Kubernetes v1.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

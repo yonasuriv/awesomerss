@@ -1,0 +1,29 @@
+[
+    {
+        "title": "The Windows Registry Adventure #3: Learning resources",
+        "date": "2024-06-27T09:51:00.000-07:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2024/06/the-windows-registry-adventure-3.html",
+        "image": null,
+        "summary": "Posted by Mateusz Jurczyk, Google Project\n            Zero\n\nWhen tackling a new vulnerability research target, especially a closed-source one, I\n            prioritize gathering as much information about it as possible.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Sustaining Digital Certificate Security - Entrust Certificate Distrust",
+        "date": "2024-06-27T13:16:00.003-04:00",
+        "permalink": "http://security.googleblog.com/2024/06/sustaining-digital-certificate-security.html",
+        "image": null,
+        "summary": "Posted by Chrome Root Program, Chrome Security Team\n\nUpdate (09/10/2024): In support of more closely aligning Chrome’s planned compliance action with a major release milestone (i.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "CloudNativeSecurityCon 2024 CTF Writeup",
+        "date": "Thu, 27 Jun 2024 23:00:00 +0000",
+        "permalink": "https://skybound.link/2024/06/cloudnativesecuritycon-2024-ctf-writeup/",
+        "image": null,
+        "summary": "As is tradition, it is another CNCF event with ControlPlane running another CTF.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

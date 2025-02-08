@@ -1,0 +1,11 @@
+[
+    {
+        "title": "AWS IAM Privilege Escalation Techniques",
+        "date": "Thu, 04 Nov 2021 21:03:24 +0000",
+        "permalink": "https://hackingthe.cloud/aws/exploitation/iam_privilege_escalation/",
+        "image": null,
+        "summary": "Common techniques that can be leveraged to escalate privileges in an AWS account.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

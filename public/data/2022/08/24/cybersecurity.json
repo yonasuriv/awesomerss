@@ -1,0 +1,11 @@
+[
+    {
+        "title": "You're (Still) Doing IoT RNG",
+        "date": "Wed, 24 Aug 2022 06:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/iot-rng-csprng",
+        "image": null,
+        "summary": "In this blog, we follow up on the systemic problem of insecure use of random number generators (RNGs) in the Internet of Things (IoT) industry.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

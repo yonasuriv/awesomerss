@@ -1,0 +1,344 @@
+{
+    "favicon": "https://wiz.io/favicon.png",
+    "dates": {
+        "2025-01-29": [
+            "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak"
+        ],
+        "2025-01-23": [
+            "https://www.wiz.io/blog/kubernetes-report-preview-2025"
+        ],
+        "2025-01-15": [
+            "https://www.wiz.io/blog/detecting-behavioral-cloud-indicators-of-compromise-iocs"
+        ],
+        "2025-01-11": [
+            "https://www.wiz.io/blog/wiz-research-identifies-exploitation-in-the-wild-of-aviatrix-cve-2024-50603"
+        ],
+        "2025-01-09": [
+            "https://www.wiz.io/blog/cve-2025-0282-and-cve-2025-0283-critical-ivanti-0days-exploited-in-the-wild"
+        ],
+        "2025-01-03": [
+            "https://www.wiz.io/blog/nuclei-signature-verification-bypass"
+        ],
+        "2025-01-01": [
+            "https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions"
+        ],
+        "2024-12-20": [
+            "https://www.wiz.io/blog/the-many-ways-to-obtain-credentials-in-aws"
+        ],
+        "2024-12-17": [
+            "https://www.wiz.io/blog/diicot-threat-group-malware-campaign"
+        ],
+        "2024-12-16": [
+            "https://www.wiz.io/blog/spring-boot-actuator-misconfigurations"
+        ],
+        "2024-12-15": [
+            "https://www.wiz.io/blog/jinx-2401-llm-hijacking-aws"
+        ],
+        "2024-12-11": [
+            "https://www.wiz.io/blog/top-aws-re-invent-announcements-for-security-teams-in-2024"
+        ],
+        "2024-12-09": [
+            "https://www.wiz.io/blog/ultralytics-ai-library-hacked-via-github-for-cryptomining"
+        ],
+        "2024-11-28": [
+            "https://www.wiz.io/blog/how-to-use-aws-resource-control-policies"
+        ],
+        "2024-11-26": [
+            "https://www.wiz.io/blog/nvidia-ml-data-classification"
+        ],
+        "2024-11-22": [
+            "https://www.wiz.io/blog/cve-2024-0012-pan-os-vulnerability-exploited-in-the-wild"
+        ],
+        "2024-11-07": [
+            "https://www.wiz.io/blog/unmasking-phishing-strategies-for-identifying-0ktapus-domains"
+        ],
+        "2024-10-31": [
+            "https://www.wiz.io/blog/lottie-player-supply-chain-attack"
+        ],
+        "2024-10-23": [
+            "https://www.wiz.io/blog/askai-text-to-security-graph-query"
+        ],
+        "2024-10-10": [
+            "https://www.wiz.io/blog/palo-alto-networks-expedition-critical-vulnerabilities-advisory"
+        ],
+        "2024-09-29": [
+            "https://www.wiz.io/blog/openprinting-cups-vulnerabilities-cve-2024-47076-cve-2024-47175-cve-2024-47176-cve-2024-47177"
+        ],
+        "2024-09-26": [
+            "https://www.wiz.io/blog/wiz-research-critical-nvidia-ai-vulnerability"
+        ],
+        "2024-09-23": [
+            "https://www.wiz.io/blog/mastering-cloud-specific-indicators-of-compromise-iocs"
+        ],
+        "2024-09-03": [
+            "https://www.wiz.io/blog/preventing-risk-of-request-collapsing-in-web-caching"
+        ],
+        "2024-08-16": [
+            "https://www.wiz.io/blog/cloud-security-migrations-best-practices"
+        ],
+        "2024-08-14": [
+            "https://www.wiz.io/blog/wiz-becomes-a-cve-numbering-authority-cna"
+        ],
+        "2024-08-08": [
+            "https://www.wiz.io/blog/emerging-phishing-campaign-targeting-aws-accounts"
+        ],
+        "2024-07-25": [
+            "https://www.wiz.io/blog/seleniumgreed-cryptomining-exploit-attack-flow-remediation-steps"
+        ],
+        "2024-07-17": [
+            "https://www.wiz.io/blog/sapwned-sap-ai-vulnerabilities-ai-security"
+        ],
+        "2024-07-01": [
+            "https://www.wiz.io/blog/cve-2024-6387-critical-rce-openssh"
+        ],
+        "2024-06-24": [
+            "https://www.wiz.io/blog/probllama-ollama-vulnerability-cve-2024-37032"
+        ],
+        "2024-06-10": [
+            "https://www.wiz.io/blog/critical-rce-php-cgi-vulnerability"
+        ],
+        "2024-06-07": [
+            "https://www.wiz.io/blog/dero-cryptojacking-campaign-adapts-to-evade-detection"
+        ],
+        "2024-05-23": [
+            "https://www.wiz.io/blog/wiz-research-discovers-critical-vulnerability-in-replicate"
+        ],
+        "2024-04-24": [
+            "https://www.wiz.io/blog/crushftp-vfs-sandbox-vulnerability"
+        ],
+        "2024-04-04": [
+            "https://www.wiz.io/blog/wiz-and-hugging-face-address-risks-to-ai-infrastructure"
+        ],
+        "2024-03-29": [
+            "https://www.wiz.io/blog/cve-2024-3094-critical-rce-vulnerability-found-in-xz-utils"
+        ],
+        "2024-03-13": [
+            "https://www.wiz.io/blog/introducing-namespacehound-for-cross-tenant-violation-assessments"
+        ],
+        "2024-03-06": [
+            "https://www.wiz.io/blog/jetbrains-teamcity-authentication-bypass-vulnerabilities-cve-2024-27198-cve-2024-27199"
+        ],
+        "2024-02-21": [
+            "https://www.wiz.io/blog/chia-and-the-dangers-of-proof-of-storage-cryptojacking-in-the-cloud"
+        ],
+        "2024-02-12": [
+            "https://www.wiz.io/blog/critical-rce-vulnerabilities-in-fortios-cve-2024-21762-cve-2024-23113"
+        ],
+        "2024-02-09": [
+            "https://www.wiz.io/blog/new-attack-vectors-emerge-via-recent-eks-access-entries-and-pod-identity-features"
+        ],
+        "2024-02-08": [
+            "https://www.wiz.io/blog/midnight-blizzard-microsoft-breach-analysis-and-best-practices"
+        ],
+        "2024-02-06": [
+            "https://www.wiz.io/blog/eks-cluster-access-management-and-pod-identity-security-recommendations",
+            "https://www.wiz.io/blog/ivanti-vulnerabilities-cve-2023-46805-cve-2024-21887-cve-2024-21888-and-cve-2024-21893"
+        ],
+        "2024-02-05": [
+            "https://www.wiz.io/blog/leaky-vessels-container-escape-vulnerabilities"
+        ],
+        "2024-01-29": [
+            "https://www.wiz.io/blog/5-facts-from-the-cybersecurity-compensation-report"
+        ],
+        "2024-01-25": [
+            "https://www.wiz.io/blog/kubernetes-security-for-dummies"
+        ],
+        "2024-01-24": [
+            "https://www.wiz.io/blog/introducing-the-cloud-threat-landscape"
+        ],
+        "2024-01-17": [
+            "https://www.wiz.io/blog/key-findings-from-the-state-of-ai-in-the-cloud-report-2024"
+        ],
+        "2024-01-16": [
+            "https://www.wiz.io/blog/crying-out-cloud-favorite-stories-of-2023"
+        ],
+        "2023-11-08": [
+            "https://www.wiz.io/blog/key-takeaways-from-the-wiz-2023-kubernetes-security-report"
+        ],
+        "2023-11-03": [
+            "https://www.wiz.io/blog/eight-questions-to-measure-vulnerability-remediation-pain"
+        ],
+        "2023-11-01": [
+            "https://www.wiz.io/blog/announcing-the-eks-cluster-games"
+        ],
+        "2023-10-11": [
+            "https://www.wiz.io/blog/cve-2023-38545-curl-vulnerability"
+        ],
+        "2023-10-10": [
+            "https://www.wiz.io/blog/the-good-the-bad-and-the-vulnerable-summary"
+        ],
+        "2023-10-02": [
+            "https://www.wiz.io/blog/exim-zero-day-vulnerabilities"
+        ],
+        "2023-10-01": [
+            "https://www.wiz.io/blog/cve-2023-4863-and-cve-2023-5217-exploited-in-the-wild"
+        ],
+        "2023-09-18": [
+            "https://www.wiz.io/blog/38-terabytes-of-private-data-accidentally-exposed-by-microsoft-ai-researchers"
+        ],
+        "2023-09-07": [
+            "https://www.wiz.io/blog/key-takeaways-from-microsofts-latest-storm-0558-report"
+        ],
+        "2023-09-06": [
+            "https://www.wiz.io/blog/cryptojacking-attacks-summer-2023"
+        ],
+        "2023-07-27": [
+            "https://www.wiz.io/blog/ubuntu-overlayfs-vulnerability"
+        ],
+        "2023-07-26": [
+            "https://www.wiz.io/blog/zenbleed"
+        ],
+        "2023-07-25": [
+            "https://www.wiz.io/blog/top-16-cloud-security-experts-you-should-follow-in-2023"
+        ],
+        "2023-07-21": [
+            "https://www.wiz.io/blog/storm-0558-compromised-microsoft-key-enables-authentication-of-countless-micr"
+        ],
+        "2023-07-19": [
+            "https://www.wiz.io/blog/kubernetes-api-limitations-in-finding-non-standard-pods-and-containers"
+        ],
+        "2023-07-11": [
+            "https://www.wiz.io/blog/pyloose-first-python-based-fileless-attack-on-cloud-workloads"
+        ],
+        "2023-07-05": [
+            "https://www.wiz.io/blog/linux-rootkits-explained-part-1-dynamic-linker-hijacking"
+        ],
+        "2023-06-29": [
+            "https://www.wiz.io/blog/how-to-get-rid-of-aws-access-keys-part-2"
+        ],
+        "2023-06-28": [
+            "https://www.wiz.io/blog/genai-tenant-isolation"
+        ],
+        "2023-06-12": [
+            "https://www.wiz.io/blog/kubernetes-grey-zone-risks-in-managed-cluster-middleware",
+            "https://www.wiz.io/blog/crying-out-cloud-podcast"
+        ],
+        "2023-06-06": [
+            "https://www.wiz.io/blog/the-big-iam-challenge"
+        ],
+        "2023-06-04": [
+            "https://www.wiz.io/blog/cve-2023-34362"
+        ],
+        "2023-05-25": [
+            "https://www.wiz.io/blog/lateral-movement-risks-in-the-cloud-and-how-to-prevent-them-part-4-from-compromis"
+        ],
+        "2023-05-23": [
+            "https://www.wiz.io/blog/cve-2023-32784-keepass-vulnerability-exploit-released"
+        ],
+        "2023-04-19": [
+            "https://www.wiz.io/blog/brokensesame-accidental-write-permissions-to-private-registry-allowed-potential-r"
+        ],
+        "2023-04-13": [
+            "https://www.wiz.io/blog/microsoft-april-2023-patch-tuesday-highlights"
+        ],
+        "2023-04-06": [
+            "https://www.wiz.io/blog/intro-to-forensics-in-the-cloud-a-container-was-compromised-whats-next"
+        ],
+        "2023-03-29": [
+            "https://www.wiz.io/blog/bingbang",
+            "https://www.wiz.io/blog/azure-active-directory-bing-misconfiguration"
+        ],
+        "2023-03-20": [
+            "https://www.wiz.io/blog/using-service-control-policies-to-protect-security-baselines"
+        ],
+        "2023-03-13": [
+            "https://www.wiz.io/blog/cve-2023-25610"
+        ],
+        "2023-03-09": [
+            "https://www.wiz.io/blog/from-pod-security-policies-to-pod-security-standards-a-migration-guide"
+        ],
+        "2023-03-02": [
+            "https://www.wiz.io/blog/redirection-roulette"
+        ],
+        "2023-02-23": [
+            "https://www.wiz.io/blog/lateral-movement-risks-in-the-cloud-and-how-to-prevent-them-part-3-from-compromis"
+        ],
+        "2023-02-07": [
+            "https://www.wiz.io/blog/ransomware-attacks-targeting-vmware-esxi-servers-everything-you-need-to-know"
+        ],
+        "2023-02-06": [
+            "https://www.wiz.io/blog/the-top-cloud-security-threats-to-be-aware-of-in-2023"
+        ],
+        "2023-01-23": [
+            "https://www.wiz.io/blog/enhancing-kubernetes-security-with-user-namespaces"
+        ],
+        "2023-01-17": [
+            "https://www.wiz.io/blog/cve-2022-44877-critical-rce-in-centos-control-web-panel-exploited-in-the-wild"
+        ],
+        "2023-01-12": [
+            "https://www.wiz.io/blog/hunting-for-signs-of-persistence-in-the-cloud-an-ir-guide"
+        ],
+        "2023-01-05": [
+            "https://www.wiz.io/blog/lateral-movement-risks-in-the-cloud-and-how-to-prevent-them-part-2-from-k8s-clust"
+        ],
+        "2023-01-03": [
+            "https://www.wiz.io/blog/malicious-pytorch-dependency-torchtriton-on-pypi-everything-you-need-to-know"
+        ],
+        "2022-12-14": [
+            "https://www.wiz.io/blog/introducing-peach-a-tenant-isolation-framework-for-cloud-applications"
+        ],
+        "2022-12-13": [
+            "https://www.wiz.io/blog/secret-based-cloud-supply-chain-attacks-case-study-and-lessons-for-security-teams"
+        ],
+        "2022-12-01": [
+            "https://www.wiz.io/blog/hells-keychain-supply-chain-attack-in-ibm-cloud-databases-for-postgresql"
+        ],
+        "2022-10-13": [
+            "https://www.wiz.io/blog/lateral-movement-risks-in-the-cloud-and-how-to-prevent-them-part-1-the-network-layer"
+        ],
+        "2022-09-20": [
+            "https://www.wiz.io/blog/attachme-oracle-cloud-vulnerability-allows-unauthorized-cross-tenant-volume-access"
+        ],
+        "2022-08-11": [
+            "https://www.wiz.io/blog/the-cloud-has-an-isolation-problem-postgresql-vulnerabilities"
+        ],
+        "2022-08-05": [
+            "https://www.wiz.io/blog/auto-patching-for-omi",
+            "https://www.wiz.io/blog/omi-returns-lpe-technical-analysis"
+        ],
+        "2022-04-29": [
+            "https://www.wiz.io/blog/wiz-research-discovers-extrareplica-cross-account-database-vulnerability-in-azure-postgresql"
+        ],
+        "2022-03-26": [
+            "https://www.wiz.io/blog/hardening-your-cloud-environment-against-lapsus-like-threat-actor"
+        ],
+        "2022-01-18": [
+            "https://www.wiz.io/blog/2022-cloud-security-threats"
+        ],
+        "2021-12-21": [
+            "https://www.wiz.io/blog/azure-app-service-source-code-leak",
+            "https://www.wiz.io/blog/10-days-later-enterprises-halfway-through-patching-log4shell"
+        ],
+        "2021-11-11": [
+            "https://www.wiz.io/blog/chaosdb-explained-azures-cosmos-db-vulnerability-walkthrough",
+            "https://www.wiz.io/blog/how-we-broke-the-cloud-with-two-lines-of-code-the-full-story-of-chaosdb"
+        ],
+        "2021-10-08": [
+            "https://www.wiz.io/blog/protecting-cloud-environments-from-the-new-critical-apache-http-server-vulnerability"
+        ],
+        "2021-09-14": [
+            "https://www.wiz.io/blog/omigod-critical-vulnerabilities-in-omi-azure",
+            "https://www.wiz.io/blog/secret-agent-exposes-azure-customers-to-unauthorized-code-execution"
+        ],
+        "2021-08-29": [
+            "https://www.wiz.io/blog/protecting-your-environment-from-chaosdb"
+        ],
+        "2021-08-26": [
+            "https://www.wiz.io/blog/chaosdb-how-we-hacked-thousands-of-azure-customers-databases"
+        ],
+        "2021-08-06": [
+            "https://www.wiz.io/blog/is-your-organization-leaking-sensitive-dynamic-dns-data-heres-how-to-find-out"
+        ],
+        "2021-08-04": [
+            "https://www.wiz.io/blog/black-hat-2021-aws-cross-account-vulnerabilities-how-isolated-is-your-cloud-environment",
+            "https://www.wiz.io/blog/black-hat-2021-dns-loophole-makes-nation-state-level-spying-as-easy-as-registering-a-domain"
+        ],
+        "2021-02-02": [
+            "https://www.wiz.io/blog/82-of-companies-unknowingly-give-3rd-parties-access-to-all-their-cloud-data",
+            "https://www.wiz.io/blog/recent-linux-sudo-vulnerability-affects-a-major-percent-of-cloud-workloads"
+        ],
+        "2021-02-01": [
+            "https://www.wiz.io/blog/the-solarwinds-attack"
+        ]
+    }
+}

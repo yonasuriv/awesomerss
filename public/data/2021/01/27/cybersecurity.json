@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Intercept SSM Agent Communications",
+        "date": "Wed, 27 Jan 2021 00:00:40 -0600",
+        "permalink": "https://frichetten.com/blog/ssm-agent-tomfoolery/",
+        "image": null,
+        "summary": "Research on post-exploitation techniques against SSM Agent abusing send-command and start-session.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

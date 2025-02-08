@@ -1,0 +1,38 @@
+[
+    {
+        "title": "35 more Semgrep rules: infrastructure, supply chain, and Ruby",
+        "date": "Mon, 09 Dec 2024 14:00:43 +0000",
+        "permalink": "https://blog.trailofbits.com/2024/12/09/35-more-semgrep-rules-infrastructure-supply-chain-and-ruby/",
+        "image": null,
+        "summary": "By Matt Schwager and Travis Peters We are publishing another set of custom Semgrep rules, bringing our total number of public rules to 115.",
+        "category": "cybersecurity",
+        "tags": [
+            "Application Security",
+            "Semgrep"
+        ]
+    },
+    {
+        "title": "Ideas and Execution",
+        "date": "Mon, 09 Dec 2024 08:08:51 +0000",
+        "permalink": "https://soatok.blog/2024/12/09/ideas-and-execution/",
+        "image": null,
+        "summary": "4 free ideas that Soatok doesn't have the time or energy to execute on.",
+        "category": "cybersecurity",
+        "tags": [
+            "Open Source",
+            "cryptography",
+            "security",
+            "Society",
+            "Technology"
+        ]
+    },
+    {
+        "title": "Ultralytics AI Library Hacked via GitHub for Cryptomining",
+        "date": "Mon, 09 Dec 2024 15:56:01 GMT",
+        "permalink": "https://www.wiz.io/blog/ultralytics-ai-library-hacked-via-github-for-cryptomining",
+        "image": null,
+        "summary": "A supply chain attack on Ultralytics exploited GitHub Actions to inject malicious PyPI packages.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

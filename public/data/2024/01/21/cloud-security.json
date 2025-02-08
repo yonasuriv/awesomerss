@@ -1,0 +1,20 @@
+[
+    {
+        "title": "📖 [The CloudSecList] Issue 221",
+        "date": "Sun, 21 Jan 2024 00:00:00 +0000",
+        "permalink": "https://cloudseclist.com/issues/issue-221/",
+        "image": null,
+        "summary": "📖 [The CloudSecList] Issue 221 was originally published by Marco Lancini at CloudSecList on January 21, 2024.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "EC2 Privilege Escalation Through User Data",
+        "date": "Sun, 21 Jan 2024 17:59:06 +0000",
+        "permalink": "https://hackingthe.cloud/aws/exploitation/local_ec2_priv_esc_through_user_data/",
+        "image": null,
+        "summary": "How to escalate privileges on an EC2 instance by abusing user data.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

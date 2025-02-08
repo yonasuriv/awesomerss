@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Wiz Research Finds Critical NVIDIA AI Vulnerability Affecting Containers Using NVIDIA GPUs, Including Over 35% of Cloud Environments",
+        "date": "Thu, 26 Sep 2024 12:33:43 GMT",
+        "permalink": "https://www.wiz.io/blog/wiz-research-critical-nvidia-ai-vulnerability",
+        "image": null,
+        "summary": "Critical severity vulnerability CVE-2024-0132 affecting NVIDIA Container Toolkit and GPU Operator presents high risk to AI workloads and environments.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

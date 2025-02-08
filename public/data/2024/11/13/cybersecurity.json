@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Safer with Google: New intelligent, real-time protections on Android to keep you safe",
+        "date": "2024-11-13T12:59:00.001-05:00",
+        "permalink": "http://security.googleblog.com/2024/11/new-real-time-protections-on-Android.html",
+        "image": null,
+        "summary": "Posted by Lyubov Farafonova, Product Manager and Steve Kafka, Group Product Manager, Android\n\nUser safety is at the heart of everything we do at Google.",
+        "category": "cybersecurity",
+        "tags": [
+            "android",
+            "android security",
+            "pixel"
+        ]
+    },
+    {
+        "title": "Killing Filecoin nodes",
+        "date": "Wed, 13 Nov 2024 11:00:12 +0000",
+        "permalink": "https://blog.trailofbits.com/2024/11/13/killing-filecoin-nodes/",
+        "image": null,
+        "summary": "By Simone Monica In January, we identified and reported a vulnerability in the Lotus and Venus clients of the Filecoin network that allowed an attacker to remotely crash a node and trigger a denial of service.",
+        "category": "cybersecurity",
+        "tags": [
+            "Blockchain",
+            "Vulnerability Disclosure"
+        ]
+    }
+]

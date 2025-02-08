@@ -1,0 +1,15 @@
+[
+    {
+        "title": "ApBleed: Heartbleed over WPA1/2 Enterprise",
+        "date": "2014-05-30T01:33:00.000+02:00",
+        "permalink": "https://www.mathyvanhoef.com/2014/05/apbleed-heartbleed-over-wpa12-enterprise.html",
+        "image": null,
+        "summary": "Tl;dr: ApBleed is my proof-of-concept to test heartbleed against wireless networks.",
+        "category": "cybersecurity",
+        "tags": [
+            "exploits",
+            "network",
+            "wireless"
+        ]
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "📖 [The CloudSecList] Issue 56",
+        "date": "Sun, 27 Sep 2020 00:00:00 +0100",
+        "permalink": "https://cloudseclist.com/issues/issue-56/",
+        "image": null,
+        "summary": "📖 [The CloudSecList] Issue 56 was originally published by Marco Lancini at CloudSecList on September 27, 2020.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Get Account ID from AWS Access Keys",
+        "date": "Sun, 27 Sep 2020 16:06:37 +0000",
+        "permalink": "https://hackingthe.cloud/aws/enumeration/get-account-id-from-keys/",
+        "image": null,
+        "summary": "Techniques to enumerate the account ID associated with an AWS access key.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

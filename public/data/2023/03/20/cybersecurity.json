@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Using Service Control Policies to protect security baselines",
+        "date": "Mon, 20 Mar 2023 17:19:41 GMT",
+        "permalink": "https://www.wiz.io/blog/using-service-control-policies-to-protect-security-baselines",
+        "image": null,
+        "summary": "Service Control Policies (SCPs) can be a great way to prevent actions from happening in AWS accounts.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

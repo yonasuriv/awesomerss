@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Backdoor in XZ Utils allows RCE: everything you need to know",
+        "date": "Fri, 29 Mar 2024 22:02:58 GMT",
+        "permalink": "https://www.wiz.io/blog/cve-2024-3094-critical-rce-vulnerability-found-in-xz-utils",
+        "image": null,
+        "summary": "Detect and mitigate CVE-2024-3094, a critical supply chain compromise, affecting XZ Utils Data compression library.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

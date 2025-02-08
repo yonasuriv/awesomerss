@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Two Minor Cross-Tenant Vulnerabilities in AWS App Runner",
+        "date": "Mon, 03 Apr 2023 00:00:40 -0600",
+        "permalink": "https://frichetten.com/blog/minor-cross-tenant-vulns-app-runner/",
+        "image": null,
+        "summary": "Writeup for two minor cross-tenant vulnerabilities I found in AWS App Runner.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

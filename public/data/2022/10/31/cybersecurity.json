@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Safari is hot-linking images to semi-random websites",
+        "date": "Mon, 31 Oct 2022 14:58:00 GMT",
+        "permalink": "https://portswigger.net/research/safari-is-hot-linking-images-to-semi-random-websites",
+        "image": null,
+        "summary": "Every image is potentially a URL on Safari, thanks to over-enthusiastic OCR (Optical Character Recognition).",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

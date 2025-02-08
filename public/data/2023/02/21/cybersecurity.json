@@ -1,0 +1,11 @@
+[
+    {
+        "title": "What the Vuln: Zimbra",
+        "date": "Tue, 21 Feb 2023 04:00:00 -0800",
+        "permalink": "https://bishopfox.com/blog/what-the-vuln-zimbra",
+        "image": null,
+        "summary": "Take a deep dive into Zimbra Zip Path Traversal vulnerability with Carlos Yanez in the first blog of our What the Vuln series.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

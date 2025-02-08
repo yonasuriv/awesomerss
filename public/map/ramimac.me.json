@@ -1,0 +1,33 @@
+{
+    "favicon": "https://ramimac.me/assets/images/favicon.ico",
+    "dates": {
+        "2025-01-27": [
+            "https://ramimac.me/joining-wiz"
+        ],
+        "2024-12-30": [
+            "https://ramimac.me/saying-no"
+        ],
+        "2024-12-18": [
+            "https://ramimac.me/state-of-cloud-security"
+        ],
+        "2024-11-20": [
+            "https://ramimac.me/start-security"
+        ],
+        "2024-10-07": [
+            "https://ramimac.me/dsqs"
+        ],
+        "2024-09-19": [
+            "https://ramimac.me/scale-cloud-security"
+        ],
+        "2024-09-16": [
+            "https://ramimac.me/finops"
+        ],
+        "2024-09-12": [
+            "https://ramimac.me/scorecarding"
+        ],
+        "2024-09-10": [
+            "https://ramimac.me/eleventeen-ways",
+            "https://ramimac.me/canary-maturity-model"
+        ]
+    }
+}

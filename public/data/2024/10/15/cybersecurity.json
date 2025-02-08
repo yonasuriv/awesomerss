@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Safer with Google: Advancing Memory Safety",
+        "date": "2024-10-15T13:44:00.001-04:00",
+        "permalink": "http://security.googleblog.com/2024/10/safer-with-google-advancing-memory.html",
+        "image": null,
+        "summary": "Posted by Alex Rebert, Security Foundations, and Chandler Carruth, Jen Engel, Andy Qin, Core Developers\n\nError-prone interactions between software and memory1 are widely understood to create safety issues in software.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Bringing new theft protection features to Android users around the world",
+        "date": "2024-10-15T11:59:00.004-04:00",
+        "permalink": "http://security.googleblog.com/2024/10/android-theft-protection.html",
+        "image": null,
+        "summary": "Posted by Jianing Sandra Guo, Product Manager and Nataliya Stanetsky, Staff Program Manager, Android\n\n\nJanine Roberta Ferreira was driving home from work in São Paulo when she stopped at a traffic light.",
+        "category": "cybersecurity",
+        "tags": [
+            "android",
+            "android security"
+        ]
+    },
+    {
+        "title": "Introducing new realistic enterprise-level attack scenarios (and how to become a Red Team Operator!)",
+        "date": "Tue, 15 Oct 2024 03:02:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/new-pro-labs-offerings",
+        "image": null,
+        "summary": "Pro Labs is a cornerstone for red team skills development.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

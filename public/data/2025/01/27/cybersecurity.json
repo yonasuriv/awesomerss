@@ -1,0 +1,24 @@
+[
+    {
+        "title": "🧙 Why I’m Joining Wiz",
+        "date": "2025-01-27T01:00:00+00:00",
+        "permalink": "https://ramimac.me/joining-wiz",
+        "image": "https://ramimac.me/assets/images/joining-wiz.png",
+        "summary": "I'm joining the leading cloud security startup, hoping to \"work for the Security Industry, at Wiz.",
+        "category": "cybersecurity",
+        "tags": [
+            "security"
+        ]
+    },
+    {
+        "title": "How Mustang Panda collects sensitive intelligence with multi-stage attacks (Attack Anatomy)",
+        "date": "Mon, 27 Jan 2025 04:49:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/mustang-panda-attack-anatomy",
+        "image": null,
+        "summary": "The APT group designated Mustang Panda has targeted governments around the world, including the U.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "title": "Top 10 web hacking techniques of 2024",
+        "date": "Tue, 04 Feb 2025 15:01:48 GMT",
+        "permalink": "https://portswigger.net/research/top-10-web-hacking-techniques-of-2024",
+        "image": null,
+        "summary": "Welcome to the Top 10 Web Hacking Techniques of 2024, the 18th edition of our annual community-powered effort to identify the most innovative must-read web security research published in the last year",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "How Are Modern Fraud Groups Using GenAI and Deepfakes?",
+        "date": "Tue, 04 Feb 2025 23:15:37 GMT",
+        "permalink": "https://www.darkreading.com/vulnerabilities-threats/how-are-modern-fraud-groups-using-gen-ai-and-deepfakes",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2d9897d9b1105f2b/6722faa87389342f93c5f1be/deepfake-mike-adobestock.jpg",
+        "summary": "Fraud groups are using cutting-edge technology to scale their operations to create fake identities and execute fraud campaigns.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Backline Tackles Enterprise Security Backlogs With AI",
+        "date": "Tue, 04 Feb 2025 22:42:18 GMT",
+        "permalink": "https://www.darkreading.com/vulnerabilities-threats/backline-tackles-enterprise-security-backlogs-with-ai",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb0802416cf275afe/67a35dea52c0eb3ab503f78e/bug_hunt_ronstik_Alamy.jpg",
+        "summary": "The security startup's autonomous security remediation platform uses off-the-shelf large language models (LLMs) to analyze security alerts and apply the fixes.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Credential Theft Becomes Cybercriminals' Favorite Target",
+        "date": "Tue, 04 Feb 2025 22:15:59 GMT",
+        "permalink": "https://www.darkreading.com/threat-intelligence/credential-theft-cybercriminals-favorite-target",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2d6e4175287f80e7/6716bb9fb8830f08234ec15b/credentials1800_Artur_Marciniec_alamy.jpg",
+        "summary": "Researchers measured a threefold increase in credential stealing between 2023 and 2024, with more than 11.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Ferret Malware Added to 'Contagious Interview' Campaign",
+        "date": "Tue, 04 Feb 2025 21:45:12 GMT",
+        "permalink": "https://www.darkreading.com/threat-intelligence/ferret-malware-added-contagious-interview-threat-campaign",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt15bce8f5e837802c/67a281b322207193027973b3/ferrets1800_imageBROKER.com_GmbH_&_Co._KG_alamy.jpg",
+        "summary": "Targets are lured into a fake interview process that convinces them to download malware needed for a virtual interview.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Cybercriminals Court Traitorous Insiders via Ransom Notes",
+        "date": "Tue, 04 Feb 2025 19:40:10 GMT",
+        "permalink": "https://www.darkreading.com/threat-intelligence/cybercriminals-traitorous-insiders-ransom-notes",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd27800e8299319d5/66cf7d68e20e4a91a0037ca6/ransomware_mayam_studio_shutterstock.jpg",
+        "summary": "Ransomware actors are offering individuals millions to turn on their employers and divulge private company information, in a brand-new cybercrime tactic.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Chinese 'Infrastructure Laundering' Abuses AWS, Microsoft Cloud",
+        "date": "Tue, 04 Feb 2025 19:26:22 GMT",
+        "permalink": "https://www.darkreading.com/cloud-security/chinese-infrastructure-laundering-abuses-aws-microsoft-cloud",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd684e90c066718cb/67a1f54d222071081f796fdc/Cloud-Security_Aleksia_Alamy.jpg",
+        "summary": "Funnull CDN rents IPs from legitimate cloud service providers and uses them to host criminal websites, continuously cycling cloud resources in and out of use and acquiring new ones to stay ahead of cyber-defender detection.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Managing Software Risk in a World of Exploding Vulnerabilities",
+        "date": "Tue, 04 Feb 2025 15:00:00 GMT",
+        "permalink": "https://www.darkreading.com/vulnerabilities-threats/managing-software-risk-world-exploding-vulnerabilities",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt44ce5f5c3f95c1ae/67a227e9e1d23d36576b8396/Risk_(1800)_RTimages_Alamy.jpg",
+        "summary": "Organizations and development teams need to evolve from \"being prepared\" to \"managing the risk\" of security breaches.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Hack The Box and Devensys Cybersecurity announce strategic partnership to enhance cybersecurity upskilling and solutions",
+        "date": "Tue, 04 Feb 2025 09:13:11 +0000",
+        "permalink": "https://www.hackthebox.com/blog/htb-partners-with-devensys-cybersecurity",
+        "image": null,
+        "summary": "News",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "📖 [The CloudSecList] Issue 253",
+        "date": "Sun, 01 Sep 2024 00:00:00 +0100",
+        "permalink": "https://cloudseclist.com/issues/issue-253/",
+        "image": null,
+        "summary": "📖 [The CloudSecList] Issue 253 was originally published by Marco Lancini at CloudSecList on September 01, 2024.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Exploiting Misconfigured GitLab OIDC AWS IAM Roles",
+        "date": "Sun, 01 Sep 2024 22:46:15 +0000",
+        "permalink": "https://hackingthe.cloud/aws/exploitation/Misconfigured_Resource-Based_Policies/exploiting_misconfigured_gitlab_oidc_aws_iam_roles/",
+        "image": null,
+        "summary": "Discover how to identify and exploit misconfigured AWS IAM roles using GitLab OIDC, with a detailed, step-by-step guide.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

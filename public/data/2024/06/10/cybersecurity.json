@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Critical RCE vulnerability in PHP CGI: everything you need to know",
+        "date": "Mon, 10 Jun 2024 17:08:03 GMT",
+        "permalink": "https://www.wiz.io/blog/critical-rce-php-cgi-vulnerability",
+        "image": null,
+        "summary": "Detect and mitigate CVE-2024-4577, a critical remote code execution vulnerability in PHP CGI.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

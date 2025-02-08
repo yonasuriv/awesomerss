@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Cyber Mirage: How AI is Shaping the Future of Social Engineering",
+        "date": "Wed, 08 Jan 2025 00:00:00 -0800",
+        "permalink": "https://bishopfox.com/blog/cyber-mirage-deepfake-ai-social-engineering",
+        "image": null,
+        "summary": "Bishop Fox explores the escalating threat of AI-driven deepfakes in social engineering attacks, highlighting their potential to deceive individuals and organizations by impersonating trusted figures through hyper-realistic audio and video fabrications.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Top 10 web hacking techniques of 2024: nominations open",
+        "date": "Wed, 08 Jan 2025 14:07:27 GMT",
+        "permalink": "https://portswigger.net/research/top-10-web-hacking-techniques-of-2024-nominations-open",
+        "image": null,
+        "summary": "Nominations are now open for the top 10 new web hacking techniques of 2024! Every year, security researchers from all over the world share their latest findings via blog posts, presentations, PoCs, an",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "How to write better security reports (for techies & execs)",
+        "date": "Wed, 08 Jan 2025 13:38:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/security-report-writing",
+        "image": null,
+        "summary": "Writing reports in cybersecurity might not be as thrilling as catching intrusions in real-time or cracking into systems during a test, but it’s a crucial skill.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "title": "NamespaceHound: protecting multi-tenant K8s clusters",
+        "date": "Wed, 13 Mar 2024 17:57:49 GMT",
+        "permalink": "https://www.wiz.io/blog/introducing-namespacehound-for-cross-tenant-violation-assessments",
+        "image": null,
+        "summary": "NamespaceHound is an open-source tool for detecting the risk of potential namespace crossing violations and anonymous access opportunities in multi-tenant clusters.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

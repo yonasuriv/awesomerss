@@ -1,0 +1,11 @@
+[
+    {
+        "title": "GWT: Unpatched, Unauthenticated Java Deserialization",
+        "date": "Mon, 18 Dec 2023 09:00:00 -0800",
+        "permalink": "https://bishopfox.com/blog/gwt-unpatched-unauthenticated-java-deserialization-vulnerability",
+        "image": null,
+        "summary": "In this blog, learn about an eight year old unpatched and unauthenticated Java deserialization vulnerability in GWT.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

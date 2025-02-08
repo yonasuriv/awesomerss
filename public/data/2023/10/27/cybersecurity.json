@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Building an Exploit for FortiGate Vulnerability CVE-2023-27997",
+        "date": "Fri, 27 Oct 2023 09:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/building-exploit-fortigate-vulnerability-cve-2023-27997",
+        "image": null,
+        "summary": "Learn how Bishop Fox built a POC exploit for the pre-authentication remote code injection vulnerability in the Fortinet SSL VPN published by Lexfo.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

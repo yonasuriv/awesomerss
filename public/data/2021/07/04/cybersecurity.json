@@ -1,0 +1,21 @@
+[
+    {
+        "title": "Merging C# Assemblies using dnMerge",
+        "date": "Sun, 04 Jul 2021 08:32:55 +0000",
+        "permalink": "https://ethicalchaos.dev/2021/07/04/merging-c-assemblies-using-dnmerge/?utm_source=rss&utm_medium=rss&utm_campaign=merging-c-assemblies-using-dnmerge",
+        "image": null,
+        "summary": "Introduction When it comes to automating builds for any project that I undertake, my goto OS is usually Linux.",
+        "category": "cybersecurity",
+        "tags": [
+            "Cobalt Strike",
+            "Tooling",
+            "assembly",
+            "c#",
+            "cobalt strike",
+            "costura",
+            "dnmerge",
+            "merge",
+            "tooling"
+        ]
+    }
+]

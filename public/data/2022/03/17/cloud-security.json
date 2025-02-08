@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Soft Deleted Blobs",
+        "date": "Thu, 17 Mar 2022 14:35:54 +0000",
+        "permalink": "https://hackingthe.cloud/azure/soft-deleted-blobs/",
+        "image": null,
+        "summary": "Recovering and accessing files in private Storage Accounts that have been deleted.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

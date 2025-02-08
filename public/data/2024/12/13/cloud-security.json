@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Exploiting Misconfigured Terraform Cloud OIDC AWS IAM Roles",
+        "date": "Fri, 13 Dec 2024 12:28:24 +0000",
+        "permalink": "https://hackingthe.cloud/aws/exploitation/Misconfigured_Resource-Based_Policies/exploting_misconfigured_terraform_cloud_oidc_aws_iam_roles/",
+        "image": null,
+        "summary": "Discover how to identify and exploit misconfigured AWS IAM roles using Terraform Cloud OIDC",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

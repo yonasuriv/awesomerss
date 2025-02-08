@@ -1,0 +1,22 @@
+[
+    {
+        "title": "📖 [The CloudSecList] Issue 214",
+        "date": "Sun, 19 Nov 2023 00:00:00 +0000",
+        "permalink": "https://cloudseclist.com/issues/issue-214/",
+        "image": null,
+        "summary": "📖 [The CloudSecList] Issue 214 was originally published by Marco Lancini at CloudSecList on November 19, 2023.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Reversing AWS IAM unique IDs",
+        "date": "2023-11-19T21:51:00+00:00",
+        "permalink": "https://awsteele.com/blog/2023/11/19/reversing-aws-iam-unique-ids.html",
+        "image": null,
+        "summary": "A few years ago, I wrote about determining AWS account IDs from AWS access keys, i.",
+        "category": "cloud-security",
+        "tags": [
+            "blog"
+        ]
+    }
+]

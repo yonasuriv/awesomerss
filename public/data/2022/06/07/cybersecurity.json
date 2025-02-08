@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Using CloudTrail to Pivot to AWS Accounts",
+        "date": "Tue, 07 Jun 2022 09:30:00 -0700",
+        "permalink": "https://bishopfox.com/blog/cloudtrail-pivot-to-aws-accounts",
+        "image": null,
+        "summary": "In this blog, we look at how we can utilize the AWS CloudTrail service to discover other AWS accounts that we could pivot to.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "82% of companies unknowingly give 3rd parties access to all their cloud data",
+        "date": "Tue, 02 Feb 2021 17:39:49 GMT",
+        "permalink": "https://www.wiz.io/blog/82-of-companies-unknowingly-give-3rd-parties-access-to-all-their-cloud-data",
+        "image": null,
+        "summary": "Cloud identity permissions are complex.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Recent Linux sudo vulnerability affects a major percent of cloud workloads",
+        "date": "Tue, 02 Feb 2021 13:00:00 GMT",
+        "permalink": "https://www.wiz.io/blog/recent-linux-sudo-vulnerability-affects-a-major-percent-of-cloud-workloads",
+        "image": null,
+        "summary": "With an estimated 90% of cloud workloads running Linux based OS, with sudo being common across distributions, many Linux cloud assets are at risk and may be affected.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

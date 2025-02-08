@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Lets Create An EDR… And Bypass It! Part 2",
+        "date": "Sun, 14 Jun 2020 10:47:09 +0000",
+        "permalink": "https://ethicalchaos.dev/2020/06/14/lets-create-an-edr-and-bypass-it-part-2/?utm_source=rss&utm_medium=rss&utm_campaign=lets-create-an-edr-and-bypass-it-part-2",
+        "image": null,
+        "summary": "A 2 part series on creating a basic EDR detection system and then a bypass implementation.",
+        "category": "cybersecurity",
+        "tags": [
+            "Bypass",
+            "Cobalt Strike",
+            "EDR",
+            "Hooking",
+            "antivirus",
+            "api",
+            "AV",
+            "bypass",
+            "edr",
+            "hooking",
+            "sharpblock",
+            "trampoline"
+        ]
+    }
+]

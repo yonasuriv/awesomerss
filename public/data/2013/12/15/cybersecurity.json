@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Reversing and Exploiting ARM Binaries: rwthCTF Trafman",
+        "date": "2013-12-15T17:09:00.003+01:00",
+        "permalink": "https://www.mathyvanhoef.com/2013/12/reversing-and-exploiting-arm-binaries.html",
+        "image": null,
+        "summary": "As ARM is becoming more and more popular, the need to reverse engineer ARM binaries is increasing as well.",
+        "category": "cybersecurity",
+        "tags": [
+            "exploits",
+            "tutorials"
+        ]
+    }
+]

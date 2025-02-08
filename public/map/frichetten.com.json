@@ -1,0 +1,68 @@
+{
+    "favicon": "https://frichetten.com/images/favicon.ico",
+    "dates": {
+        "2024-04-22": [
+            "https://frichetten.com/blog/amplify-vuln-2024/"
+        ],
+        "2023-04-03": [
+            "https://frichetten.com/blog/minor-cross-tenant-vulns-app-runner/"
+        ],
+        "2023-03-27": [
+            "https://frichetten.com/blog/undocumented-amplify-api-leak-account-id/"
+        ],
+        "2023-01-23": [
+            "https://frichetten.com/blog/aws-api-protocols/"
+        ],
+        "2022-11-21": [
+            "https://frichetten.com/blog/appsync-vulnerability-disclosure/"
+        ],
+        "2022-11-01": [
+            "https://frichetten.com/blog/openssl-punycode-vuln/"
+        ],
+        "2021-09-16": [
+            "https://frichetten.com/blog/revisiting_lambda_persistence/"
+        ],
+        "2021-06-03": [
+            "https://frichetten.com/blog/xss_in_aws_console/"
+        ],
+        "2021-01-27": [
+            "https://frichetten.com/blog/ssm-agent-tomfoolery/"
+        ],
+        "2020-10-17": [
+            "https://frichetten.com/blog/aws-api-enum-vuln/"
+        ],
+        "2020-08-11": [
+            "https://frichetten.com/blog/abusing-aws-connection-tracking/"
+        ],
+        "2020-07-11": [
+            "https://frichetten.com/blog/abusing-gitlab-runners/"
+        ],
+        "2020-05-10": [
+            "https://frichetten.com/blog/cve-2020-11108-pihole-rce/"
+        ],
+        "2020-02-23": [
+            "https://frichetten.com/blog/escalating-deserialization-attacks-python/"
+        ],
+        "2020-01-11": [
+            "https://frichetten.com/blog/intercept-linux-cli-tool-traffic/"
+        ],
+        "2019-09-04": [
+            "https://frichetten.com/blog/bypass-guardduty-pentest-alerts/"
+        ],
+        "2019-07-01": [
+            "https://frichetten.com/blog/hijack-iam-roles-and-avoid-detection/"
+        ],
+        "2019-06-04": [
+            "https://frichetten.com/blog/idor-attacks/"
+        ],
+        "2018-12-03": [
+            "https://frichetten.com/blog/content-security-policy/"
+        ],
+        "2018-10-04": [
+            "https://frichetten.com/blog/angular-universal/"
+        ],
+        "2018-07-23": [
+            "https://frichetten.com/blog/oscp-review/"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Top 10 Blogs of 2024",
+        "date": "Tue, 17 Dec 2024 00:00:00 -0500",
+        "permalink": "https://trustedsec.com/blog/top-10-blogs-of-2024",
+        "image": null,
+        "summary": "<p>At TrustedSec, we are all about leveraging our collective intelligence and knowledge to uplift the cybersecurity community.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Unpacking Diicot - Evolving Campaign Targeting Linux Environments",
+        "date": "Tue, 17 Dec 2024 17:31:22 GMT",
+        "permalink": "https://www.wiz.io/blog/diicot-threat-group-malware-campaign",
+        "image": null,
+        "summary": "Wiz Threat Research uncovered a new malware campaign targeting Linux environments attributed to the Diicot threat group.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

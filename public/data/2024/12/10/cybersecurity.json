@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Google Cloud expands vulnerability detection for Artifact Registry using OSV",
+        "date": "2024-12-10T13:11:00.005-05:00",
+        "permalink": "http://security.googleblog.com/2024/12/google-cloud-expands-vulnerability.html",
+        "image": null,
+        "summary": "Posted by Greg Mucci, Product Manager, Artifact Analysis, Oliver Chang, Senior Staff Engineering, OSV, and Charl de Nysschen, Product Manager OSVDevOps teams dedicated to securing their supply chain and predicting potential risks consistently face novel threats.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Master Active Directory security with HTB CAPE",
+        "date": "Tue, 10 Dec 2024 01:47:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/htb-cape-announcement",
+        "image": null,
+        "summary": "Your gateway to advanced network penetration testing skills, real-world attack simulations, and professional expertise in safeguarding complex AD environments.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

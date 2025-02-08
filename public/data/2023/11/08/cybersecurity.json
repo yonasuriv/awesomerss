@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Cloud Security Podcast Featuring Seth Art: Network Pentest 2.0",
+        "date": "Wed, 08 Nov 2023 06:00:00 -0800",
+        "permalink": "https://bishopfox.com/blog/cloud-security-podcast-network-pentest-2-0",
+        "image": null,
+        "summary": "Learn about cloud security and cloud penetration testing in Part 2 of Seth Art's interview with Cloud Security Podcast.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Key takeaways from the Wiz 2023 Kubernetes Security Report",
+        "date": "Wed, 08 Nov 2023 16:37:49 GMT",
+        "permalink": "https://www.wiz.io/blog/key-takeaways-from-the-wiz-2023-kubernetes-security-report",
+        "image": null,
+        "summary": "Today, Wiz published its 2023 Kubernetes Security Report.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

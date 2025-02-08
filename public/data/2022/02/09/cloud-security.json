@@ -1,0 +1,11 @@
+[
+    {
+        "title": "[Deprecated] Whoami - Get Principal Name From Keys",
+        "date": "Wed, 09 Feb 2022 04:00:32 +0000",
+        "permalink": "https://hackingthe.cloud/aws/deprecated/whoami/",
+        "image": null,
+        "summary": "During an assessment you may find AWS IAM credentials.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

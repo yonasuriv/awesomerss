@@ -1,0 +1,106 @@
+[
+    {
+        "title": "Multiple Vulnerabilities in CyberPanel",
+        "date": "2024-01-22T00:00:00+00:00",
+        "permalink": "https://www.altion.dk/posts/cyberpanel-0",
+        "image": null,
+        "summary": "In this post I write briefly about the discovery of multiple security vulnerabilities in CyberPanel.",
+        "category": "cybersecurity",
+        "tags": [
+            "cyberpanel,",
+            "security",
+            "research"
+        ]
+    },
+    {
+        "title": "WebTerminal Authentication Bypass - CyberPanel [1]",
+        "date": "2024-01-22T00:00:00+00:00",
+        "permalink": "https://www.altion.dk/posts/cyberpanel-1",
+        "image": null,
+        "summary": "In CyberPanel versions between 1.",
+        "category": "cybersecurity",
+        "tags": [
+            "cyberpanel,",
+            "security",
+            "research"
+        ]
+    },
+    {
+        "title": "Authentication Bypass and Local File Inclusion (LFI) in CloudAPI - CyberPanel [2]",
+        "date": "2024-01-22T00:00:00+00:00",
+        "permalink": "https://www.altion.dk/posts/cyberpanel-2",
+        "image": null,
+        "summary": "In CyberPanel versions between 1.",
+        "category": "cybersecurity",
+        "tags": [
+            "cyberpanel,",
+            "security,",
+            "research"
+        ]
+    },
+    {
+        "title": "Authentication Bypass in File Manager’s Upload Functionality - CyberPanel [3]",
+        "date": "2024-01-22T00:00:00+00:00",
+        "permalink": "https://www.altion.dk/posts/cyberpanel-3",
+        "image": null,
+        "summary": "In CyberPanel versions between 2.",
+        "category": "cybersecurity",
+        "tags": [
+            "cyberpanel,",
+            "security,",
+            "research"
+        ]
+    },
+    {
+        "title": "Security Middleware Bypass - CyberPanel [4]",
+        "date": "2024-01-22T00:00:00+00:00",
+        "permalink": "https://www.altion.dk/posts/cyberpanel-4",
+        "image": null,
+        "summary": "In CyberPanel versions 2.",
+        "category": "cybersecurity",
+        "tags": [
+            "cyberpanel,",
+            "security,",
+            "research"
+        ]
+    },
+    {
+        "title": "Bypass of Security Controls in `commandInjectionCheck()` - CyberPanel [5]",
+        "date": "2024-01-22T00:00:00+00:00",
+        "permalink": "https://www.altion.dk/posts/cyberpanel-5",
+        "image": null,
+        "summary": "In CyberPanel versions between 1.",
+        "category": "cybersecurity",
+        "tags": [
+            "cyberpanel,",
+            "security,",
+            "research"
+        ]
+    },
+    {
+        "title": "Insecure Generation and Storage of API tokens - CyberPanel [6]",
+        "date": "2024-01-22T00:00:00+00:00",
+        "permalink": "https://www.altion.dk/posts/cyberpanel-6",
+        "image": null,
+        "summary": "In CyberPanel versions between 1.",
+        "category": "cybersecurity",
+        "tags": [
+            "cyberpanel,",
+            "security",
+            "research"
+        ]
+    },
+    {
+        "title": "Broken Authentication and Local File Inclusion (LFI) in ‘/api/FetchRemoteTransferStatus’ endpoint - CyberPanel [7]",
+        "date": "2024-01-22T00:00:00+00:00",
+        "permalink": "https://www.altion.dk/posts/cyberpanel-7",
+        "image": null,
+        "summary": "In CyberPanel versions between 1.",
+        "category": "cybersecurity",
+        "tags": [
+            "cyberpanel,",
+            "security",
+            "research"
+        ]
+    }
+]

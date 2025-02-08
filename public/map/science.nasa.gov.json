@@ -1,0 +1,14 @@
+{
+    "favicon": "https://science.nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/apple-touch-icon-57x57.png",
+    "dates": {
+        "2025-02-07": [
+            "https://science.nasa.gov/solar-system/skywatching/night-sky-network/februarys-night-sky-notes-how-can-you-help-curb-light-pollution/",
+            "https://science.nasa.gov/missions/hubble/hubble-goes-supernova-hunting/",
+            "https://science.nasa.gov/blog/sols-4445-4446-cloudy-days-are-here/"
+        ],
+        "2025-02-06": [
+            "https://science.nasa.gov/solar-system/moon/what-you-need-to-know-about-the-march-2025-total-lunar-eclipse/",
+            "https://science.nasa.gov/science-research/heliophysics/nasa-cubesat-finds-new-radiation-belts-after-may-2024-solar-storm/"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Discovering a Deserialization Vulnerability in LINQPad",
+        "date": "Tue, 03 Dec 2024 00:00:00 -0500",
+        "permalink": "https://trustedsec.com/blog/discovering-a-deserialization-vulnerability-in-linqpad",
+        "image": null,
+        "summary": "<p>Like most red teamers, I spend quite a lot of time looking for novel vulnerabilities that could be used for initial access or lateral movement.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

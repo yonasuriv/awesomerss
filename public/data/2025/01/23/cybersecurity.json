@@ -1,0 +1,73 @@
+[
+    {
+        "title": "Insurance companies can reduce risk with Attack Path Management",
+        "date": "Thu, 23 Jan 2025 20:36:51 GMT",
+        "permalink": "https://posts.specterops.io/insurance-companies-can-reduce-risk-with-attack-path-management-d6afa0ba1f5a?source=rss----f05f8696e3cc---4",
+        "image": null,
+        "summary": "TL;DRInsurance companies host large amounts of sensitive data (PII, PHI, etc.",
+        "category": "cybersecurity",
+        "tags": [
+            "attack-path-management"
+        ]
+    },
+    {
+        "title": "Operating Inside the Interpreted: Offensive Python",
+        "date": "Thu, 23 Jan 2025 00:00:00 -0500",
+        "permalink": "https://trustedsec.com/blog/operating-inside-the-interpreted-offensive-python",
+        "image": null,
+        "summary": "<p>IntroductionEvery once in a while, I get the urge to go back and revisit older techniques that used to be popular but have fallen out of favor with the offensive community.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Android enhances theft protection with Identity Check and expanded features",
+        "date": "2025-01-23T13:00:00.003-05:00",
+        "permalink": "http://security.googleblog.com/2025/01/android-theft-protection-identity-check-expanded-features.html",
+        "image": null,
+        "summary": "Posted by Jianing Sandra Guo, Product Manager, Android, Nataliya Stanetsky, Staff Program Manager, Android\n\nToday, people around the world rely on their mobile devices to help them stay connected with friends and family, manage finances, keep track of healthcare information and more – all  from their fingertips.",
+        "category": "cybersecurity",
+        "tags": [
+            "android",
+            "android security"
+        ]
+    },
+    {
+        "title": "Celebrating our 2024 open-source contributions",
+        "date": "Thu, 23 Jan 2025 14:00:30 +0000",
+        "permalink": "https://blog.trailofbits.com/2025/01/23/celebrating-our-2024-open-source-contributions/",
+        "image": null,
+        "summary": "While Trail of Bits is known for developing security tools like Slither, Medusa, and Fickling, our engineering efforts extend far beyond our own projects.",
+        "category": "cybersecurity",
+        "tags": [
+            "Artificial Intelligence",
+            "Blockchain",
+            "Compilers",
+            "Cryptography",
+            "LLVM",
+            "Machine Learning",
+            "Open Source",
+            "Reversing",
+            "Supply Chain"
+        ]
+    },
+    {
+        "title": "Hack The Box G2 Winter 2025 achievements: #1 platform in cybersecurity skills development",
+        "date": "Thu, 23 Jan 2025 02:34:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/badges-g2-winter-2025",
+        "image": null,
+        "summary": "Discover how HTB dominates G2’s first report on Cybersecurity Professional Development.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    },
+    {
+        "title": "Securing the Container Frontier: Kubernetes Trends Report 2025 Preview",
+        "date": "Thu, 23 Jan 2025 14:00:00 GMT",
+        "permalink": "https://www.wiz.io/blog/kubernetes-report-preview-2025",
+        "image": null,
+        "summary": "From rapid-fire attack attempts to evolving defense strategies, our Kubernetes Security Report paints a vivid picture of a dynamic landscape.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

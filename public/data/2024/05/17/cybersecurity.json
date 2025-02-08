@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Wingardium Trivia-osa! On-Device Sorting Hatbot Powered by Gemma, Ollama, USearch, and RETSim",
+        "date": "Fri, 17 May 2024 15:00:00 GMT",
+        "permalink": "https://elie.net/blog/ai/wingardium-trivia-osa-on-device-sorting-hatbot-powered-by-gemma-ollama-usearch-and-retsim",
+        "image": "https://elie.net//_astro/wingardium-trivia-osa-on-device-sorting-hatbot-powered-by-gemma-ollama-usearch-and-retsim.DDfh9_wl.jpg",
+        "summary": "How to build an accurate on-device RAG LLM system using Gemma, Ollama, USearch, and RETSim to answer questions about the characters of The Wizarding World of Harry Potter.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "RETSim: Resilient and Efficient Text Similarity",
+        "date": "Fri, 17 May 2024 00:00:00 GMT",
+        "permalink": "https://elie.net/publication/retsim-resilient-and-efficient-text-similarity",
+        "image": "https://elie.net//_astro/retsim-resilient-and-efficient-text-similarity.CoHiJAAP.jpg",
+        "summary": "RETSim (Resilient and Efficient Text Similarity) is a lightweight, multilingual robust metric embeddings suitable for near-duplicate text retrieval, clustering, and dataset deduplication tasks",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

@@ -1,0 +1,32 @@
+{
+    "favicon": "https://ethicalchaos.dev/wp-content/uploads/2020/06/cropped-EthicalChaos-Logo-Only-32x32.png",
+    "dates": {
+        "2022-04-17": [
+            "https://ethicalchaos.dev/2022/04/17/in-process-patchless-amsi-bypass/?utm_source=rss&utm_medium=rss&utm_campaign=in-process-patchless-amsi-bypass"
+        ],
+        "2021-07-04": [
+            "https://ethicalchaos.dev/2021/07/04/merging-c-assemblies-using-dnmerge/?utm_source=rss&utm_medium=rss&utm_campaign=merging-c-assemblies-using-dnmerge"
+        ],
+        "2020-10-04": [
+            "https://ethicalchaos.dev/2020/10/04/attacking-smart-card-based-active-directory-networks/?utm_source=rss&utm_medium=rss&utm_campaign=attacking-smart-card-based-active-directory-networks"
+        ],
+        "2020-06-14": [
+            "https://ethicalchaos.dev/2020/06/14/lets-create-an-edr-and-bypass-it-part-2/?utm_source=rss&utm_medium=rss&utm_campaign=lets-create-an-edr-and-bypass-it-part-2"
+        ],
+        "2020-05-27": [
+            "https://ethicalchaos.dev/2020/05/27/lets-create-an-edr-and-bypass-it-part-1/?utm_source=rss&utm_medium=rss&utm_campaign=lets-create-an-edr-and-bypass-it-part-1"
+        ],
+        "2020-04-13": [
+            "https://ethicalchaos.dev/2020/04/13/sweetpotato-local-service-to-system-privesc/?utm_source=rss&utm_medium=rss&utm_campaign=sweetpotato-local-service-to-system-privesc"
+        ],
+        "2020-03-26": [
+            "https://ethicalchaos.dev/2020/03/26/lenovo-cve-2020-8319-and-cve-2020-8324-poc/?utm_source=rss&utm_medium=rss&utm_campaign=lenovo-cve-2020-8319-and-cve-2020-8324-poc"
+        ],
+        "2020-02-21": [
+            "https://ethicalchaos.dev/2020/02/21/gookies-a-chrome-cookie-dumper/?utm_source=rss&utm_medium=rss&utm_campaign=gookies-a-chrome-cookie-dumper"
+        ],
+        "2020-01-26": [
+            "https://ethicalchaos.dev/2020/01/26/weaponizing-your-favorite-go-program-for-cobalt-strike/?utm_source=rss&utm_medium=rss&utm_campaign=weaponizing-your-favorite-go-program-for-cobalt-strike"
+        ]
+    }
+}

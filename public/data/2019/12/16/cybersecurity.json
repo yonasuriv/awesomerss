@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Hunting for SCShell Usage Using ELK",
+        "date": "Mon, 16 Dec 2019 00:00:00 -0800",
+        "permalink": "https://riccardoancarani.github.io/2019-12-16-hunting-for-scshell-usage/",
+        "image": null,
+        "summary": "hunt hunt hunt - \n          Introduction In today’s post we’re going to create detections and hunt for the usage of the recent lateral movement technique called SCShell.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

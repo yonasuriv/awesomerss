@@ -1,0 +1,15 @@
+[
+    {
+        "title": "CVE-2020-3919 - IOHIDFamily Uninitialised Kernel Memory Vulnerability",
+        "date": "2020-03-29T00:00:00+00:00",
+        "permalink": "https://alexplaskett.github.io/CVE-2020-3919/",
+        "image": null,
+        "summary": "Recently Apple patched a vulnerability (CVE-2020-3919) in IOHIDFamily in their security update 10.",
+        "category": "cybersecurity",
+        "tags": [
+            "Apple",
+            "XNU",
+            "IOKit"
+        ]
+    }
+]

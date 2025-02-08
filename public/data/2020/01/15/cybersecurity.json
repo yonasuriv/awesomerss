@@ -1,0 +1,13 @@
+[
+    {
+        "title": "Avira VPN Local Privilege Escalation via Insecure Update Location",
+        "date": "Wed, 15 Jan 2020 15:17:16 +0000",
+        "permalink": "https://enigma0x3.net/2020/01/15/avira-vpn-local-privilege-escalation-via-insecure-update-location/",
+        "image": "https://0.gravatar.com/avatar/0f161ac75650450dda1b3fa7804f6480c2ab941d109cbace01922f66af22ef2c?s=96&d=identicon&r=G",
+        "summary": "Product Version: Avira VPN Operating System tested on: Windows 10 1709 (x64) Vulnerability: Avira VPN Service Local Privilege Escalation Brief Description: When the Phantom VPN Service (Avira.",
+        "category": "cybersecurity",
+        "tags": [
+            "Uncategorized"
+        ]
+    }
+]

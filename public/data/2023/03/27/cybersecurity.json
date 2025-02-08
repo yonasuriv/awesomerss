@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Using an Undocumented Amplify API to Leak AWS Account IDs",
+        "date": "Mon, 27 Mar 2023 00:00:40 -0600",
+        "permalink": "https://frichetten.com/blog/undocumented-amplify-api-leak-account-id/",
+        "image": null,
+        "summary": "Writeup for a technique I found to leak an AWS account ID from an Amplify app.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

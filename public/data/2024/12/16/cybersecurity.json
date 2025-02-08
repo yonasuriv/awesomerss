@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Under the Radar: Exploring Spring Boot Actuator Misconfigurations",
+        "date": "Mon, 16 Dec 2024 14:00:34 GMT",
+        "permalink": "https://www.wiz.io/blog/spring-boot-actuator-misconfigurations",
+        "image": null,
+        "summary": "Wiz Threat Research investigates misconfigurations in Spring Boot Actuator’s endpoints that can leak environment variables, passwords, and API keys, and even lead to remote code execution.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

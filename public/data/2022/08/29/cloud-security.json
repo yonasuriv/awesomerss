@@ -1,0 +1,29 @@
+[
+    {
+        "title": "GCP Goat",
+        "date": "Mon, 29 Aug 2022 00:18:19 +0000",
+        "permalink": "https://hackingthe.cloud/gcp/capture_the_flag/gcp-goat/",
+        "image": null,
+        "summary": "GCP Goat is the Vulnerable application for learning the GCP Security",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Thunder CTF",
+        "date": "Mon, 29 Aug 2022 00:18:19 +0000",
+        "permalink": "https://hackingthe.cloud/gcp/capture_the_flag/thunder_ctf/",
+        "image": null,
+        "summary": "GCP themed CTF",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Hunting GCP Buckets",
+        "date": "Mon, 29 Aug 2022 00:18:19 +0000",
+        "permalink": "https://hackingthe.cloud/gcp/general-knowledge/gcp-buckets/",
+        "image": null,
+        "summary": "How to find valid and invalid GCP Buckets using tools",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

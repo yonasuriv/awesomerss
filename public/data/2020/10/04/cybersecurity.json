@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Attacking Smart Card Based Active Directory Networks",
+        "date": "Sun, 04 Oct 2020 19:31:42 +0000",
+        "permalink": "https://ethicalchaos.dev/2020/10/04/attacking-smart-card-based-active-directory-networks/?utm_source=rss&utm_medium=rss&utm_campaign=attacking-smart-card-based-active-directory-networks",
+        "image": null,
+        "summary": "Introduction Recently I was involved in an engagement where I was attacking smart card based Active Directory networks.",
+        "category": "cybersecurity",
+        "tags": [
+            "Cobalt Strike",
+            "Hooking",
+            "Smart Card",
+            "Weaponize",
+            "hooking",
+            "pin",
+            "pinswipe",
+            "pki",
+            "private key",
+            "rubeus",
+            "smart card",
+            "swipe"
+        ]
+    }
+]

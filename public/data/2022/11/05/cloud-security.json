@@ -1,0 +1,11 @@
+[
+    {
+        "title": "AWS Organizations Defaults & Pivoting",
+        "date": "Sat, 05 Nov 2022 00:02:54 +0000",
+        "permalink": "https://hackingthe.cloud/aws/general-knowledge/aws_organizations_defaults/",
+        "image": null,
+        "summary": "How to abuse AWS Organizations' default behavior and lateral movement capabilities.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

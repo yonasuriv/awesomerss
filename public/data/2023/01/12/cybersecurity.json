@@ -1,0 +1,20 @@
+[
+    {
+        "title": "DER Entitlements: The (Brief) Return of the Psychic Paper",
+        "date": "2023-01-12T08:59:00.000-08:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2023/01/der-entitlements-brief-return-of.html",
+        "image": null,
+        "summary": "Posted by Ivan Fratric, Project Zero\n\nNote: The vulnerability discussed here, CVE-2022-42855, was fixed in iOS 15.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Hunting for signs of persistence in the cloud: an IR guide following the CircleCI incident",
+        "date": "Thu, 12 Jan 2023 17:04:40 GMT",
+        "permalink": "https://www.wiz.io/blog/hunting-for-signs-of-persistence-in-the-cloud-an-ir-guide",
+        "image": null,
+        "summary": "Learn how to detect malicious persistence techniques in AWS, GCP & Azure after potential initial compromise, like with the CircleCI incident",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Escalating Deserialization Attacks (Python)",
+        "date": "Sun, 23 Feb 2020 17:16:40 -0600",
+        "permalink": "https://frichetten.com/blog/escalating-deserialization-attacks-python/",
+        "image": null,
+        "summary": "Demonstrating how to exploit deserialization attacks in Python 2/3",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

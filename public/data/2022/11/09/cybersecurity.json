@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Detecting web message misconfigurations for cross-domain credential theft",
+        "date": "Wed, 09 Nov 2022 14:13:00 GMT",
+        "permalink": "https://portswigger.net/research/detecting-web-message-misconfigurations-for-cross-domain-credential-theft",
+        "image": null,
+        "summary": "We released a new version of Burp recently on the Early Adopter channel that updates DOM Invader to help find cross-domain secrets.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

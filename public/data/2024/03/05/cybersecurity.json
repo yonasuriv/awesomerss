@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Using form hijacking to bypass CSP",
+        "date": "Tue, 05 Mar 2024 14:55:00 GMT",
+        "permalink": "https://portswigger.net/research/using-form-hijacking-to-bypass-csp",
+        "image": null,
+        "summary": "In this post we'll show you how to bypass CSP by using an often overlooked technique that can enable password theft in a seemingly secure configuration.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

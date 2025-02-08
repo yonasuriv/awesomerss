@@ -1,0 +1,11 @@
+[
+    {
+        "title": "S3 File ACL Persistence",
+        "date": "Tue, 13 Apr 2021 02:53:30 +0000",
+        "permalink": "https://hackingthe.cloud/aws/post_exploitation/s3_acl_persistence/",
+        "image": null,
+        "summary": "Maintain access to S3 resources by configuring Access Control Lists associated with S3 Buckets or Objects.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

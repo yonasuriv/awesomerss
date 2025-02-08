@@ -1,0 +1,20 @@
+[
+    {
+        "title": "What the Vuln: EDR Bypass with LoLBins",
+        "date": "Thu, 23 Mar 2023 07:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/edr-bypass-with-lolbins",
+        "image": null,
+        "summary": "Learn more about EDR bypass techniques with Lindsay Von Tish in the second blog of our What the Vuln series.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Exploiting prototype pollution in Node without the filesystem",
+        "date": "Thu, 23 Mar 2023 15:00:00 GMT",
+        "permalink": "https://portswigger.net/research/exploiting-prototype-pollution-in-node-without-the-filesystem",
+        "image": null,
+        "summary": "In this post, we'll introduce a new exploitation technique for Server-Side Prototype Pollution.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

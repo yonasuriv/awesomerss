@@ -1,0 +1,41 @@
+[
+    {
+        "title": "A 5-Minute Guide to HTTP Response Codes",
+        "date": "Thu, 21 Nov 2024 00:00:00 -0500",
+        "permalink": "https://trustedsec.com/blog/a-5-minute-guide-to-http-response-codes",
+        "image": null,
+        "summary": "<p>If you've done any network scanning or application testing, you've run into your fair share of HTTP response codes.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Simple macOS kernel extension fuzzing in userspace with IDA and TinyInst",
+        "date": "2024-11-21T09:53:00.000-08:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2024/11/simple-macos-kernel-extension-fuzzing.html",
+        "image": null,
+        "summary": "Posted by Ivan Fratric, Google Project Zero\nRecently, one of the projects I was involved in had to do with video decoding on Apple platforms, specifically AV1 decoding.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Key Transparency and the Right to be Forgotten",
+        "date": "Thu, 21 Nov 2024 08:58:19 +0000",
+        "permalink": "https://soatok.blog/2024/11/21/key-transparency-and-the-right-to-be-forgotten/",
+        "image": null,
+        "summary": "This post is the first in a new series covering some of the reasoning behind decisions made in my project to build end-to-end encryption for direct messages on the Fediverse.",
+        "category": "cybersecurity",
+        "tags": [
+            "Cryptography",
+            "Fediverse E2EE Project",
+            "Argon2",
+            "crypto",
+            "cryptography",
+            "E2EE",
+            "encryption",
+            "Federated PKI",
+            "fediverse",
+            "password hashing",
+            "symmetric cryptography"
+        ]
+    }
+]

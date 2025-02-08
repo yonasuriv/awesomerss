@@ -1,0 +1,35 @@
+{
+    "favicon": "https://blog.trailofbits.com/wp-content/uploads/2020/07/cropped-android-chrome-512x512-1-32x32.png",
+    "dates": {
+        "2025-02-05": [
+            "https://blog.trailofbits.com/2025/02/05/preventing-account-takeover-on-centralized-cryptocurrency-exchanges-in-2025/"
+        ],
+        "2025-01-30": [
+            "https://blog.trailofbits.com/2025/01/30/pypi-now-supports-archiving-projects/"
+        ],
+        "2025-01-28": [
+            "https://blog.trailofbits.com/2025/01/28/best-practices-for-key-derivation/"
+        ],
+        "2025-01-23": [
+            "https://blog.trailofbits.com/2025/01/23/celebrating-our-2024-open-source-contributions/"
+        ],
+        "2024-12-11": [
+            "https://blog.trailofbits.com/2024/12/11/auditing-the-ruby-ecosystems-central-package-repository/"
+        ],
+        "2024-12-09": [
+            "https://blog.trailofbits.com/2024/12/09/35-more-semgrep-rules-infrastructure-supply-chain-and-ruby/"
+        ],
+        "2024-11-19": [
+            "https://blog.trailofbits.com/2024/11/19/evaluating-solidity-support-in-ai-coding-assistants/"
+        ],
+        "2024-11-14": [
+            "https://blog.trailofbits.com/2024/11/14/attestations-a-new-generation-of-signatures-on-pypi/"
+        ],
+        "2024-11-13": [
+            "https://blog.trailofbits.com/2024/11/13/killing-filecoin-nodes/"
+        ],
+        "2024-10-31": [
+            "https://blog.trailofbits.com/2024/10/31/fuzzing-between-the-lines-in-popular-barcode-software/"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+[
+    {
+        "title": "NTDS dumping attack detection",
+        "date": "Thu, 29 Aug 2024 10:22:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/ntds-dumping-attack-detection",
+        "image": null,
+        "summary": "Learn how to detect NTDS dumping attacks in issue five of a special series on critical Active Directory (AD) attack detections & misconfigurations.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

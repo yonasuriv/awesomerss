@@ -1,0 +1,20 @@
+[
+    {
+        "title": "NotLegit: Azure App Service vulnerability exposed hundreds of source code repositories",
+        "date": "Tue, 21 Dec 2021 05:08:25 GMT",
+        "permalink": "https://www.wiz.io/blog/azure-app-service-source-code-leak",
+        "image": null,
+        "summary": "Read about the NotLegit vulnerability discovered by the Wiz Research Team, where the Azure App Service exposed hundreds of source code repositories.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Log4Shell 10 days later: Enterprises halfway through patching",
+        "date": "Tue, 21 Dec 2021 04:52:06 GMT",
+        "permalink": "https://www.wiz.io/blog/10-days-later-enterprises-halfway-through-patching-log4shell",
+        "image": null,
+        "summary": "Wiz and EY (Ernest & Young) analyzed more than 200 enterprise cloud environments with thousands of cloud accounts.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

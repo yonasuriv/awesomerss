@@ -1,0 +1,20 @@
+[
+    {
+        "title": "📖 [The CloudSecList] Issue 110",
+        "date": "Sun, 24 Oct 2021 00:00:00 +0100",
+        "permalink": "https://cloudseclist.com/issues/issue-110/",
+        "image": null,
+        "summary": "📖 [The CloudSecList] Issue 110 was originally published by Marco Lancini at CloudSecList on October 24, 2021.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Metadata in Google Cloud Instances",
+        "date": "Sun, 24 Oct 2021 17:41:56 +0000",
+        "permalink": "https://hackingthe.cloud/gcp/general-knowledge/metadata_in_google_cloud_instances/",
+        "image": null,
+        "summary": "Information about the data an attacker can access via GCP's API endpoints",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

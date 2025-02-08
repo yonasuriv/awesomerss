@@ -1,0 +1,35 @@
+{
+    "favicon": null,
+    "dates": {
+        "2024-11-09": [
+            "https://awsteele.com/blog/2024/11/09/cloudtrail-wishlist.html"
+        ],
+        "2024-08-05": [
+            "https://awsteele.com/blog/2024/08/05/surprising-behaviour-in-aws-web-console-session-duration.html"
+        ],
+        "2024-06-05": [
+            "https://awsteele.com/blog/2024/06/05/gotcha-alway-use-arns-for-s3-sse-kms.html"
+        ],
+        "2024-02-20": [
+            "https://awsteele.com/blog/2024/02/20/when-aws-invariants-are-not.html"
+        ],
+        "2024-01-11": [
+            "https://awsteele.com/blog/2024/01/11/deep-dive-into-aws-cloudshell.html"
+        ],
+        "2023-12-29": [
+            "https://awsteele.com/blog/2023/12/29/how-ima-ge-cx-works.html"
+        ],
+        "2023-12-19": [
+            "https://awsteele.com/blog/2023/12/19/an-aws-iam-identity-center-vulnerability.html"
+        ],
+        "2023-11-19": [
+            "https://awsteele.com/blog/2023/11/19/reversing-aws-iam-unique-ids.html"
+        ],
+        "2023-10-25": [
+            "https://awsteele.com/blog/2023/10/25/aws-role-session-tags-for-github-actions.html"
+        ],
+        "2023-08-02": [
+            "https://awsteele.com/blog/2023/08/02/useful-flags-for-go-lambda-functions.html"
+        ]
+    }
+}

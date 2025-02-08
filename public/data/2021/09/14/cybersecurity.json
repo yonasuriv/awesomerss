@@ -1,0 +1,20 @@
+[
+    {
+        "title": "OMIGOD: Critical Vulnerabilities in OMI Affecting Countless Azure Customers",
+        "date": "Tue, 14 Sep 2021 17:21:46 GMT",
+        "permalink": "https://www.wiz.io/blog/omigod-critical-vulnerabilities-in-omi-azure",
+        "image": null,
+        "summary": "Wiz Research recently found 4 critical vulnerabilities in OMI, which is one of Azure's most ubiquitous yet least known software agents and is deployed on a large portion of Linux VMs in Azure.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "“Secret” Agent Exposes Azure Customers To Unauthorized Code Execution",
+        "date": "Tue, 14 Sep 2021 17:05:30 GMT",
+        "permalink": "https://www.wiz.io/blog/secret-agent-exposes-azure-customers-to-unauthorized-code-execution",
+        "image": null,
+        "summary": "Wiz Research recently discovered a series of alarming vulnerabilities that highlight the supply chain risk of open source code, particularly for customers of cloud computing services.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

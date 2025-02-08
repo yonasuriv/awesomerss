@@ -1,0 +1,20 @@
+[
+    {
+        "title": "The Windows Registry Adventure #2: A brief history of the feature",
+        "date": "2024-04-18T09:46:00.000-07:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2024/04/the-windows-registry-adventure-2.html",
+        "image": null,
+        "summary": "Posted by Mateusz Jurczyk, Google Project Zero\n\nBefore diving into the low-level security aspects of the registry, it is important to understand its role in the operating system and a bit of history behind it.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "The Windows Registry Adventure #1: Introduction and research results",
+        "date": "2024-04-18T09:45:00.000-07:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2024/04/the-windows-registry-adventure-1.html",
+        "image": null,
+        "summary": "Posted by Mateusz Jurczyk, Google Project Zero\n\nIn the 20-month period between May 2022 and December 2023, I thoroughly audited the Windows Registry in search of local privilege escalation bugs.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

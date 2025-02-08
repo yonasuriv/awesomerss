@@ -1,0 +1,38 @@
+[
+    {
+        "title": "📖 [The CloudSecList] Issue 68",
+        "date": "Sun, 20 Dec 2020 00:00:00 +0000",
+        "permalink": "https://cloudseclist.com/issues/issue-68/",
+        "image": null,
+        "summary": "📖 [The CloudSecList] Issue 68 was originally published by Marco Lancini at CloudSecList on December 20, 2020.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Introduction to the Instance Metadata Service",
+        "date": "Sun, 20 Dec 2020 20:10:43 +0000",
+        "permalink": "https://hackingthe.cloud/aws/general-knowledge/intro_metadata_service/",
+        "image": null,
+        "summary": "An introduction to the Instance Metadata Service and how to access it.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Introduction to User Data",
+        "date": "Sun, 20 Dec 2020 20:10:43 +0000",
+        "permalink": "https://hackingthe.cloud/aws/general-knowledge/introduction_user_data/",
+        "image": null,
+        "summary": "An introduction to EC2 User Data and how to access it.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Brute Force IAM Permissions",
+        "date": "Sun, 20 Dec 2020 18:58:26 +0000",
+        "permalink": "https://hackingthe.cloud/aws/enumeration/brute_force_iam_permissions/",
+        "image": null,
+        "summary": "Brute force the IAM permissions of a user or role to see what you have access to.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

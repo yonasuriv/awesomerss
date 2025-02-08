@@ -1,0 +1,153 @@
+{
+    "favicon": "https://bishopfox.com/apple-touch-icon.png",
+    "dates": {
+        "2025-01-22": [
+            "https://bishopfox.com/blog/sonicwall-cve-2024-53704-ssl-vpn-session-hijacking"
+        ],
+        "2025-01-14": [
+            "https://bishopfox.com/blog/raink-llms-document-ranking"
+        ],
+        "2025-01-08": [
+            "https://bishopfox.com/blog/cyber-mirage-deepfake-ai-social-engineering"
+        ],
+        "2024-12-13": [
+            "https://bishopfox.com/blog/state-sonicwall-exposure-firmware-decryption-unlocks-insights"
+        ],
+        "2024-12-02": [
+            "https://bishopfox.com/blog/sonicwall-firmware-deep-dive-part-1"
+        ],
+        "2024-11-27": [
+            "https://bishopfox.com/blog/the-growing-concern-of-api-security"
+        ],
+        "2024-11-01": [
+            "https://bishopfox.com/blog/a-look-at-fortijump-cve-2024-47575"
+        ],
+        "2024-09-24": [
+            "https://bishopfox.com/blog/brokenhill-attack-tool-largelanguagemodels-llm"
+        ],
+        "2024-09-11": [
+            "https://bishopfox.com/blog/large-language-models-llm-ctf-lab"
+        ],
+        "2024-07-02": [
+            "https://bishopfox.com/blog/methodology-for-traeger-grill-hack"
+        ],
+        "2024-06-06": [
+            "https://bishopfox.com/blog/unmask-iam-permissions-api-gateway-access-logging"
+        ],
+        "2024-04-19": [
+            "https://bishopfox.com/blog/pan-os-cve-2024-3400-patch-your-palo-alto-firewalls"
+        ],
+        "2024-03-21": [
+            "https://bishopfox.com/blog/the-isoon-disclosure-exploring-the-integrated-operations-platform"
+        ],
+        "2024-03-19": [
+            "https://bishopfox.com/blog/poisoned-pipeline-attack-execution-a-look-at-ci-cd-environments"
+        ],
+        "2024-03-08": [
+            "https://bishopfox.com/blog/further-adventures-in-fortinet-decryption"
+        ],
+        "2024-03-01": [
+            "https://bishopfox.com/blog/cve-2024-21762-vulnerability-scanner-for-fortigate-firewalls"
+        ],
+        "2024-01-15": [
+            "https://bishopfox.com/blog/its-2024-and-over-178-000-sonicwall-firewalls-are-publicly-exploitable"
+        ],
+        "2023-12-18": [
+            "https://bishopfox.com/blog/gwt-unpatched-unauthenticated-java-deserialization-vulnerability"
+        ],
+        "2023-12-12": [
+            "https://bishopfox.com/blog/swagger-jacker-auditing-openapi-definition-files"
+        ],
+        "2023-11-08": [
+            "https://bishopfox.com/blog/cloud-security-podcast-network-pentest-2-0"
+        ],
+        "2023-11-01": [
+            "https://bishopfox.com/blog/cloud-security-podcast-cloud-pentest-of-aws"
+        ],
+        "2023-10-27": [
+            "https://bishopfox.com/blog/building-exploit-fortigate-vulnerability-cve-2023-27997"
+        ],
+        "2023-09-29": [
+            "https://bishopfox.com/blog/celebrating-one-year-of-cloudfox"
+        ],
+        "2023-09-21": [
+            "https://bishopfox.com/blog/passing-the-osep-exam-using-sliver"
+        ],
+        "2023-08-09": [
+            "https://bishopfox.com/blog/breaking-into-secure-facilities-with-osdp"
+        ],
+        "2023-08-04": [
+            "https://bishopfox.com/blog/analysis-exploitation-cve-2023-3519"
+        ],
+        "2023-08-02": [
+            "https://bishopfox.com/blog/breaking-fortinet-firmware-encryption"
+        ],
+        "2023-07-21": [
+            "https://bishopfox.com/blog/citrix-adc-gateway-rce-cve-2023-3519"
+        ],
+        "2023-07-20": [
+            "https://bishopfox.com/blog/jsluice-javascript-technical-deep-dive",
+            "https://bishopfox.com/blog/jsluice-javascript-gold-mining"
+        ],
+        "2023-06-30": [
+            "https://bishopfox.com/blog/cve-2023-27997-exploitable-fortigate-vulnerable"
+        ],
+        "2023-06-20": [
+            "https://bishopfox.com/blog/cve-2023-27997-vulnerability-scanner-fortigate"
+        ],
+        "2023-06-13": [
+            "https://bishopfox.com/blog/cloudfoxable-gamified-cloud-hacking-sandbox"
+        ],
+        "2023-05-25": [
+            "https://bishopfox.com/blog/power-pen-tests-with-montoya-api"
+        ],
+        "2023-05-17": [
+            "https://bishopfox.com/blog/exploit-cve-2022-42475"
+        ],
+        "2023-03-23": [
+            "https://bishopfox.com/blog/edr-bypass-with-lolbins"
+        ],
+        "2023-02-21": [
+            "https://bishopfox.com/blog/what-the-vuln-zimbra"
+        ],
+        "2023-02-01": [
+            "https://bishopfox.com/blog/spoofy-email-domain-spoofing"
+        ],
+        "2023-01-10": [
+            "https://bishopfox.com/blog/not-your-typical-internal-testing"
+        ],
+        "2022-12-09": [
+            "https://bishopfox.com/blog/160k-covid-19-records"
+        ],
+        "2022-10-19": [
+            "https://bishopfox.com/blog/vulnerabilities-2022"
+        ],
+        "2022-09-22": [
+            "https://bishopfox.com/blog/in-secure-by-design"
+        ],
+        "2022-09-13": [
+            "https://bishopfox.com/blog/introducing-cloudfox"
+        ],
+        "2022-09-08": [
+            "https://bishopfox.com/blog/unredacter-winner"
+        ],
+        "2022-08-24": [
+            "https://bishopfox.com/blog/iot-rng-csprng"
+        ],
+        "2022-06-27": [
+            "https://bishopfox.com/blog/bluetooth-security"
+        ],
+        "2022-06-07": [
+            "https://bishopfox.com/blog/cloudtrail-pivot-to-aws-accounts"
+        ],
+        "2022-06-01": [
+            "https://bishopfox.com/blog/ripgen-tool"
+        ],
+        "2022-05-24": [
+            "https://bishopfox.com/blog/decentralized-finance-blockchain-battleground"
+        ],
+        "2022-05-17": [
+            "https://bishopfox.com/blog/ruby-vulnerabilities-exploits"
+        ]
+    }
+}

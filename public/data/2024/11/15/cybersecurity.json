@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Retrofitting spatial safety to hundreds of millions of lines of C++",
+        "date": "2024-11-15T12:42:00.015-05:00",
+        "permalink": "http://security.googleblog.com/2024/11/retrofitting-spatial-safety-to-hundreds.html",
+        "image": null,
+        "summary": "Posted by Alex Rebert and Max Shavrick, Security Foundations, and Kinuko Yasuda, Core Developer\n\nAttackers regularly exploit spatial memory safety vulnerabilities, which occur when code accesses a memory allocation outside of its intended bounds, to compromise systems and sensitive data.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "What To Use Instead of PGP",
+        "date": "Fri, 15 Nov 2024 17:17:24 +0000",
+        "permalink": "https://soatok.blog/2024/11/15/what-to-use-instead-of-pgp/",
+        "image": null,
+        "summary": "It’s been more than five years since The PGP Problem was published, and I still hear from people who believe that using PGP (whether GnuPG or another OpenPGP implementation) is a thing they should be doing.",
+        "category": "cybersecurity",
+        "tags": [
+            "Cryptography",
+            "Open Source",
+            "alternatives",
+            "code signing",
+            "digital signatures",
+            "encryption",
+            "PGP",
+            "security",
+            "Security Guidance",
+            "signing"
+        ]
+    },
+    {
+        "title": "Humans of HTB #10: Isaiah's journey into sales",
+        "date": "Fri, 15 Nov 2024 09:17:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/humans-of-htb-isaiah-velez-sled-account-executive",
+        "image": null,
+        "summary": "Isaiah began his journey at Hack The Box in 2023, joining the BDR team.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

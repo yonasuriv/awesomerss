@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Analysis and Exploitation of CVE-2023-3519",
+        "date": "Fri, 04 Aug 2023 16:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/analysis-exploitation-cve-2023-3519",
+        "image": null,
+        "summary": "Our latest blog offers additional analysis and exploitation of CVE-2023-3519, a critical remote code execution vulnerability in Citrix ADC.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

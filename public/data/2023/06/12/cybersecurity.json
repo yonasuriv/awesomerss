@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Kubernetes Grey Zone: Risks in Managed Cluster Middleware",
+        "date": "Mon, 12 Jun 2023 15:42:33 GMT",
+        "permalink": "https://www.wiz.io/blog/kubernetes-grey-zone-risks-in-managed-cluster-middleware",
+        "image": null,
+        "summary": "Are your managed Kubernetes clusters safe from the risks posed by middleware components? Learn how to secure your clusters and mitigate middleware risks.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Crying Out Cloud: a magical podcast for cloud security enthusiasts",
+        "date": "Mon, 12 Jun 2023 14:56:28 GMT",
+        "permalink": "https://www.wiz.io/blog/crying-out-cloud-podcast",
+        "image": null,
+        "summary": "Join us for game-changing news, unique Wiz insights, and battle-tested advice from industry experts.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

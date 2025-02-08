@@ -1,0 +1,20 @@
+[
+    {
+        "title": "New EKS Access Management and Pod Identity features: a security analysis",
+        "date": "Tue, 06 Feb 2024 17:19:13 GMT",
+        "permalink": "https://www.wiz.io/blog/eks-cluster-access-management-and-pod-identity-security-recommendations",
+        "image": null,
+        "summary": "The Wiz research team unpacks the security implications of the new EKS access and identity management features and recommends best practices when using them.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Critical Vulnerabilities in Ivanti Exploited in-the-Wild: everything you need to know",
+        "date": "Tue, 06 Feb 2024 16:06:48 GMT",
+        "permalink": "https://www.wiz.io/blog/ivanti-vulnerabilities-cve-2023-46805-cve-2024-21887-cve-2024-21888-and-cve-2024-21893",
+        "image": null,
+        "summary": "Detect and mitigate CVE-2023-46805, CVE-2024-21887, CVE-2024-21888 and CVE-2024-21893, critical vulnerabilities in Ivanti VPN products.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

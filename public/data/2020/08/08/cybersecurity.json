@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Hunting for Skeleton Key Implants",
+        "date": "Sat, 08 Aug 2020 00:00:00 -0700",
+        "permalink": "https://riccardoancarani.github.io/2020-08-08-hunting-for-skeleton-keys/",
+        "image": null,
+        "summary": "Introduction Attack Execution Detection Other Detections and Indicators References Introduction During a recent presentation I examined various ways of persisting within Active Directory (AD) and how every technique can be detected, using both intrinsic IoC of the specific technique or tooling default behaviour.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

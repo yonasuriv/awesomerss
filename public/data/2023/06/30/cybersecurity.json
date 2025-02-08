@@ -1,0 +1,11 @@
+[
+    {
+        "title": "CVE-2023-27997 Is Exploitable, and 69% of FortiGate Firewalls Are Vulnerable",
+        "date": "Fri, 30 Jun 2023 10:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/cve-2023-27997-exploitable-fortigate-vulnerable",
+        "image": null,
+        "summary": "Check out latest analysis for CVE-2023-27997, a heap overflow in FortiOS, the the operating system behind FortiGate firewalls, that allows remote code execution.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "📖 [The CloudSecList] Issue 246",
+        "date": "Sun, 14 Jul 2024 00:00:00 +0100",
+        "permalink": "https://cloudseclist.com/issues/issue-246/",
+        "image": null,
+        "summary": "📖 [The CloudSecList] Issue 246 was originally published by Marco Lancini at CloudSecList on July 14, 2024.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Enumerate Org/Folder/Project Permissions + Individual Resource Permissions",
+        "date": "Sun, 14 Jul 2024 21:08:01 +0000",
+        "permalink": "https://hackingthe.cloud/gcp/enumeration/enumerate_all_permissions/",
+        "image": null,
+        "summary": "Brute force the permissions of all resources above to see what permissions you have.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

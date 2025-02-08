@@ -1,0 +1,34 @@
+[
+    {
+        "title": "The First Security Hire Rule of Thumb",
+        "date": "2024-11-20T01:00:00+00:00",
+        "permalink": "https://ramimac.me/start-security",
+        "image": "https://ramimac.me/assets/images/rule-of-thumb.png",
+        "summary": "When should you hire that first security person?",
+        "category": "cybersecurity",
+        "tags": [
+            "security",
+            "leadership"
+        ]
+    },
+    {
+        "title": "Leveling Up Fuzzing: Finding more vulnerabilities with AI",
+        "date": "2024-11-20T11:55:00.000-05:00",
+        "permalink": "http://security.googleblog.com/2024/11/leveling-up-fuzzing-finding-more.html",
+        "image": null,
+        "summary": "Posted by Oliver Chang, Dongge Liu and Jonathan Metzman, Google Open Source Security TeamRecently, OSS-Fuzz reported 26 new vulnerabilities to open source project maintainers, including one vulnerability in the critical OpenSSL library (CVE-2024-9143) that underpins much of internet infrastructure.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Hack The Box launches its sixth annual University Capture The Flag competition",
+        "date": "Wed, 20 Nov 2024 11:59:53 +0000",
+        "permalink": "https://www.hackthebox.com/blog/htb-university-ctf-2024",
+        "image": null,
+        "summary": "News",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

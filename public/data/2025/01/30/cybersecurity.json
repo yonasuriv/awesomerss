@@ -1,0 +1,106 @@
+[
+    {
+        "title": "Windows Bug Class: Accessing Trapped COM Objects with IDispatch",
+        "date": "2025-01-30T09:57:00.001-08:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2025/01/windows-bug-class-accessing-trapped-com.html",
+        "image": null,
+        "summary": "Posted by James Forshaw, Google Project Zero\n\nObject orientated remoting technologies such as DCOM and .",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Windows Exploitation Tricks: Trapping Virtual Memory Access (2025 Update)",
+        "date": "2025-01-30T09:57:00.000-08:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2025/01/windows-exploitation-tricks-trapping.html",
+        "image": null,
+        "summary": "Posted by James Forshaw, Google Project Zero\n\nBack in 2021 I wrote a blog post about various ways you can build a virtual memory access trap primitive on Windows.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "PyPI now supports archiving projects",
+        "date": "Thu, 30 Jan 2025 14:00:22 +0000",
+        "permalink": "https://blog.trailofbits.com/2025/01/30/pypi-now-supports-archiving-projects/",
+        "image": null,
+        "summary": "By Facundo Tuesca PyPI now supports marking projects as archived.",
+        "category": "cybersecurity",
+        "tags": [
+            "Research Practice"
+        ]
+    },
+    {
+        "title": "Healthcare Sector Charts 2 More Ransomware Attacks",
+        "date": "Thu, 30 Jan 2025 22:51:23 GMT",
+        "permalink": "https://www.darkreading.com/cyberattacks-data-breaches/two-attacks-target-healthcare-sector-adds-growing-list-ransomware-threats",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd75cc008c0cca688/679bf8db159574581ef5878b/healthcare1800_NicoElNino_alamy.jpg",
+        "summary": "No ransomware groups have yet to claim responsibility for either attack, and both institutions have yet to reveal what may have been stolen.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "New Jailbreaks Allow Users to Manipulate GitHub Copilot",
+        "date": "Thu, 30 Jan 2025 16:00:00 GMT",
+        "permalink": "https://www.darkreading.com/vulnerabilities-threats/new-jailbreaks-manipulate-github-copilot",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt209bf6e85e9311a4/679a6f884acb5c644e9aa7ca/GitHub_Copilot-Mykhailo_Polenok-Alamy.jpg",
+        "summary": "Whether by intercepting its traffic or just giving it a little nudge, GitHub's AI assistant can be made to do malicious things it isn't supposed to.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Automated Pen Testing Is Improving — Slowly",
+        "date": "Thu, 30 Jan 2025 15:00:00 GMT",
+        "permalink": "https://www.darkreading.com/vulnerabilities-threats/automated-pen-testing-improving-slowly",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt82e40b831a108713/679bacbec523172aa2faaed4/Pen_test_(1800)_Rancz_Andrei_Alamy.jpg",
+        "summary": "The rate of evolution has been glacial, but tools now understand cloud environments and can target Web applications.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Exposure Management Provider CYE Acquires Solvo",
+        "date": "Thu, 30 Jan 2025 13:17:58 GMT",
+        "permalink": "https://www.darkreading.com/cloud-security/exposure-management-provider-cye-acquires-solvo",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltef1204d99548a04f/679aff89daf3052c29a0a4ce/sold-nicolas-menijes-crego-alamy.jpg",
+        "summary": "The addition of Solvo CSPM to CYE Hyver aims to address the need for multicloud vulnerability monitoring and risk assessment.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Fake Videos of Former First Lady Scam Namibians",
+        "date": "Thu, 30 Jan 2025 07:00:00 GMT",
+        "permalink": "https://www.darkreading.com/threat-intelligence/fake-videos-former-first-lady-scam-namibians",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb55f79c7eed60e57/679a4d3a73b0137f74f875e9/Monica_Geingos-Sipa_USA-Alamy.jpg",
+        "summary": "Amateurish financial scams are common across Africa, and Namibia's influential former first lady, Monica Geingos, has emerged as a particularly effective host body for these messages.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "High-profile cyberattacks dent CISOs’ crisis confidence, sparking surge in 2025 crisis simulation budgets",
+        "date": "Thu, 30 Jan 2025 09:55:47 +0000",
+        "permalink": "https://www.hackthebox.com/blog/high-profile-cyberattacks-spark-surge-in-2025-crisis-simulation-budgets",
+        "image": null,
+        "summary": "After facing barriers to handling cybersecurity crises in 2024, 74% of CISOs indicate their organisations will increase budgets for crisis simulation exercises in 2025.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    },
+    {
+        "title": "SQL Injection, Insufficient ACLs in Frappe Framework, Frappe Learning &amp; Frappe Press",
+        "date": "2025-01-30T00:00:00+00:00",
+        "permalink": "https://www.altion.dk/posts/frappe-security-vulnerabilities",
+        "image": null,
+        "summary": "In this long-due post I describe some security vulnerabilities I found in Frappe Framework1, Frappe Learning2 and Frappe press3.",
+        "category": "cybersecurity",
+        "tags": [
+            "frappe",
+            "framework,",
+            "press,",
+            "learning,",
+            "lms,",
+            "security,",
+            "vulnerabilities,",
+            "research",
+            "pinned"
+        ]
+    }
+]

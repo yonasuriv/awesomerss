@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Unauthenticated Enumeration of Azure Active Directory Email Addresses",
+        "date": "Tue, 11 Apr 2023 13:31:32 +0000",
+        "permalink": "https://hackingthe.cloud/azure/enum_email_addresses/",
+        "image": null,
+        "summary": "Discover how to exploit information disclosure configurations in Azure Active Directory to enumerate valid email addresses.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Unauthenticated Enumeration of Google Workspace Email Addresses",
+        "date": "Tue, 11 Apr 2023 13:31:32 +0000",
+        "permalink": "https://hackingthe.cloud/gcp/enumeration/enum_email_addresses/",
+        "image": null,
+        "summary": "Discover how to exploit information disclosure configurations in Google Workspace to enumerate valid email addresses.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "title": "Reading arbitrary files via Jenkins' CLI: CVE-2024-23897 explained",
+        "date": "Wed, 06 Nov 2024 15:55:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/cve-2024-23897",
+        "image": null,
+        "summary": "In January 2024, Sonar’s Vulnerability Research identified a new vulnerability in Jenkins that could allow an attacker to read the first few lines of arbitrary files on servers…",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

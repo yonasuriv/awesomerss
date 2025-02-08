@@ -1,0 +1,20 @@
+[
+    {
+        "title": "ChaosDB explained: Azure's Cosmos DB vulnerability walkthrough",
+        "date": "Thu, 11 Nov 2021 03:57:43 GMT",
+        "permalink": "https://www.wiz.io/blog/chaosdb-explained-azures-cosmos-db-vulnerability-walkthrough",
+        "image": null,
+        "summary": "This is the full story of the Azure ChaosDB Vulnerability that was discovered and disclosed by the Wiz Research Team, where we were able to gain complete unrestricted access to the databases of several thousand Microsoft Azure customers.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "How we broke the cloud with two lines of code: the full story of ChaosDB",
+        "date": "Thu, 11 Nov 2021 03:18:38 GMT",
+        "permalink": "https://www.wiz.io/blog/how-we-broke-the-cloud-with-two-lines-of-code-the-full-story-of-chaosdb",
+        "image": null,
+        "summary": "A summary and recording of Wiz's talk at BlackHat Europe 2021: the full extent of ChaosDB, the impact it had, and the questions it raises about security in managed cloud services.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

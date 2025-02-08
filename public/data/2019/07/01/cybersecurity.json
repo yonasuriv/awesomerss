@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Hijacking IAM Roles and Avoiding Detection",
+        "date": "Mon, 01 Jul 2019 17:16:40 -0600",
+        "permalink": "https://frichetten.com/blog/hijack-iam-roles-and-avoid-detection/",
+        "image": null,
+        "summary": "A guide on how to steal IAM role keys and use them without being detected",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

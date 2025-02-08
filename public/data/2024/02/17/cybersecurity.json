@@ -1,0 +1,11 @@
+[
+    {
+        "title": "RETVec: Resilient and Efficient Text Vectorizer",
+        "date": "Sat, 17 Feb 2024 00:00:00 GMT",
+        "permalink": "https://elie.net/publication/retvec-resilient-and-efficient-text-vectorizer",
+        "image": "https://elie.net//_astro/retvec-resilient-and-efficient-text-vectorizer.D9cYdg7W.jpg",
+        "summary": "This research study presented at NeurIPS 2024 introduces RETVec, a robust and multilingual text vectorizer that provides efficiency and resilience against typos and adversarial attacks for neural-based text processing.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

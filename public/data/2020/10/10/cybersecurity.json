@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Following Donut Crumbs",
+        "date": "Sat, 10 Oct 2020 00:00:00 -0700",
+        "permalink": "https://riccardoancarani.github.io/2020-10-10-donut-crumbs/",
+        "image": null,
+        "summary": "The small traces left by donut shellcode - \n          Intro Observations In-Memory PE AMSI Bypass Intro To deal with some rainy Sunday depression I decided to investigate how Donut operates in memory and to see what traces it leaves (if any).",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

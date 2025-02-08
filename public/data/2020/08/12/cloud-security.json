@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Steal IAM Credentials and Event Data from Lambda",
+        "date": "Wed, 12 Aug 2020 23:15:50 +0000",
+        "permalink": "https://hackingthe.cloud/aws/exploitation/lambda-steal-iam-credentials/",
+        "image": null,
+        "summary": "Leverage file read and SSRF vulnerabilities to steam IAM credentials and event data from Lambda.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

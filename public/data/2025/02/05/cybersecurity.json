@@ -1,0 +1,64 @@
+[
+    {
+        "title": "Forging a Better Operator Quality of Life",
+        "date": "Wed, 05 Feb 2025 15:05:14 GMT",
+        "permalink": "https://posts.specterops.io/forging-a-better-operator-quality-of-life-e8bf24fc2aba?source=rss----f05f8696e3cc---4",
+        "image": null,
+        "summary": "A new Mythic add-on for Windows AgentsMythic provides flexibility to agent developers for how they want to describe and execute techniques.",
+        "category": "cybersecurity",
+        "tags": [
+            "open-source",
+            "red-team-tools",
+            "red-team",
+            "research"
+        ]
+    },
+    {
+        "title": "Preventing account takeover on centralized cryptocurrency exchanges in 2025",
+        "date": "Wed, 05 Feb 2025 14:00:37 +0000",
+        "permalink": "https://blog.trailofbits.com/2025/02/05/preventing-account-takeover-on-centralized-cryptocurrency-exchanges-in-2025/",
+        "image": null,
+        "summary": "By Kelly Kaoudis and Evan Sultanik This blog post highlights key points from our new white paper Preventing Account Takeovers on Centralized Cryptocurrency Exchanges, which documents ATO-related attack vectors and defenses tailored to CEXes.",
+        "category": "cybersecurity",
+        "tags": [
+            "Blockchain",
+            "Research Practice"
+        ]
+    },
+    {
+        "title": "Why Cybersecurity Needs Probability — Not Predictions",
+        "date": "Wed, 05 Feb 2025 20:17:16 GMT",
+        "permalink": "https://www.darkreading.com/cyberattacks-data-breaches/why-cybersecurity-needs-probability-not-predictions",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd88da2ad28bce58a/67a3a37b3ad81b7f7bf56472/Probability_(1800)_Agata_G%C5%82adykowska_Alamy.jpg",
+        "summary": "While probabilities may be based on subjective information, when used in an objective framework, they demonstrate an effective way to improve the value of hard decisions.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Abandoned AWS Cloud Storage: A Major Cyberattack Vector",
+        "date": "Wed, 05 Feb 2025 17:30:04 GMT",
+        "permalink": "https://www.darkreading.com/remote-workforce/abandoned-aws-cloud-storage-cyberattack-vector",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt40185531a4e4c2b0/67a3a02918aae9b76ecc8ffe/aws_kovop_shutterstock.jpg",
+        "summary": "New research highlights how bad actors could abuse deleted AWS S3 buckets to create all sorts of mayhem, including a SolarWinds-style supply chain attack.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Attackers Target Education Sector, Hijack Microsoft Accounts",
+        "date": "Wed, 05 Feb 2025 16:06:41 GMT",
+        "permalink": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-education-sector-hijack-microsoft-accounts",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte369ee8690e01cd6/67a344eb83bdcdd7cc53bb7e/Phishing_ronstik_Alamy.jpg",
+        "summary": "A sophisticated cyberattack campaign is targeting organizations that still rely on Active Directory Federation Services (ADFS) for authentication across applications and services.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Nigeria Touts Cyber Success, Even as Cybercrime Rises in Africa",
+        "date": "Wed, 05 Feb 2025 08:00:09 GMT",
+        "permalink": "https://www.darkreading.com/cyber-risk/nigeria-touts-cyber-success-african-cybercrime-rises",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0850a751a6468c95/67a27e1b8f0752918bcf69b5/checkpoint-threat-index-map.jpg",
+        "summary": "Organizations continue to be at high risk from cybercrime in Africa, despite law enforcement takedowns of cybercriminal syndicates in Nigeria and other African nations.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Lessons Learned from Developing Secure AI Workflows at Google",
+        "date": "Wed, 08 May 2024 07:00:00 GMT",
+        "permalink": "https://elie.net/talk/lessons-learned-from-developing-secure-ai-workflows-at-google-rsa-2024",
+        "image": "https://elie.net//_astro/lessons-learned-from-developing-secure-ai-workflows-at-google.DsT32FYW.jpg",
+        "summary": "This talk discuss through concrete examples how to use the Google Security AI Framework (SAIF) to protect AI systems and workflows",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

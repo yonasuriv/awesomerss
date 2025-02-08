@@ -1,0 +1,100 @@
+[
+    {
+        "title": "SlackPirate Set Sails Again! Or: How to Send the Entire “Bee Movie” Script to Your Friends in Slack",
+        "date": "Fri, 31 Jan 2025 15:55:31 GMT",
+        "permalink": "https://posts.specterops.io/slackpirate-set-sails-again-or-how-to-send-the-entire-bee-movie-script-to-your-friends-in-slack-d9c691ae33f5?source=rss----f05f8696e3cc---4",
+        "image": null,
+        "summary": "TLDR: SlackPirate has been defunct for a few years due to a breaking change in how the Slack client interacts with the Slack API.",
+        "category": "cybersecurity",
+        "tags": [
+            "slack",
+            "web-security",
+            "specterops",
+            "penetration-testing",
+            "red-team"
+        ]
+    },
+    {
+        "title": "DeepSeek Jailbreak Reveals Its Entire System Prompt",
+        "date": "Fri, 31 Jan 2025 22:49:05 GMT",
+        "permalink": "https://www.darkreading.com/application-security/deepseek-jailbreak-system-prompt",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb033e31cab1dc9df/679d3cdc06b7eacec470ffc8/DeepSeek-mundissima-Alamy.jpg",
+        "summary": "Now we know exactly how DeepSeek was designed to work, and we may even have a clue toward its highly publicized scandal with OpenAI.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Black Hat USA 2024 Highlights",
+        "date": "Fri, 31 Jan 2025 22:33:05 GMT",
+        "permalink": "https://www.darkreading.com/cyberattacks-data-breaches/black-hat-usa-2024-highlights",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltfa0b286a66362ac7/67a109b9100e6c50f7da158c/1280720bhusa.png",
+        "summary": "Check out all the highlights from Black Hat USA 2024 at the Mandalay Bay in Las Vegas.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Community Health Center Data Breach Affects 1M Patients",
+        "date": "Fri, 31 Jan 2025 21:53:14 GMT",
+        "permalink": "https://www.darkreading.com/cyberattacks-data-breaches/community-health-center-notifies-1m-stolen-data-breach",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb0344a2d58b6ce4f/654e39a8aea73b040a977e79/doctor_tablet_Panther_Media_Alamy.jpg",
+        "summary": "The CHC remains operational, but a host of personal data is now in the hands of a \"skilled cybercriminal,\" it said.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "DoJ Shutters Cybercrime Forums Behind Attacks on 17M Americans",
+        "date": "Fri, 31 Jan 2025 21:42:42 GMT",
+        "permalink": "https://www.darkreading.com/cybersecurity-operations/doj-cybercrime-forums-attacks-17m-americans",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5aa48ac724c449eb/679d41d506b7eae62a70ffda/closed-Britpix-Alamy.jpg",
+        "summary": "The \"Cracked\" and \"Nulled\" Dark Web sites are now offline, along with the Pakistani \"Saim Raza\" network of underground forums (aka HeartSender).",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "State Data Privacy Regulators Are Coming. What Story Will You Tell Them?",
+        "date": "Fri, 31 Jan 2025 19:16:52 GMT",
+        "permalink": "https://www.darkreading.com/data-privacy/states-move-to-enforce-data-security-regulation",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt83ee73e8ad1419e4/679abc05a44add69f24fecde/Data_on_screen_EThamPhoto_Alamy_Stock_Photo.jpg",
+        "summary": "Regulators are ready to enforce new state data privacy laws.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Tenable to Acquire Vulcan Cyber to Boost Exposure Management Focus",
+        "date": "Fri, 31 Jan 2025 18:34:19 GMT",
+        "permalink": "https://www.darkreading.com/cloud-security/tenable-acquire-vulcan-cyber-expand-exposure-management",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt54873727f7c12e37/679d26529bc2cdbd62986cc7/puzzle-acquisition-Maxiphoto-iStock_57750168_MEDIUM.jpg",
+        "summary": "The deal, expected to close this quarter, will give Tenable One Exposure Management much-needed integration with over 100 third-party security tools and platforms.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Code-Scanning Tool's License at Heart of Security Breakup",
+        "date": "Fri, 31 Jan 2025 18:19:25 GMT",
+        "permalink": "https://www.darkreading.com/application-security/code-scanning-tool-s-license-at-heart-of-security-breakup",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt44a0332eb39140fa/679be79d9bc2cd9f0b986638/TippaPatt-software-developer-shutterstock.jpg",
+        "summary": "Nine application security toolmakers band together to fork the popular Semgrep code-scanning project, touching off a controversy over access to features and fairness.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Can AI &amp; the Cyber Trust Mark Rebuild Endpoint Confidence?",
+        "date": "Fri, 31 Jan 2025 15:00:00 GMT",
+        "permalink": "https://www.darkreading.com/endpoint-security/can-ai-cyber-trust-mark-rebuild-endpoint-confidence",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt660c81463603883d/679cdbd7efa8755acc324a9a/Trust_(1800)_Wavebreakmedia_Ltd_FUS1507-1_Alamy.jpg",
+        "summary": "The Cyber Trust Mark has the potential to change how we define and measure security at the endpoint level.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Become an elite Red Teamer with HTB Pro Labs (and get a free t-shirt!)",
+        "date": "Fri, 31 Jan 2025 06:58:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/pro-labs-swag-giveaway",
+        "image": null,
+        "summary": "Get one of our most popular swag items when you purchase an annual Pro Labs subscription.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

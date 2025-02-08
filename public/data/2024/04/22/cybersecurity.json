@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Amplified exposure: How AWS flaws made Amplify IAM roles vulnerable to takeover",
+        "date": "Mon, 22 Apr 2024 00:00:40 -0600",
+        "permalink": "https://frichetten.com/blog/amplify-vuln-2024/",
+        "image": null,
+        "summary": "Public disclosure of a vulnerability in AWS Amplify which exposed IAM roles associated with Amplify projects to be assumed by anyone in the world.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

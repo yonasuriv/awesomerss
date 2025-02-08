@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Hunting for Suspicious LDAP Activity with SilkETW and Yara",
+        "date": "Sat, 19 Oct 2019 00:00:00 -0700",
+        "permalink": "https://riccardoancarani.github.io/2019-10-19-hunting-for-domain-enumeration/",
+        "image": null,
+        "summary": "Detecting Active Directory Enumeration - \n          Intro This is another post to document my journey of learning Threat Hunting.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Hunting for Anomalous Usage of MSBuild and Covenant",
+        "date": "Sat, 19 Oct 2019 00:00:00 -0700",
+        "permalink": "https://riccardoancarani.github.io/2019-10-19-hunting-covenant-msbuild/",
+        "image": null,
+        "summary": "Today’s post will cover some of my experiments while practicing threat hunting.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

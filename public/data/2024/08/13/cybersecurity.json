@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Private AI For All: Our End-To-End Approach to AI Privacy on Android",
+        "date": "2024-08-13T13:00:00.000-04:00",
+        "permalink": "http://security.googleblog.com/2024/08/android-private-ai-approach.html",
+        "image": null,
+        "summary": "Posted by Dave Kleidermacher, VP Engineering, Android Security and Privacy, and Giles Hogben, Senior Director, Privacy Engineering, Android\n\nYour smartphone holds a lot of your personal information to help you get things done every day.",
+        "category": "cybersecurity",
+        "tags": [
+            "android",
+            "android security"
+        ]
+    },
+    {
+        "title": "Post-Quantum Cryptography: Standards and Progress",
+        "date": "2024-08-13T00:33:00.003-04:00",
+        "permalink": "http://security.googleblog.com/2024/08/post-quantum-cryptography-standards.html",
+        "image": null,
+        "summary": "Posted by Royal Hansen, VP, Privacy, Safety and Security Engineering, Google, and Phil Venables, VP, TI Security & CISO, Google Cloud\n\nThe National Institute of Standards and Technology (NIST) just released three finalized standards for post-quantum cryptography (PQC) covering public key encapsulation and two forms of digital signatures.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

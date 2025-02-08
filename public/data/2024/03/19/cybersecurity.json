@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Poisoned Pipeline Execution Attacks: A Look at CI-CD Environments",
+        "date": "Tue, 19 Mar 2024 04:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/poisoned-pipeline-attack-execution-a-look-at-ci-cd-environments",
+        "image": null,
+        "summary": "In this blog, we examine three types of poisoned pipeline execution (PPE) attacks, methods to exploit these types of vulnerabilities, and recommended preventive measures.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Making desync attacks easy with TRACE",
+        "date": "Tue, 19 Mar 2024 14:00:00 GMT",
+        "permalink": "https://portswigger.net/research/trace-desync-attack",
+        "image": null,
+        "summary": "Have you ever found an HTTP desync vulnerability that seemed impossible to exploit due to its complicated constraints? In this blogpost we will explore a new exploitation technique that can be used to",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

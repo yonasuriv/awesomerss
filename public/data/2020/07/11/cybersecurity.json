@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Abusing GitLab Runners",
+        "date": "Sat, 11 Jul 2020 00:16:40 -0600",
+        "permalink": "https://frichetten.com/blog/abusing-gitlab-runners/",
+        "image": null,
+        "summary": "Some research I did on abusing GitLab Runners to steal information by emulating a runner's behavior.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

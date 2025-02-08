@@ -1,0 +1,20 @@
+[
+    {
+        "title": "BingBang: How a simple developer mistake could have led to Bing.com takeover",
+        "date": "Wed, 29 Mar 2023 16:18:54 GMT",
+        "permalink": "https://www.wiz.io/blog/bingbang",
+        "image": null,
+        "summary": "How a misconfiguration in a Microsoft Bing.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "BingBang: AAD misconfiguration led to Bing.com results manipulation and account takeover",
+        "date": "Wed, 29 Mar 2023 16:18:47 GMT",
+        "permalink": "https://www.wiz.io/blog/azure-active-directory-bing-misconfiguration",
+        "image": null,
+        "summary": "How Wiz Research found a common misconfiguration in Azure Active Directory that compromised multiple Microsoft applications, including a Bing management portal",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

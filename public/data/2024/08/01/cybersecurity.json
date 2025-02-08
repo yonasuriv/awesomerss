@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Keeping your Android device safe from text message fraud",
+        "date": "2024-08-01T13:08:00.002-04:00",
+        "permalink": "http://security.googleblog.com/2024/08/keeping-your-android-device-safe-from.html",
+        "image": null,
+        "summary": "Posted by Nataliya Stanetsky and Roger Piqueras Jover, Android Security & Privacy Team\n\nCell-site simulators, also known as False Base Stations (FBS) or Stingrays, are radio devices that mimic real cell sites in order to lure mobile devices to connect to them.",
+        "category": "cybersecurity",
+        "tags": [
+            "android",
+            "android security"
+        ]
+    }
+]

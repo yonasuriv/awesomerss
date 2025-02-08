@@ -1,0 +1,11 @@
+[
+    {
+        "title": "The cloud has an isolation problem: PostgreSQL vulnerabilities affect multiple cloud vendors",
+        "date": "Thu, 11 Aug 2022 18:20:01 GMT",
+        "permalink": "https://www.wiz.io/blog/the-cloud-has-an-isolation-problem-postgresql-vulnerabilities",
+        "image": null,
+        "summary": "How Wiz Research uncovered multiple related vulnerabilities in PostgreSQL-as-a-Service offerings from GCP, Azure, and others.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

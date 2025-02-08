@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Server-side prototype pollution: Black-box detection without the DoS",
+        "date": "Wed, 15 Feb 2023 16:30:00 GMT",
+        "permalink": "https://portswigger.net/research/server-side-prototype-pollution",
+        "image": null,
+        "summary": "Server-side prototype pollution is hard to detect black-box without causing a DoS.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

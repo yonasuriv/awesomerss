@@ -1,0 +1,11 @@
+[
+    {
+        "title": "A Confused Deputy Vulnerability in AWS AppSync",
+        "date": "Mon, 21 Nov 2022 00:00:40 -0600",
+        "permalink": "https://frichetten.com/blog/appsync-vulnerability-disclosure/",
+        "image": null,
+        "summary": "Datadog: Technical analysis of a confused deputy vulnerability I found in AWS AppSync.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

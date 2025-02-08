@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Microsoft: Thousands of Public ASP.NET Keys Allow Web Server RCE",
+        "date": "Fri, 07 Feb 2025 19:39:55 GMT",
+        "permalink": "https://www.darkreading.com/remote-workforce/microsoft-public-asp-net-keys-web-server-rce",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5734cca58ec19c20/67a65f619a6d47357a298f54/key-Hilda_DeSanctis-Alamy.jpg",
+        "summary": "Developers are pulling in publicly available ASP.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Canadian Man Charged in $65M Cryptocurrency Hacking Schemes",
+        "date": "Fri, 07 Feb 2025 18:09:42 GMT",
+        "permalink": "https://www.darkreading.com/cyberattacks-data-breaches/canadian-man-charged-in-65m-cryptocurrency-hacking-schemes",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png",
+        "summary": "TechTarget and Informa Tech’s Digital Business Combine.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "2024 Breaks Records With Highest Ever Ransomware Attacks",
+        "date": "Fri, 07 Feb 2025 18:06:24 GMT",
+        "permalink": "https://www.darkreading.com/threat-intelligence/2024-breaks-records-with-highest-ever-ransomware-attacks",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png",
+        "summary": "TechTarget and Informa Tech’s Digital Business Combine.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Databarracks Launches Air Gap Recover",
+        "date": "Fri, 07 Feb 2025 17:57:45 GMT",
+        "permalink": "https://www.darkreading.com/cloud-security/databarracks-launches-air-gap-recover",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png",
+        "summary": "TechTarget and Informa Tech’s Digital Business Combine.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Google's DMARC Push Pays Off, but Email Security Challenges Remain",
+        "date": "Fri, 07 Feb 2025 17:00:04 GMT",
+        "permalink": "https://www.darkreading.com/remote-workforce/google-dmarc-push-email-security-challenges",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0f18d97c98b01583/66325c9d13fe0638338afe9e/Tapati_Rinchumrus-email-security-shutterstock.jpg",
+        "summary": "A year after Google and Yahoo started requiring DMARC, the adoption rate of the email authentication specification has doubled; and yet, 87% of domains remain unprotected.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Behavioral Analytics in Cybersecurity: Who Benefits Most?",
+        "date": "Fri, 07 Feb 2025 15:00:00 GMT",
+        "permalink": "https://www.darkreading.com/cyberattacks-data-breaches/behavioral-analytics-cybersecurity-who-benefits-most",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2ae798882f88f7fe/67a622f551cbb8b85d62930b/Magnifying_glass_(1800)_Igor_Stevanovic_Alamy_Stock_Photo.jpg",
+        "summary": "As the cost of data breaches continues to climb, the role of user and entity behavioral analytics (UEBA) has never been more important.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "SolarWinds to Go Private for $4.4B",
+        "date": "Fri, 07 Feb 2025 19:49:48 GMT",
+        "permalink": "https://www.darkreading.com/cybersecurity-operations/solarwinds-private-billions",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blteb75ceafb8020c79/66c8cd18a85a6a58528a77cc/SolarWinds-SOPA_Images_Limited-Alamy.jpg",
+        "summary": "Five years after a Russian APT infiltrated a software update to gain access to thousands of SolarWInds customers, the board has voted unanimously to sell at a top valuation and plans for uninterrupted operations.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

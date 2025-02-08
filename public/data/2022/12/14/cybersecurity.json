@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Introducing PEACH, a tenant isolation framework for cloud applications",
+        "date": "Wed, 14 Dec 2022 14:15:22 GMT",
+        "permalink": "https://www.wiz.io/blog/introducing-peach-a-tenant-isolation-framework-for-cloud-applications",
+        "image": null,
+        "summary": "A step-by-step framework for modeling and improving SaaS and PaaS tenant isolation by reducing your cloud applications’ attack surface",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

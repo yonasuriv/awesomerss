@@ -1,0 +1,11 @@
+[
+    {
+        "title": "From Pod Security Policies to Pod Security Standards – a Migration Guide",
+        "date": "Thu, 09 Mar 2023 17:27:05 GMT",
+        "permalink": "https://www.wiz.io/blog/from-pod-security-policies-to-pod-security-standards-a-migration-guide",
+        "image": null,
+        "summary": "Pod Security Policies were removed in Kubernetes v1.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

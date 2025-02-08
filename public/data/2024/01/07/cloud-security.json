@@ -1,0 +1,20 @@
+[
+    {
+        "title": "📖 [The CloudSecList] Issue 219",
+        "date": "Sun, 07 Jan 2024 00:00:00 +0000",
+        "permalink": "https://cloudseclist.com/issues/issue-219/",
+        "image": null,
+        "summary": "📖 [The CloudSecList] Issue 219 was originally published by Marco Lancini at CloudSecList on January 07, 2024.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Bypass Cognito Account Enumeration Controls",
+        "date": "Sun, 07 Jan 2024 21:28:56 +0000",
+        "permalink": "https://hackingthe.cloud/aws/enumeration/bypass_cognito_user_enumeration_controls/",
+        "image": null,
+        "summary": "Leverage a flaw in Cognito's API to enumerate accounts in User Pools.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

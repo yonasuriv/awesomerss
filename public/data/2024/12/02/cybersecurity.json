@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Sonicwall Firmware Deep Dive - Part 1",
+        "date": "Mon, 02 Dec 2024 06:00:00 -0800",
+        "permalink": "https://bishopfox.com/blog/sonicwall-firmware-deep-dive-part-1",
+        "image": null,
+        "summary": "Discover Bishop Fox in-depth analysis of SonicWall firewalls, revealing critical insights into firmware security and vulnerability.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "New Sherlocks updates: Academy recommendations, CPE credits (and more!)",
+        "date": "Mon, 02 Dec 2024 17:36:11 +0000",
+        "permalink": "https://www.hackthebox.com/blog/new-sherlock-features",
+        "image": null,
+        "summary": "Ready for a more rewarding dive into your blue team investigations? Well, we have made new updates to Sherlocks that will give you momentum and a bonus to time well spent.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

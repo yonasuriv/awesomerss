@@ -1,0 +1,11 @@
+[
+    {
+        "title": "The single-packet attack: making remote race-conditions 'local'",
+        "date": "Wed, 18 Oct 2023 12:54:01 GMT",
+        "permalink": "https://portswigger.net/research/the-single-packet-attack-making-remote-race-conditions-local",
+        "image": null,
+        "summary": "The single-packet attack is a new technique for triggering web race conditions.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

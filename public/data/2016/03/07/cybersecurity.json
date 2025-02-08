@@ -1,0 +1,16 @@
+[
+    {
+        "title": "How MAC Address Randomization Works on Windows 10",
+        "date": "2016-03-07T20:21:00.000+01:00",
+        "permalink": "https://www.mathyvanhoef.com/2016/03/how-mac-address-randomization-works-on.html",
+        "image": null,
+        "summary": "When Apple announced its devices would use random MAC addresses when searching for Wi-Fi networks, it received extensive media attention.",
+        "category": "cybersecurity",
+        "tags": [
+            "mobile",
+            "privacy",
+            "randomize mac address",
+            "wireless"
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Abusing Misconfigured Role Trust Policies with a Wildcard Principal",
+        "date": "Mon, 29 Jan 2024 03:39:38 +0000",
+        "permalink": "https://hackingthe.cloud/aws/exploitation/Misconfigured_Resource-Based_Policies/misconfigured_iam_role_trust_policy_wildcard_principal/",
+        "image": null,
+        "summary": "How to take advantage of misconfigured role trust policies that have wildcard principals.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

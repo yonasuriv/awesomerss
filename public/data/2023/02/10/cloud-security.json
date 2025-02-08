@@ -1,0 +1,11 @@
+[
+    {
+        "title": "S3 Streaming Copy",
+        "date": "Fri, 10 Feb 2023 15:12:48 +0000",
+        "permalink": "https://hackingthe.cloud/aws/exploitation/s3_streaming_copy/",
+        "image": null,
+        "summary": "Utilizng standard out to standard in with aws-cli utilizing multiple profiles to avoid logging and detection in a victim environment",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

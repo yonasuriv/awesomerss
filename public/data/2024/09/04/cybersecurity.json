@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Deploying Rust in Existing Firmware Codebases",
+        "date": "2024-09-04T12:02:00.001-04:00",
+        "permalink": "http://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html",
+        "image": null,
+        "summary": "Posted by Ivan Lozano and Dominik Maier, Android Team Android's use of safe-by-design principles drives our adoption of memory-safe languages like Rust, making exploitation of the OS increasingly difficult with every release.",
+        "category": "cybersecurity",
+        "tags": [
+            "android",
+            "android security",
+            "rust"
+        ]
+    }
+]

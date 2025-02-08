@@ -1,0 +1,49 @@
+[
+    {
+        "title": "Using Chrome's accessibility APIs to find security bugs",
+        "date": "2024-10-10T12:00:00.056-04:00",
+        "permalink": "http://security.googleblog.com/2024/10/using-chromes-accessibility-apis-to.html",
+        "image": null,
+        "summary": "Posted by Adrian Taylor, Security Engineer, Chrome\n\n\n\n\n\nChrome’s user interface (UI) code is complex, and sometimes has bugs.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "AI for Cybersecurity: Get Started Today",
+        "date": "Thu, 10 Oct 2024 07:00:00 GMT",
+        "permalink": "https://elie.net/talk/ai-for-cybersecurity-get-started-today",
+        "image": "https://elie.net//_astro/ai-for-cybersecurity-get-started-today.BVvkN8Xv.jpg",
+        "summary": "This talk examine current real-world examples of AI-driven attacks and explore which defensive AI capabilities are available today.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "AI Security: Top 5 Recommendations To Get Started Today",
+        "date": "Thu, 10 Oct 2024 07:00:00 GMT",
+        "permalink": "https://elie.net/talk/ai-security-top-5-recommendations",
+        "image": "https://elie.net//_astro/ai-security-top-5-recommendations.D296hmn-.jpg",
+        "summary": "Start securing your AI workflows against risks such as PII leaks, hallucinations, and prompt injection using our top 5 recommendations.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "HTB Account: one account to rule them all",
+        "date": "Thu, 10 Oct 2024 04:36:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/introducing-HTB-Account",
+        "image": null,
+        "summary": "Learn how to create and use HTB Account to simplify your login experience.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    },
+    {
+        "title": "Critical vulnerabilities in Palo Alto Expedition: everything you need to know",
+        "date": "Thu, 10 Oct 2024 17:45:48 GMT",
+        "permalink": "https://www.wiz.io/blog/palo-alto-networks-expedition-critical-vulnerabilities-advisory",
+        "image": null,
+        "summary": "Detect and mitigate critical vulnerabilities (CVE-2024-9463, CVE-2024-9464, CVE-2024-9465, CVE-2024-9466, CVE-2024-9467) in Palo Alto Networks’ Expedition tool.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

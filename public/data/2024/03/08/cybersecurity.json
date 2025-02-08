@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Further Adventures in Fortinet Decryption",
+        "date": "Fri, 08 Mar 2024 03:00:00 -0800",
+        "permalink": "https://bishopfox.com/blog/further-adventures-in-fortinet-decryption",
+        "image": null,
+        "summary": "In this blog, we examine how the new Fortinet encryption scheme works and provide a tool to decrypt the root filesystem for x86-based FortiOS images.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

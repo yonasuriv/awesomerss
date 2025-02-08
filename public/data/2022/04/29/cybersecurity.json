@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Wiz Research discovers \"ExtraReplica\"— a cross-account database vulnerability in Azure PostgreSQL",
+        "date": "Fri, 29 Apr 2022 05:12:16 GMT",
+        "permalink": "https://www.wiz.io/blog/wiz-research-discovers-extrareplica-cross-account-database-vulnerability-in-azure-postgresql",
+        "image": null,
+        "summary": "Wiz Research discovers a chain of critical vulnerabilities in the widely used Azure Database for PostgreSQL Flexible Server.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

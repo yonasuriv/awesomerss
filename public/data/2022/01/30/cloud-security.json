@@ -1,0 +1,20 @@
+[
+    {
+        "title": "📖 [The CloudSecList] Issue 122",
+        "date": "Sun, 30 Jan 2022 00:00:00 +0000",
+        "permalink": "https://cloudseclist.com/issues/issue-122/",
+        "image": null,
+        "summary": "📖 [The CloudSecList] Issue 122 was originally published by Marco Lancini at CloudSecList on January 30, 2022.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Modify GuardDuty Configuration",
+        "date": "Sun, 30 Jan 2022 10:32:26 +0000",
+        "permalink": "https://hackingthe.cloud/aws/avoiding-detection/modify-guardduty-config/",
+        "image": null,
+        "summary": "Modify existing GuardDuty configurations in the target account to hinder alerting and remediation capabilities.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Memory dump analysis with Signal decryption",
+        "date": "Fri, 20 Dec 2024 11:07:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/memory-dump-analysis-with-signal",
+        "image": null,
+        "summary": "A deep-dive into Signal’s move to safeStorage API and how an HTB forensic content engineer creates a CTF Challenge.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    },
+    {
+        "title": "Operation Tinsel Trace II: Join the resistance against Krampus!",
+        "date": "Fri, 20 Dec 2024 01:08:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/operation-tinsel-trace-2024",
+        "image": null,
+        "summary": "Krampus has left some gifts for Santa, it turns out—it’s malware.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    },
+    {
+        "title": "The many ways to obtain credentials in AWS",
+        "date": "Fri, 20 Dec 2024 13:00:00 GMT",
+        "permalink": "https://www.wiz.io/blog/the-many-ways-to-obtain-credentials-in-aws",
+        "image": null,
+        "summary": "Dive into the complexities of AWS IAM credentials and uncover how defenders can stay ahead with in-depth knowledge of SDK behaviors and service-specific mechanisms.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

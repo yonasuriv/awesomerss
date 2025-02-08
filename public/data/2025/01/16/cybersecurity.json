@@ -1,0 +1,22 @@
+[
+    {
+        "title": "OSV-SCALIBR: A library for Software Composition Analysis",
+        "date": "2025-01-16T14:06:00.010-05:00",
+        "permalink": "http://security.googleblog.com/2025/01/osv-scalibr-library-for-software.html",
+        "image": null,
+        "summary": "Posted by Erik Varga, Vulnerability Management, and Rex Pan, Open Source Security TeamIn December 2022, we announced OSV-Scanner, a tool to enable developers to easily scan for vulnerabilities in their open source dependencies.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "5 critical cybersecurity skills gap trends for 2025",
+        "date": "Thu, 16 Jan 2025 09:54:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/cybersecurity-skills-gap-trends-2025",
+        "image": null,
+        "summary": "Want to stay ahead in 2025? Here's HTB's take on the top trends shaping skills gaps in cybersecurity industry (and how your team can adapt to the changes ahead).",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

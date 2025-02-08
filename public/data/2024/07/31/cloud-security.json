@@ -1,0 +1,11 @@
+[
+    {
+        "title": "CVE-2024-28056: Exploit an AWS Amplify Vulnerability in Same-Account Scenarios",
+        "date": "Wed, 31 Jul 2024 20:37:36 +0000",
+        "permalink": "https://hackingthe.cloud/aws/exploitation/Misconfigured_Resource-Based_Policies/exploit_amplify_vulnerability_in_same_account_scenario/",
+        "image": null,
+        "summary": "An in-depth explanation of how to still abuse CVE-2024-28056, a vulnerability in AWS Amplify that exposed IAM roles to takeover.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

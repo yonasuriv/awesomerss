@@ -1,0 +1,31 @@
+{
+    "favicon": "https://elie.net/favicon/favicon.ico",
+    "dates": {
+        "2024-10-10": [
+            "https://elie.net/talk/ai-for-cybersecurity-get-started-today",
+            "https://elie.net/talk/ai-security-top-5-recommendations"
+        ],
+        "2024-09-05": [
+            "https://elie.net/publication/generalized-power-attacks-against-crypto-hardware-using-long-range-deep-learning"
+        ],
+        "2024-06-06": [
+            "https://elie.net/publication/leveraging-virtual-reality-to-enhance-diversity-and-inclusion-training-at-google"
+        ],
+        "2024-05-17": [
+            "https://elie.net/blog/ai/wingardium-trivia-osa-on-device-sorting-hatbot-powered-by-gemma-ollama-usearch-and-retsim",
+            "https://elie.net/publication/retsim-resilient-and-efficient-text-similarity"
+        ],
+        "2024-05-08": [
+            "https://elie.net/talk/lessons-learned-from-developing-secure-ai-workflows-at-google-rsa-2024"
+        ],
+        "2024-05-06": [
+            "https://elie.net/talk/how-large-language-models-are-reshaping-the-cybersecurity-landscape-rsa-2024"
+        ],
+        "2024-02-17": [
+            "https://elie.net/publication/retvec-resilient-and-efficient-text-vectorizer"
+        ],
+        "2023-08-20": [
+            "https://elie.net/publication/hybrid-post-quantum-signatures-in-hardware-security-keys"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "📖 [The CloudSecList] Issue 130",
+        "date": "Sun, 27 Mar 2022 00:00:00 +0000",
+        "permalink": "https://cloudseclist.com/issues/issue-130/",
+        "image": null,
+        "summary": "📖 [The CloudSecList] Issue 130 was originally published by Marco Lancini at CloudSecList on March 27, 2022.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Abusing Managed Identities",
+        "date": "Sun, 27 Mar 2022 16:57:50 +0000",
+        "permalink": "https://hackingthe.cloud/azure/abusing-managed-identities/",
+        "image": null,
+        "summary": "Abusing Managed Identities",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

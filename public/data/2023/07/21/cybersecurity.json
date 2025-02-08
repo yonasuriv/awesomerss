@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Citrix ADC Gateway RCE: CVE-2023-3519 is Exploitable, and 53% of Servers Are Unpatched",
+        "date": "Fri, 21 Jul 2023 10:55:00 -0700",
+        "permalink": "https://bishopfox.com/blog/citrix-adc-gateway-rce-cve-2023-3519",
+        "image": null,
+        "summary": "Bishop Fox developed an exploit for CVE-2023-3519, a stack overflow in Citrix ADC Gateway that allows remote code execution.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Compromised Microsoft Key: More Impactful Than We Thought",
+        "date": "Fri, 21 Jul 2023 14:01:28 GMT",
+        "permalink": "https://www.wiz.io/blog/storm-0558-compromised-microsoft-key-enables-authentication-of-countless-micr",
+        "image": null,
+        "summary": "Our investigation of the security incident disclosed by Microsoft and CISA and attributed to Chinese threat actor Storm-0558, found that this incident seems to have a broader scope than originally assumed.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

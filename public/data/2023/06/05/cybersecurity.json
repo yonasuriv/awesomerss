@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Bypassing CSP via DOM clobbering",
+        "date": "Mon, 05 Jun 2023 14:00:00 GMT",
+        "permalink": "https://portswigger.net/research/bypassing-csp-via-dom-clobbering",
+        "image": null,
+        "summary": "You might have found HTML injection, but unfortunately identified that the site is protected with CSP.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

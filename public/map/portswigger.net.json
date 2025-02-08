@@ -1,0 +1,123 @@
+{
+    "favicon": "https://portswigger.net/content/images/logos/favicon.ico",
+    "dates": {
+        "2025-02-04": [
+            "https://portswigger.net/research/top-10-web-hacking-techniques-of-2024"
+        ],
+        "2025-01-28": [
+            "https://portswigger.net/research/bypassing-character-blocklists-with-unicode-overflows"
+        ],
+        "2025-01-22": [
+            "https://portswigger.net/research/stealing-httponly-cookies-with-the-cookie-sandwich-technique"
+        ],
+        "2025-01-08": [
+            "https://portswigger.net/research/top-10-web-hacking-techniques-of-2024-nominations-open"
+        ],
+        "2024-12-04": [
+            "https://portswigger.net/research/bypassing-wafs-with-the-phantom-version-cookie"
+        ],
+        "2024-10-29": [
+            "https://portswigger.net/research/new-crazy-payloads-in-the-url-validation-bypass-cheat-sheet"
+        ],
+        "2024-10-23": [
+            "https://portswigger.net/research/concealing-payloads-in-url-credentials"
+        ],
+        "2024-09-03": [
+            "https://portswigger.net/research/introducing-the-url-validation-bypass-cheat-sheet"
+        ],
+        "2024-08-08": [
+            "https://portswigger.net/research/gotta-cache-em-all"
+        ],
+        "2024-08-07": [
+            "https://portswigger.net/research/splitting-the-email-atom",
+            "https://portswigger.net/research/listen-to-the-whispers-web-timing-attacks-that-actually-work"
+        ],
+        "2024-07-09": [
+            "https://portswigger.net/research/fickle-pdfs-exploiting-browser-rendering-discrepancies"
+        ],
+        "2024-07-02": [
+            "https://portswigger.net/research/a-hacking-hat-trick-previewing-three-portswigger-research-publications-coming-to-def-con-amp-black-hat-usa"
+        ],
+        "2024-06-11": [
+            "https://portswigger.net/research/new-exotic-events-in-the-xss-cheat-sheet"
+        ],
+        "2024-05-29": [
+            "https://portswigger.net/research/adjusting-your-http-perspective-with-bambdas"
+        ],
+        "2024-05-22": [
+            "https://portswigger.net/research/introducing-signsaboteur-forge-signed-web-tokens-with-ease"
+        ],
+        "2024-03-19": [
+            "https://portswigger.net/research/trace-desync-attack"
+        ],
+        "2024-03-05": [
+            "https://portswigger.net/research/using-form-hijacking-to-bypass-csp"
+        ],
+        "2024-02-19": [
+            "https://portswigger.net/research/top-10-web-hacking-techniques-of-2023"
+        ],
+        "2024-01-23": [
+            "https://portswigger.net/research/hiding-payloads-in-java-source-code-strings"
+        ],
+        "2024-01-09": [
+            "https://portswigger.net/research/top-10-web-hacking-techniques-of-2023-nominations-open"
+        ],
+        "2023-12-12": [
+            "https://portswigger.net/research/finding-that-one-weird-endpoint-with-bambdas"
+        ],
+        "2023-12-05": [
+            "https://portswigger.net/research/blind-css-exfiltration"
+        ],
+        "2023-10-18": [
+            "https://portswigger.net/research/the-single-packet-attack-making-remote-race-conditions-local"
+        ],
+        "2023-10-03": [
+            "https://portswigger.net/research/how-to-build-custom-scanners-for-web-security-research-automation"
+        ],
+        "2023-08-09": [
+            "https://portswigger.net/research/smashing-the-state-machine"
+        ],
+        "2023-07-11": [
+            "https://portswigger.net/research/exploiting-xss-in-hidden-inputs-and-meta-tags"
+        ],
+        "2023-06-14": [
+            "https://portswigger.net/research/how-i-choose-a-security-research-topic"
+        ],
+        "2023-06-05": [
+            "https://portswigger.net/research/bypassing-csp-via-dom-clobbering"
+        ],
+        "2023-04-28": [
+            "https://portswigger.net/research/ambushed-by-angularjs-a-hidden-csp-bypass-in-piwik-pro"
+        ],
+        "2023-03-28": [
+            "https://portswigger.net/research/the-curl-quirk-that-exposed-burp-suite-amp-google-chrome"
+        ],
+        "2023-03-23": [
+            "https://portswigger.net/research/exploiting-prototype-pollution-in-node-without-the-filesystem"
+        ],
+        "2023-02-15": [
+            "https://portswigger.net/research/server-side-prototype-pollution"
+        ],
+        "2023-02-08": [
+            "https://portswigger.net/research/top-10-web-hacking-techniques-of-2022"
+        ],
+        "2023-01-04": [
+            "https://portswigger.net/research/top-10-web-hacking-techniques-of-2022-nominations-open"
+        ],
+        "2022-11-29": [
+            "https://portswigger.net/research/hijacking-service-workers-via-dom-clobbering"
+        ],
+        "2022-11-15": [
+            "https://portswigger.net/research/stealing-passwords-from-infosec-mastodon-without-bypassing-csp"
+        ],
+        "2022-11-09": [
+            "https://portswigger.net/research/detecting-web-message-misconfigurations-for-cross-domain-credential-theft"
+        ],
+        "2022-10-31": [
+            "https://portswigger.net/research/safari-is-hot-linking-images-to-semi-random-websites"
+        ],
+        "2022-10-19": [
+            "https://portswigger.net/research/http-3-connection-contamination"
+        ]
+    }
+}

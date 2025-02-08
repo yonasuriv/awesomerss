@@ -1,0 +1,11 @@
+[
+    {
+        "title": "RCE vulnerability in OpenSSH: everything you need to know",
+        "date": "Mon, 01 Jul 2024 13:49:17 GMT",
+        "permalink": "https://www.wiz.io/blog/cve-2024-6387-critical-rce-openssh",
+        "image": null,
+        "summary": "Detect and mitigate CVE-2024-6387, a remote code execution vulnerability in OpenSSH.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

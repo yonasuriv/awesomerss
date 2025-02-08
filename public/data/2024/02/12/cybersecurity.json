@@ -1,0 +1,11 @@
+[
+    {
+        "title": "February Fortinet Advisory: everything you need to know",
+        "date": "Mon, 12 Feb 2024 13:53:10 GMT",
+        "permalink": "https://www.wiz.io/blog/critical-rce-vulnerabilities-in-fortios-cve-2024-21762-cve-2024-23113",
+        "image": null,
+        "summary": "Fortinet offers guidance to detect and mitigate CVE-2024-21762 and CVE-2024-23113, critical RCE vulnerabilities in FortiOS and FortiProxy, including guidance that organizations should patch urgently.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Abusing AWS Connection Tracking",
+        "date": "Tue, 11 Aug 2020 00:00:40 -0600",
+        "permalink": "https://frichetten.com/blog/abusing-aws-connection-tracking/",
+        "image": null,
+        "summary": "Tunnel out of restricted security groups by abusing connection tracking.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

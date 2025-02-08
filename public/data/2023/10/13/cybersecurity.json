@@ -1,0 +1,11 @@
+[
+    {
+        "title": "An analysis of an in-the-wild iOS Safari WebContent to GPU Process exploit",
+        "date": "2023-10-13T03:47:00.001-07:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2023/10/an-analysis-of-an-in-the-wild-ios-safari-sandbox-escape.html",
+        "image": null,
+        "summary": "By Ian Beer\n\nA graph representation of the sandbox escape NSExpression payload\n\nIn April this year Google's Threat Analysis Group, in collaboration with Amnesty International, discovered an in-the-wild iPhone zero-day exploit chain being used in targeted attacks delivered via malicious link.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

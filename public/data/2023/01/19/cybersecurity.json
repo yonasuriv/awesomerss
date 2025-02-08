@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Exploiting null-dereferences in the Linux kernel",
+        "date": "2023-01-19T09:33:00.000-08:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2023/01/exploiting-null-dereferences-in-linux.html",
+        "image": null,
+        "summary": "Posted by Seth Jenkins, Project Zero\n\nFor a fair amount of time, null-deref bugs were a highly exploitable kernel bug class.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

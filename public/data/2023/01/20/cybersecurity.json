@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Data Exfiltration through VPC Endpoints",
+        "date": "Fri, 20 Jan 2023 00:00:00 +0000",
+        "permalink": "https://skybound.link/2023/01/data-exfiltration-through-vpc-endpoints/",
+        "image": null,
+        "summary": "It is common for me to see VPCs that are unable to communicate with the public internet to achieve a “private” network.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

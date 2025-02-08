@@ -1,0 +1,20 @@
+[
+    {
+        "title": "raink: Use LLMs for Document Ranking",
+        "date": "Tue, 14 Jan 2025 08:12:00 -0800",
+        "permalink": "https://bishopfox.com/blog/raink-llms-document-ranking",
+        "image": null,
+        "summary": "Learn how Bishop Fox's open-source ranking algorithm, raink, can be used to solve general ranking problems that are difficult for LLMs to process.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Command Line Underdog: WMIC in Action",
+        "date": "Tue, 14 Jan 2025 00:00:00 -0500",
+        "permalink": "https://trustedsec.com/blog/command-line-underdog-wmic-in-action",
+        "image": null,
+        "summary": "<p>My typical engagements are mostly Red Teams, so I do not often get a chance to play with terminal server application breakouts—but on a recent engagement, I did.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

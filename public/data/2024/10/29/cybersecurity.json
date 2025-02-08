@@ -1,0 +1,33 @@
+[
+    {
+        "title": "New crazy payloads in the URL Validation Bypass Cheat Sheet",
+        "date": "Tue, 29 Oct 2024 13:59:13 GMT",
+        "permalink": "https://portswigger.net/research/new-crazy-payloads-in-the-url-validation-bypass-cheat-sheet",
+        "image": null,
+        "summary": "The strength of our URL Validation Bypass Cheat Sheet lies in the contributions from the web security community, and today’s update is no exception.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Hack The Box returns to the Australian Cyber Conference in Melbourne",
+        "date": "Tue, 29 Oct 2024 04:49:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/htb-at-aisa-melbourne-cybercon-2024",
+        "image": null,
+        "summary": "Meet the Hack The Box team at booth #184",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    },
+    {
+        "title": "$626 Million: The true cost of burnout in cybersecurity",
+        "date": "Tue, 29 Oct 2024 02:01:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/the-true-cost-of-burnout-626-million",
+        "image": null,
+        "summary": "What’s the business impact of burnt-out staff? Our research surveyed over 2,000 C-level professionals to get a data-driven answer.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

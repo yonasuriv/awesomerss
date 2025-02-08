@@ -1,0 +1,18 @@
+{
+    "favicon": "https://altion.dk/favicon.png",
+    "dates": {
+        "2025-01-30": [
+            "https://www.altion.dk/posts/frappe-security-vulnerabilities"
+        ],
+        "2024-01-22": [
+            "https://www.altion.dk/posts/cyberpanel-0",
+            "https://www.altion.dk/posts/cyberpanel-1",
+            "https://www.altion.dk/posts/cyberpanel-2",
+            "https://www.altion.dk/posts/cyberpanel-3",
+            "https://www.altion.dk/posts/cyberpanel-4",
+            "https://www.altion.dk/posts/cyberpanel-5",
+            "https://www.altion.dk/posts/cyberpanel-6",
+            "https://www.altion.dk/posts/cyberpanel-7"
+        ]
+    }
+}

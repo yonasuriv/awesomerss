@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Malware Series: Process Injection Mapped Sections",
+        "date": "Thu, 19 Dec 2024 00:00:00 -0500",
+        "permalink": "https://trustedsec.com/blog/malware-series-process-injection-mapped-sections",
+        "image": null,
+        "summary": "<p>We're back with another post about common malware techniques.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "The Windows Registry Adventure #5: The regf file format",
+        "date": "2024-12-19T11:03:00.000-08:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2024/12/the-windows-registry-adventure-5-regf.html",
+        "image": null,
+        "summary": "Posted by Mateusz Jurczyk, Google Project Zero\n\nAs previously mentioned in the second installment of the blog post series (\"A brief history of the feature\"), the binary format used to encode registry hives from Windows NT 3.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

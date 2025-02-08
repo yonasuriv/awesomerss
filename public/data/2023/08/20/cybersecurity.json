@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Hybrid Post-Quantum Signatures in Hardware Security Keys",
+        "date": "Sun, 20 Aug 2023 17:00:00 GMT",
+        "permalink": "https://elie.net/publication/hybrid-post-quantum-signatures-in-hardware-security-keys",
+        "image": "https://elie.net//_astro/hybrid-post-quantum-signatures-in-hardware-security-keys.DVHF7Mbl.jpg",
+        "summary": "We introduce a hybrid digital signature scheme based on two building blocks: a classically-secure scheme, ECDSA, and a post-quantum secure one, Dilithium.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

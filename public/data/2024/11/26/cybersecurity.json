@@ -1,0 +1,22 @@
+[
+    {
+        "title": "How Volt Typhoon targeted US ISPs with a zero-day exploit (Attack Anatomy)",
+        "date": "Tue, 26 Nov 2024 10:20:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/volt-typhoon-attack-anatomy",
+        "image": null,
+        "summary": "During the Summer of 2024, several internet service providers (ISPs) & managed service providers (MSPs) were the target of a zero-day vulnerability being used by Volt Typhoon.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    },
+    {
+        "title": "Wiz collaborates with NVIDIA to advance ML research for data classification",
+        "date": "Tue, 26 Nov 2024 12:02:31 GMT",
+        "permalink": "https://www.wiz.io/blog/nvidia-ml-data-classification",
+        "image": null,
+        "summary": "Wiz Research taps Llama 3 model NVIDIA NIM microservices for sensitive data classification",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Kubernetes API limitations in finding non-standard pods and containers",
+        "date": "Wed, 19 Jul 2023 14:23:29 GMT",
+        "permalink": "https://www.wiz.io/blog/kubernetes-api-limitations-in-finding-non-standard-pods-and-containers",
+        "image": null,
+        "summary": "Gain a deeper understanding of why it's essential to monitor non-standard pods and containers, including static pods, mirror pods, init containers, pause containers, and ephemeral containers within your Kubernetes environment.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Lets Create An EDR… And Bypass It!  Part 1",
+        "date": "Wed, 27 May 2020 18:50:50 +0000",
+        "permalink": "https://ethicalchaos.dev/2020/05/27/lets-create-an-edr-and-bypass-it-part-1/?utm_source=rss&utm_medium=rss&utm_campaign=lets-create-an-edr-and-bypass-it-part-1",
+        "image": null,
+        "summary": "A 2 part series on creating a basic EDR detection system and then a bypass implementation.",
+        "category": "cybersecurity",
+        "tags": [
+            "Bypass",
+            "EDR",
+            "Hooking",
+            "antivirus",
+            "api",
+            "AV",
+            "bypass",
+            "edr",
+            "hooking",
+            "trampoline"
+        ]
+    }
+]

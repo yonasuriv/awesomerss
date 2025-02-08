@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Power Up Your Pen Tests: Creating Burp Suite Extensions with the New Montoya API",
+        "date": "Thu, 25 May 2023 06:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/power-pen-tests-with-montoya-api",
+        "image": null,
+        "summary": "Learn how to power up your pen tests by using the new Montoya API to create Burp Suite extensions from scratch.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Bridging the Security Gap: Mitigating Lateral Movement Risks from On-Premises to Cloud Environments",
+        "date": "Thu, 25 May 2023 19:20:43 GMT",
+        "permalink": "https://www.wiz.io/blog/lateral-movement-risks-in-the-cloud-and-how-to-prevent-them-part-4-from-compromis",
+        "image": null,
+        "summary": "This blog post will discuss lateral movement risks from on-prem to the cloud.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

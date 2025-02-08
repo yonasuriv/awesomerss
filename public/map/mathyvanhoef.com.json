@@ -1,0 +1,80 @@
+{
+    "favicon": "https://www.mathyvanhoef.com/favicon.ico",
+    "dates": {
+        "2024-08-07": [
+            "https://www.mathyvanhoef.com/2024/08/the-ssid-confusion-attack-common.html"
+        ],
+        "2023-08-10": [
+            "https://www.mathyvanhoef.com/2023/08/making-cloudflare-warp-vpn-leak-dns.html"
+        ],
+        "2021-05-18": [
+            "https://www.mathyvanhoef.com/2021/05/fragattacks-clarifying-some-aspects.html"
+        ],
+        "2020-09-12": [
+            "https://www.mathyvanhoef.com/2020/09/including-code-when-submitting-papers.html"
+        ],
+        "2020-07-24": [
+            "https://www.mathyvanhoef.com/2020/07/protecting-wi-fi-beacons-from-outsider.html"
+        ],
+        "2020-06-21": [
+            "https://www.mathyvanhoef.com/2020/06/riving-router-stuck-in-infinite-reboot.html"
+        ],
+        "2019-09-25": [
+            "https://www.mathyvanhoef.com/2019/09/inspecting-draft-ieee-standards.html"
+        ],
+        "2018-06-27": [
+            "https://www.mathyvanhoef.com/2018/06/wpa3-missed-opportunity.html"
+        ],
+        "2018-06-07": [
+            "https://www.mathyvanhoef.com/2018/06/unkrack-mitigating-future-wpa2.html"
+        ],
+        "2018-03-12": [
+            "https://www.mathyvanhoef.com/2018/03/wpa3-technical-details.html"
+        ],
+        "2017-02-20": [
+            "https://www.mathyvanhoef.com/2017/02/windows-10-lock-screen-abusing-network.html"
+        ],
+        "2016-03-07": [
+            "https://www.mathyvanhoef.com/2016/03/how-mac-address-randomization-works-on.html"
+        ],
+        "2015-10-15": [
+            "https://www.mathyvanhoef.com/2015/10/advanced-wifi-attacks-using-commodity.html"
+        ],
+        "2015-09-23": [
+            "https://www.mathyvanhoef.com/2015/09/csaw-ctf-solving-reversing-wyvern-500.html"
+        ],
+        "2015-03-23": [
+            "https://www.mathyvanhoef.com/2015/03/codegate-2015-goodcrypto-advanced-wep.html"
+        ],
+        "2014-09-24": [
+            "https://www.mathyvanhoef.com/2014/09/csaw-2014-xorcise-challenge.html"
+        ],
+        "2014-05-30": [
+            "https://www.mathyvanhoef.com/2014/05/apbleed-heartbleed-over-wpa12-enterprise.html"
+        ],
+        "2013-12-15": [
+            "https://www.mathyvanhoef.com/2013/12/reversing-and-exploiting-arm-binaries.html"
+        ],
+        "2013-11-10": [
+            "https://www.mathyvanhoef.com/2013/11/unmasking-spoofed-mac-address.html"
+        ],
+        "2013-06-16": [
+            "https://www.mathyvanhoef.com/2013/06/transparent-interception-of-android.html"
+        ],
+        "2013-04-06": [
+            "https://www.mathyvanhoef.com/2013/04/ucsb-ictf-hacking-nuclear-plants-and.html"
+        ],
+        "2013-02-08": [
+            "https://www.mathyvanhoef.com/2013/02/understanding-heap-exploiting-heap.html"
+        ],
+        "2012-11-05": [
+            "https://www.mathyvanhoef.com/2012/11/common-pitfalls-when-writing-exploits.html"
+        ],
+        "2012-09-30": [
+            "https://www.mathyvanhoef.com/2012/09/compat-wireless-injection-patch-for.html"
+        ],
+        "2012-08-20": [
+            "https://www.mathyvanhoef.com/2012/08/secrets-of-revese-engineering-flaws-in.html"
+        ]
+    }
+}

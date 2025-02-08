@@ -1,0 +1,35 @@
+{
+    "favicon": "https://trustedsec.com/favicons/apple-touch-icon.png",
+    "dates": {
+        "2025-02-06": [
+            "https://trustedsec.com/blog/the-hidden-trap-in-the-pci-dss-saq-a-changes"
+        ],
+        "2025-01-23": [
+            "https://trustedsec.com/blog/operating-inside-the-interpreted-offensive-python"
+        ],
+        "2025-01-14": [
+            "https://trustedsec.com/blog/command-line-underdog-wmic-in-action"
+        ],
+        "2015-04-10": [
+            "https://trustedsec.com/blog/kioskpos-breakout-keys-in-windows"
+        ],
+        "2025-01-07": [
+            "https://trustedsec.com/blog/solving-nist-password-complexities-guidance-from-a-grc-perspective"
+        ],
+        "2024-12-19": [
+            "https://trustedsec.com/blog/malware-series-process-injection-mapped-sections"
+        ],
+        "2024-12-17": [
+            "https://trustedsec.com/blog/top-10-blogs-of-2024"
+        ],
+        "2024-12-05": [
+            "https://trustedsec.com/blog/on-demand-bof"
+        ],
+        "2024-12-03": [
+            "https://trustedsec.com/blog/discovering-a-deserialization-vulnerability-in-linqpad"
+        ],
+        "2024-11-21": [
+            "https://trustedsec.com/blog/a-5-minute-guide-to-http-response-codes"
+        ]
+    }
+}

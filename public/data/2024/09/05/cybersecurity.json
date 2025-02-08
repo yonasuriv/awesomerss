@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Generalized Power Attacks against Crypto Hardware using Long-Range Deep Learning",
+        "date": "Thu, 05 Sep 2024 00:00:00 GMT",
+        "permalink": "https://elie.net/publication/generalized-power-attacks-against-crypto-hardware-using-long-range-deep-learning",
+        "image": "https://elie.net//_astro/generalized-power-attacks-against-crypto-hardware-using-long-range-deep-learning.ClODSCXK.jpg",
+        "summary": "We present GPAM the first side-channel attack model that generalizes across multiple cryptographic algorithms, implementations, and side-channel countermeasures without the need for manual tuning or trace preprocessing",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

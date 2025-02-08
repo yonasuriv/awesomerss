@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Effective Fuzzing: A Dav1d Case Study",
+        "date": "2024-10-03T10:01:00.000-07:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2024/10/effective-fuzzing-dav1d-case-study.html",
+        "image": null,
+        "summary": "Guest post by Nick Galloway, Senior Security Engineer, 20% time on Project Zero\nLate in 2023, while working on a 20% project with Project Zero, I found an integer overflow in the dav1d AV1 video decoder.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Pixel's Proactive Approach to Security: Addressing Vulnerabilities in Cellular Modems",
+        "date": "2024-10-03T12:59:00.000-04:00",
+        "permalink": "http://security.googleblog.com/2024/10/pixel-proactive-security-cellular-modems.html",
+        "image": null,
+        "summary": "Posted by Sherk Chung, Stephan Chen, Pixel team, and Roger Piqueras Jover, Ivan Lozano, Android team\n\nPixel phones have earned a well-deserved reputation for being security-conscious.",
+        "category": "cybersecurity",
+        "tags": [
+            "android",
+            "android security",
+            "pixel"
+        ]
+    },
+    {
+        "title": "Evaluating Mitigations & Vulnerabilities in Chrome",
+        "date": "2024-10-03T12:03:00.000-04:00",
+        "permalink": "http://security.googleblog.com/2024/10/evaluating-mitigations-vulnerabilities.html",
+        "image": null,
+        "summary": "Posted by Alex Gough, Chrome Security Team\n\nThe Chrome Security Team is constantly striving to make it safer to browse the web.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

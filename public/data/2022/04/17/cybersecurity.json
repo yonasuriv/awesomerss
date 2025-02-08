@@ -1,0 +1,14 @@
+[
+    {
+        "title": "In-Process Patchless AMSI Bypass",
+        "date": "Sun, 17 Apr 2022 16:30:25 +0000",
+        "permalink": "https://ethicalchaos.dev/2022/04/17/in-process-patchless-amsi-bypass/?utm_source=rss&utm_medium=rss&utm_campaign=in-process-patchless-amsi-bypass",
+        "image": null,
+        "summary": "Some of you may remember my patchless AMSI bypass article and how it was used inside SharpBlock to bypass AMSI on the child process that SharpBlock spawns.",
+        "category": "cybersecurity",
+        "tags": [
+            "Bypass",
+            "EDR"
+        ]
+    }
+]

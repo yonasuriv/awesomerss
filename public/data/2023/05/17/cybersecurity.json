@@ -1,0 +1,11 @@
+[
+    {
+        "title": "A More Complete Exploit for Fortinet CVE-2022-42475",
+        "date": "Wed, 17 May 2023 04:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/exploit-cve-2022-42475",
+        "image": null,
+        "summary": "Learn about our unique research focused on CVE-2022-42475 and how an exploit can be built to target a single specific FortiGate appliance running a single specific version of FortiOSbug.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

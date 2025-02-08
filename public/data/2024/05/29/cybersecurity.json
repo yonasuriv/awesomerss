@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Refining your HTTP perspective, with bambdas",
+        "date": "Wed, 29 May 2024 13:31:49 GMT",
+        "permalink": "https://portswigger.net/research/adjusting-your-http-perspective-with-bambdas",
+        "image": null,
+        "summary": "When you open a HTTP request or response, what do you instinctively look for? Suspicious parameter names? CORS headers? Some clue as to the request's origin or underlying purpose? A single HTTP messag",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

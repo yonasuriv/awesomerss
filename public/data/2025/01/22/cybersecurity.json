@@ -1,0 +1,35 @@
+[
+    {
+        "title": "SonicWall CVE-2024-53704: SSL VPN Session Hijacking",
+        "date": "Wed, 22 Jan 2025 08:00:00 -0800",
+        "permalink": "https://bishopfox.com/blog/sonicwall-cve-2024-53704-ssl-vpn-session-hijacking",
+        "image": null,
+        "summary": "Bishop Fox researchers have successfully exploited CVE-2024-53704, an authentication bypass affecting the SSL VPN component of unpatched SonicWall firewalls.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Stealing HttpOnly cookies with the cookie sandwich technique",
+        "date": "Wed, 22 Jan 2025 14:45:11 GMT",
+        "permalink": "https://portswigger.net/research/stealing-httponly-cookies-with-the-cookie-sandwich-technique",
+        "image": null,
+        "summary": "In this post, I will introduce the \"cookie sandwich\" technique which lets you bypass the HttpOnly flag on certain servers.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Entra Connect Attacker Tradecraft: Part 2",
+        "date": "Wed, 22 Jan 2025 17:32:02 GMT",
+        "permalink": "https://posts.specterops.io/entra-connect-attacker-tradecraft-part-2-672df0147abc?source=rss----f05f8696e3cc---4",
+        "image": null,
+        "summary": "Now that we know how to add credentials to an on-premises user, lets pose a question:“Given access to a sync account in Domain A, can we add credentials to a user in another domain within the same Entra tenant?”This is a bit of a tall order assuming we have very few privileges in Entra itself.",
+        "category": "cybersecurity",
+        "tags": [
+            "identity-management",
+            "entra",
+            "azure-active-directory",
+            "cloud-security",
+            "attack-path-management"
+        ]
+    }
+]

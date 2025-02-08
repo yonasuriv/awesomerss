@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Hijacking service workers via DOM Clobbering",
+        "date": "Tue, 29 Nov 2022 14:00:02 GMT",
+        "permalink": "https://portswigger.net/research/hijacking-service-workers-via-dom-clobbering",
+        "image": null,
+        "summary": "In this post, we'll briefly review how service worker hijacking works, then introduce a variant that can be triggered via DOM clobbering thanks to a quirk in document.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

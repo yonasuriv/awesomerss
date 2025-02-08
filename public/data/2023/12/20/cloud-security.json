@@ -1,0 +1,20 @@
+[
+    {
+        "title": "DNS and CloudFront Domain Takeover via Deleted S3 Buckets",
+        "date": "Wed, 20 Dec 2023 14:50:27 +0000",
+        "permalink": "https://hackingthe.cloud/aws/exploitation/orphaned_cloudfront_or_dns_takeover_via_s3/",
+        "image": null,
+        "summary": "How orphaned Route53 records and CloudFront distributions can be taken over if the backing S3 bucket is deleted.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "2023 Wrap-up",
+        "date": "Wed, 20 Dec 2023 01:25:13 +0000",
+        "permalink": "https://hackingthe.cloud/blog/2023_wrap-up/",
+        "image": null,
+        "summary": "An end of year summary for Hacking the Cloud in 2023.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Black Hat 2021: How isolated is your AWS cloud environment?",
+        "date": "Wed, 04 Aug 2021 16:21:53 GMT",
+        "permalink": "https://www.wiz.io/blog/black-hat-2021-aws-cross-account-vulnerabilities-how-isolated-is-your-cloud-environment",
+        "image": null,
+        "summary": "Last November, Wiz Research mapped all the services in AWS that allow access from other accounts to see if any of them might inadvertently expose customers and discovered 3 vulnerabilities in different AWS services that allowed anyone to read or write into the accounts of other AWS customers.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Black Hat 2021: DNS loophole makes nation-state level spying as easy as registering a domain",
+        "date": "Wed, 04 Aug 2021 16:15:35 GMT",
+        "permalink": "https://www.wiz.io/blog/black-hat-2021-dns-loophole-makes-nation-state-level-spying-as-easy-as-registering-a-domain",
+        "image": null,
+        "summary": "Wiz CTO Ami Luttwak discusses a new class of vulnerabilities discovered by Wiz Research, which exposed valuable dynamic DNS data from millions of endpoints worldwide.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

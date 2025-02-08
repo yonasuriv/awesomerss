@@ -1,0 +1,29 @@
+[
+    {
+        "title": "📖 [The CloudSecList] Issue 139",
+        "date": "Sun, 29 May 2022 00:00:00 +0100",
+        "permalink": "https://cloudseclist.com/issues/issue-139/",
+        "image": null,
+        "summary": "📖 [The CloudSecList] Issue 139 was originally published by Marco Lancini at CloudSecList on May 29, 2022.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Default Account Information",
+        "date": "Sun, 29 May 2022 13:26:35 +0000",
+        "permalink": "https://hackingthe.cloud/gcp/general-knowledge/default-account-names/",
+        "image": null,
+        "summary": "Default information on how accounts and service accounts exist in GCP",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Security and Constraints",
+        "date": "Sun, 29 May 2022 13:26:35 +0000",
+        "permalink": "https://hackingthe.cloud/gcp/general-knowledge/security-and-constraints/",
+        "image": null,
+        "summary": "Security considerations and constraints that are unique to GCP",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

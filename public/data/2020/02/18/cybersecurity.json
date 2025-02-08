@@ -1,0 +1,14 @@
+[
+    {
+        "title": "A brief introduction into KASAN on macOS Catalina",
+        "date": "2020-02-18T00:00:00+00:00",
+        "permalink": "https://alexplaskett.github.io/macos-kasan/",
+        "image": null,
+        "summary": "This article will show some initial research into booting a KSAN kernel, testing the KASAN functionality and some initial groundwork on KSANCOV.",
+        "category": "cybersecurity",
+        "tags": [
+            "Apple",
+            "XNU"
+        ]
+    }
+]

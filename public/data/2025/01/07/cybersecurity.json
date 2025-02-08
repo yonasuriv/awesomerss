@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Part 15: Function Type Categories",
+        "date": "Tue, 07 Jan 2025 16:06:36 GMT",
+        "permalink": "https://posts.specterops.io/part-15-function-type-categories-5942e70e05ab?source=rss----f05f8696e3cc---4",
+        "image": null,
+        "summary": "On Detection: Tactical to FunctionalSeven Ways to View API FunctionsIntroductionWelcome back to Part 15 of the On Detection: Tactical to Functional blog series.",
+        "category": "cybersecurity",
+        "tags": [
+            "infosec",
+            "research",
+            "on-detection",
+            "detection-engineering"
+        ]
+    },
+    {
+        "title": "Solving NIST Password Complexities: Guidance From a GRC Perspective",
+        "date": "Tue, 07 Jan 2025 00:00:00 -0500",
+        "permalink": "https://trustedsec.com/blog/solving-nist-password-complexities-guidance-from-a-grc-perspective",
+        "image": null,
+        "summary": "<p>Not another password change! Isn’t one (1) extra-long password enough? As a former Incident Response, Identity and Access Control, and Education and Awareness guru, I can attest that password security and complexity…</p>",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Concealing payloads in URL credentials",
+        "date": "Wed, 23 Oct 2024 12:59:05 GMT",
+        "permalink": "https://portswigger.net/research/concealing-payloads-in-url-credentials",
+        "image": null,
+        "summary": "Last year Johan Carlsson discovered you could conceal payloads inside the credentials part of the URL .",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "AskAI – Text to Security Graph Query",
+        "date": "Wed, 23 Oct 2024 14:00:00 GMT",
+        "permalink": "https://www.wiz.io/blog/askai-text-to-security-graph-query",
+        "image": null,
+        "summary": "AskAI – Text to Security Graph Query",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

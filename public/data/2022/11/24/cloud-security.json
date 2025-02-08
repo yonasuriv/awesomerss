@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Misconfigured Resource-Based Policies",
+        "date": "Thu, 24 Nov 2022 22:14:38 +0000",
+        "permalink": "https://hackingthe.cloud/aws/exploitation/Misconfigured_Resource-Based_Policies/",
+        "image": null,
+        "summary": "Common misconfigurations of resource-based policies and how they can be abused.",
+        "category": "cloud-security",
+        "tags": []
+    },
+    {
+        "title": "Abusing Misconfigured ECR Resource Policies",
+        "date": "Thu, 24 Nov 2022 22:14:38 +0000",
+        "permalink": "https://hackingthe.cloud/aws/exploitation/Misconfigured_Resource-Based_Policies/misconfigured_ecr_resource_policy/",
+        "image": null,
+        "summary": "How to take advantage of misconfigured AWS ECR private repositories.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

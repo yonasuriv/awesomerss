@@ -1,0 +1,11 @@
+[
+    {
+        "title": "OpenSSL Punycode Vulnerabiliy (CVE-2022-3602)",
+        "date": "Tue, 01 Nov 2022 00:00:40 -0600",
+        "permalink": "https://frichetten.com/blog/openssl-punycode-vuln/",
+        "image": null,
+        "summary": "Datadog: A technical analysis of the OpenSSL punycode vulnerability.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

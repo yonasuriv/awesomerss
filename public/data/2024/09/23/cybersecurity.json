@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Hack The Box makes its first mark at SecTor 2024",
+        "date": "Mon, 23 Sep 2024 08:58:51 +0000",
+        "permalink": "https://www.hackthebox.com/blog/htb-sector-canada-2024",
+        "image": null,
+        "summary": "Meet the Hack The Box team at booth #431",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    },
+    {
+        "title": "Tracking cloud-fluent threat actors - Part one: Atomic cloud IOCs",
+        "date": "Mon, 23 Sep 2024 15:45:17 GMT",
+        "permalink": "https://www.wiz.io/blog/mastering-cloud-specific-indicators-of-compromise-iocs",
+        "image": null,
+        "summary": "Strategies for tracking and defending against malicious activity and threats in the cloud using atomic indicators of compromise (IOCs).",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

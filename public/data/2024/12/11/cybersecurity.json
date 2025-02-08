@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Auditing the Ruby ecosystem’s central package repository",
+        "date": "Wed, 11 Dec 2024 14:00:59 +0000",
+        "permalink": "https://blog.trailofbits.com/2024/12/11/auditing-the-ruby-ecosystems-central-package-repository/",
+        "image": null,
+        "summary": "Ruby Central hired Trail of Bits to complete a security assessment and a competitive analysis of RubyGems.",
+        "category": "cybersecurity",
+        "tags": [
+            "Application Security",
+            "Open Source"
+        ]
+    },
+    {
+        "title": "Top AWS re:Invent Announcements for Security Teams in 2024",
+        "date": "Wed, 11 Dec 2024 13:00:00 GMT",
+        "permalink": "https://www.wiz.io/blog/top-aws-re-invent-announcements-for-security-teams-in-2024",
+        "image": null,
+        "summary": "AWS re:Invent 2024 brought an avalanche of announcements, with over 500 updates since November.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

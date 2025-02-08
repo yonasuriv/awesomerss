@@ -1,0 +1,27 @@
+[
+    {
+        "title": "The Growing Concern of API Security",
+        "date": "Wed, 27 Nov 2024 07:00:00 -0800",
+        "permalink": "https://bishopfox.com/blog/the-growing-concern-of-api-security",
+        "image": null,
+        "summary": "Explore concerns around API security, its unique vulnerabilities, and the need for tailored protection against evolving threats in an API-driven world.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Beyond Bcrypt",
+        "date": "Wed, 27 Nov 2024 14:56:04 +0000",
+        "permalink": "https://soatok.blog/2024/11/27/beyond-bcrypt/",
+        "image": null,
+        "summary": "In 2010, Coda Hale wrote How To Safely Store A Password which began with the repeated phrase, “Use bcrypt”, where the word bcrypt was linked to a different implementation for various programming languages.",
+        "category": "cybersecurity",
+        "tags": [
+            "Cryptography",
+            "bcrypt",
+            "cryptography",
+            "password hashing",
+            "passwords",
+            "Security Guidance"
+        ]
+    }
+]

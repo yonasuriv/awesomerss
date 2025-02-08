@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Bypassing character blocklists with unicode overflows",
+        "date": "Tue, 28 Jan 2025 13:58:28 GMT",
+        "permalink": "https://portswigger.net/research/bypassing-character-blocklists-with-unicode-overflows",
+        "image": null,
+        "summary": "Unicode codepoint truncation - also called a Unicode overflow attack - happens when a server tries to store a Unicode character in a single byte.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Best practices for key derivation",
+        "date": "Tue, 28 Jan 2025 14:00:18 +0000",
+        "permalink": "https://blog.trailofbits.com/2025/01/28/best-practices-for-key-derivation/",
+        "image": null,
+        "summary": "By Marc Ilunga Key derivation is essential in many cryptographic applications, including key exchange, key management, secure communications, and building robust cryptographic primitives.",
+        "category": "cybersecurity",
+        "tags": [
+            "Cryptography"
+        ]
+    },
+    {
+        "title": "Hack The Box and Carahsoft partner to bring advanced cybersecurity upskilling solutions  to the public sector",
+        "date": "Tue, 28 Jan 2025 06:56:20 +0000",
+        "permalink": "https://www.hackthebox.com/blog/htb-carahsoft-partnership",
+        "image": null,
+        "summary": "News",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

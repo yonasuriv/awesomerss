@@ -1,0 +1,20 @@
+[
+    {
+        "title": "CVE-2020-11108: How I Stumbled into a Pi-hole RCE+LPE",
+        "date": "Sun, 10 May 2020 00:16:40 -0600",
+        "permalink": "https://frichetten.com/blog/cve-2020-11108-pihole-rce/",
+        "image": null,
+        "summary": "Writeup for CVE-2020-11108 covering how I found the vulnerability and how it can be exploited for fun/profit.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Hunting for Impacket",
+        "date": "Sun, 10 May 2020 00:00:00 -0700",
+        "permalink": "https://riccardoancarani.github.io/2020-05-10-hunting-for-impacket/",
+        "image": null,
+        "summary": "Introduction Tools secretsdump.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

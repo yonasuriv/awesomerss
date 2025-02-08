@@ -1,0 +1,31 @@
+[
+    {
+        "title": "A Brief Look at FortiJump (FortiManager CVE-2024-47575)",
+        "date": "Fri, 01 Nov 2024 09:15:00 -0700",
+        "permalink": "https://bishopfox.com/blog/a-look-at-fortijump-cve-2024-47575",
+        "image": null,
+        "summary": "The recent discovery of FortiJump (CVE-2024-47575) highlights a critical vulnerability exploited in the wild, prompting an urgent need to understand its impact on centralized management devices.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "From Naptime to Big Sleep: Using Large Language Models To Catch Vulnerabilities In Real-World Code",
+        "date": "2024-11-01T08:12:00.003-07:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html",
+        "image": null,
+        "summary": "Posted by the Big Sleep team\nIntroduction\nIn our previous post, Project Naptime: Evaluating Offensive Security Capabilities of Large Language Models, we introduced our framework for large-language-model-assisted vulnerability research and demonstrated its potential by improving the state-of-the-art performance on Meta's CyberSecEval2 benchmarks.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "The complete list of Q3 2024 releases and updates on HTB Enterprise Platform",
+        "date": "Fri, 01 Nov 2024 16:34:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/product-updates-q3-2024",
+        "image": null,
+        "summary": "Building on the valuable feedback from our 3+ million community of cybersecurity professionals and addressing current industry challenges, we’re excited to share the latest HTB updates.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

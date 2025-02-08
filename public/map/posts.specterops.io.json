@@ -1,0 +1,35 @@
+{
+    "favicon": "https://cdn-images-1.medium.com/fit/c/256/256/1*D-FDlfkqivRBQZoESrwtqw.png",
+    "dates": {
+        "2025-02-05": [
+            "https://posts.specterops.io/forging-a-better-operator-quality-of-life-e8bf24fc2aba?source=rss----f05f8696e3cc---4"
+        ],
+        "2025-02-03": [
+            "https://posts.specterops.io/further-adventures-with-cmpivot-client-coercion-38b878b740ac?source=rss----f05f8696e3cc---4"
+        ],
+        "2025-01-31": [
+            "https://posts.specterops.io/slackpirate-set-sails-again-or-how-to-send-the-entire-bee-movie-script-to-your-friends-in-slack-d9c691ae33f5?source=rss----f05f8696e3cc---4"
+        ],
+        "2025-01-23": [
+            "https://posts.specterops.io/insurance-companies-can-reduce-risk-with-attack-path-management-d6afa0ba1f5a?source=rss----f05f8696e3cc---4"
+        ],
+        "2025-01-22": [
+            "https://posts.specterops.io/entra-connect-attacker-tradecraft-part-2-672df0147abc?source=rss----f05f8696e3cc---4"
+        ],
+        "2025-01-21": [
+            "https://posts.specterops.io/life-at-specterops-part-ii-from-dream-to-reality-99e10df0ba73?source=rss----f05f8696e3cc---4"
+        ],
+        "2025-01-17": [
+            "https://posts.specterops.io/introducing-bloodhound-cli-7dfaf82e2df8?source=rss----f05f8696e3cc---4"
+        ],
+        "2025-01-15": [
+            "https://posts.specterops.io/intune-attack-paths-part-1-4ad1882c1811?source=rss----f05f8696e3cc---4"
+        ],
+        "2025-01-13": [
+            "https://posts.specterops.io/part-16-tool-description-e09506ebc2c7?source=rss----f05f8696e3cc---4"
+        ],
+        "2025-01-07": [
+            "https://posts.specterops.io/part-15-function-type-categories-5942e70e05ab?source=rss----f05f8696e3cc---4"
+        ]
+    }
+}

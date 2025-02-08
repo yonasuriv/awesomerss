@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Exploring Large Language Models: Local LLM CTF & Lab",
+        "date": "Wed, 11 Sep 2024 10:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/large-language-models-llm-ctf-lab",
+        "image": null,
+        "summary": "Explore research on isolating functional expectations for LLMs using a controller to manage access between privileged and quarantined LLMs.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "5 Active Directory misconfigurations (& how they're exploited)",
+        "date": "Wed, 11 Sep 2024 12:36:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/active-directory-misconfigurations",
+        "image": null,
+        "summary": "Audit your AD environment for misconfigurations (and attacks) that can lead to severe consequences when exploited by malicious actors.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

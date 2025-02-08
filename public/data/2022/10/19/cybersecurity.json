@@ -1,0 +1,20 @@
+[
+    {
+        "title": "The State of Vulnerabilities in 2022",
+        "date": "Wed, 19 Oct 2022 08:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/vulnerabilities-2022",
+        "image": null,
+        "summary": "Is your organization concerned with security vulnerabilities? Read on as we examine publicly disclosed reports to understand the most frequent vulnerability types, the highest-disclosed bounties, and more.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "HTTP/3 connection contamination: an upcoming threat?",
+        "date": "Wed, 19 Oct 2022 13:28:09 GMT",
+        "permalink": "https://portswigger.net/research/http-3-connection-contamination",
+        "image": null,
+        "summary": "I recently documented a dangerous reverse-proxy behaviour called first-request routing, which enables host-header attacks on back-end systems.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

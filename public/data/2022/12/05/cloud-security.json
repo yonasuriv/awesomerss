@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Loot Public EBS Snapshots",
+        "date": "Mon, 05 Dec 2022 02:08:42 +0000",
+        "permalink": "https://hackingthe.cloud/aws/enumeration/loot_public_ebs_snapshots/",
+        "image": null,
+        "summary": "How to find and take advantage of exposed EBS snapshots.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

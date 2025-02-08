@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Modern C2 Infrastructure with Terraform, DigitalOcean, Covenant and Cloudflare",
+        "date": "Sat, 28 Sep 2019 00:00:00 -0700",
+        "permalink": "https://riccardoancarani.github.io/2019-09-28-modern-c2-infra/",
+        "image": null,
+        "summary": "Part 1 - \n          This is going to be a quick walkthrough of how I would set up a Command and Control (C2) infrastructure using the following technologies: Terraform (https://www.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

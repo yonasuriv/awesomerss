@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Unmasking a Spoofed MAC Address (CVE-2013-4579)",
+        "date": "2013-11-10T16:24:00.001+01:00",
+        "permalink": "https://www.mathyvanhoef.com/2013/11/unmasking-spoofed-mac-address.html",
+        "image": null,
+        "summary": "Update: This vulnerability has been fixed in kernel 3.",
+        "category": "cybersecurity",
+        "tags": [
+            "drivers",
+            "exploits",
+            "network",
+            "privacy",
+            "research",
+            "wireless"
+        ]
+    }
+]

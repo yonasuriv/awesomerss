@@ -1,0 +1,44 @@
+[
+    {
+        "title": "🔗 [AWS Security Digest] Eleventeen ways to delete an AWS resource",
+        "date": "2024-09-10T05:16:00+00:00",
+        "permalink": "https://ramimac.me/eleventeen-ways",
+        "image": null,
+        "summary": "Deleting stuff in AWS brings us great joy.",
+        "category": "cybersecurity",
+        "tags": [
+            "security",
+            "syndicated",
+            "cloudsec"
+        ]
+    },
+    {
+        "title": "🔗 [Tracebit] The Security Canary Maturity Model",
+        "date": "2024-09-10T04:16:00+00:00",
+        "permalink": "https://ramimac.me/canary-maturity-model",
+        "image": null,
+        "summary": "We layout the different levels your organization may be at in their Security Canary Maturity, as well as discussing the value in maturity models themselves.",
+        "category": "cybersecurity",
+        "tags": [
+            "security",
+            "syndicated",
+            "cloudsec"
+        ]
+    },
+    {
+        "title": "Invisible Salamanders Are Not What You Think",
+        "date": "Tue, 10 Sep 2024 11:39:15 +0000",
+        "permalink": "https://soatok.blog/2024/09/10/invisible-salamanders-are-not-what-you-think/",
+        "image": null,
+        "summary": "Ever since the Invisible Salamanders paper was published, there has been a quiet renaissance within my friends and colleagues in applied cryptography for studying systems that use Authenticated Encryption with Associated Data (AEAD) constructions, understanding what implicit assumptions these systems make about the guarantees of the AEAD mode they chose to build upon, and the […]",
+        "category": "cybersecurity",
+        "tags": [
+            "Cryptography",
+            "AEAD",
+            "AES-GCM",
+            "Invisible Salamanders",
+            "random-key robustness",
+            "symmetric cryptography"
+        ]
+    }
+]

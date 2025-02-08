@@ -1,0 +1,11 @@
+[
+    {
+        "title": "XSS in the AWS Console",
+        "date": "Thu, 03 Jun 2021 00:00:40 -0600",
+        "permalink": "https://frichetten.com/blog/xss_in_aws_console/",
+        "image": null,
+        "summary": "Writeup for a cross-site scripting bug I found in the AWS Console.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Wiz Research Identifies Exploitation in the Wild of Aviatrix Controller RCE (CVE-2024-50603)",
+        "date": "Sat, 11 Jan 2025 17:23:53 GMT",
+        "permalink": "https://www.wiz.io/blog/wiz-research-identifies-exploitation-in-the-wild-of-aviatrix-cve-2024-50603",
+        "image": null,
+        "summary": "The Wiz Incident Response team is currently responding to multiple incidents involving CVE-2024-50603, an Aviatrix Controller unauthenticated RCE vulnerability, that can lead to privileges escalation in the AWS control plane.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "title": "Gookies : A Chrome cookie dumper",
+        "date": "Fri, 21 Feb 2020 17:56:12 +0000",
+        "permalink": "https://ethicalchaos.dev/2020/02/21/gookies-a-chrome-cookie-dumper/?utm_source=rss&utm_medium=rss&utm_campaign=gookies-a-chrome-cookie-dumper",
+        "image": null,
+        "summary": "A Chrome cookie decryptor and dumping tool\nThe post Gookies : A Chrome cookie dumper appeared first on Ethical Chaos.",
+        "category": "cybersecurity",
+        "tags": [
+            "Browsers",
+            "Golang",
+            "chrome",
+            "cookies",
+            "decrypt",
+            "dump",
+            "golang"
+        ]
+    }
+]

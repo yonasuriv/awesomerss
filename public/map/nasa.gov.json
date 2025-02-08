@@ -1,0 +1,14 @@
+{
+    "favicon": "https://www.nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/apple-touch-icon-57x57.png",
+    "dates": {
+        "2025-02-07": [
+            "https://www.nasa.gov/image-article/golden-moon-over-the-superdome/",
+            "https://www.nasa.gov/science-research/earth-science/nasa-explores-earth-science-with-new-navigational-system/"
+        ],
+        "2025-02-06": [
+            "https://www.nasa.gov/news-release/nasas-aerospace-safety-advisory-panel-releases-2024-annual-report/",
+            "https://www.nasa.gov/image-article/robot-gets-a-grip/",
+            "https://www.nasa.gov/organizations/headquarters-and-centers-ethic-contacts/"
+        ]
+    }
+}

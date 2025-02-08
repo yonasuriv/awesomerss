@@ -1,0 +1,11 @@
+[
+    {
+        "title": "CI/CDon't",
+        "date": "Sat, 05 Mar 2022 04:00:57 +0000",
+        "permalink": "https://hackingthe.cloud/aws/capture_the_flag/cicdont/",
+        "image": null,
+        "summary": "An AWS/GitLab CICD themed CTF.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

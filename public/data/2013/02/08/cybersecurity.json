@@ -1,0 +1,13 @@
+[
+    {
+        "title": "Understanding the Heap & Exploiting Heap Overflows",
+        "date": "2013-02-08T01:50:00.000+01:00",
+        "permalink": "https://www.mathyvanhoef.com/2013/02/understanding-heap-exploiting-heap.html",
+        "image": null,
+        "summary": "This post will begin with a high level description of the heap and slowly builds up untill you able to write your own heap-based exploits.",
+        "category": "cybersecurity",
+        "tags": [
+            "exploits"
+        ]
+    }
+]

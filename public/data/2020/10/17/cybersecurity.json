@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Enumerate AWS API Permissions Without Logging to CloudTrail",
+        "date": "Sat, 17 Oct 2020 00:00:40 -0600",
+        "permalink": "https://frichetten.com/blog/aws-api-enum-vuln/",
+        "image": null,
+        "summary": "Writeup for a bug I discovered in the AWS API that would allow you to enumerate certain permissions for a role without logging to CloudTrail.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

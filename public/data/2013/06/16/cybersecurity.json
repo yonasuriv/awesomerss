@@ -1,0 +1,13 @@
+[
+    {
+        "title": "Transparent Interception of Android HTTPS Traffic",
+        "date": "2013-06-16T14:24:00.001+02:00",
+        "permalink": "https://www.mathyvanhoef.com/2013/06/transparent-interception-of-android.html",
+        "image": null,
+        "summary": "Smoothly intercepting HTTPS traffic of the Android emulator can be a pain in the ass.",
+        "category": "cybersecurity",
+        "tags": [
+            "Android"
+        ]
+    }
+]

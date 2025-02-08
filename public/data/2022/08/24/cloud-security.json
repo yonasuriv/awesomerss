@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Privilege Escalation in Google Cloud Platform",
+        "date": "Wed, 24 Aug 2022 12:25:09 +0000",
+        "permalink": "https://hackingthe.cloud/gcp/exploitation/gcp_iam_privilege_escalation/",
+        "image": null,
+        "summary": "Privilege escalation techniques for Google Cloud Platform (GCP)",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

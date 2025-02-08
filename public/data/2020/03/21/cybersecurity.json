@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Attacking Insecure ELK Deployments",
+        "date": "Sat, 21 Mar 2020 00:00:00 -0700",
+        "permalink": "https://riccardoancarani.github.io/2020-03-21-fooling-the-blue-team-abusing-insecure-elk/",
+        "image": null,
+        "summary": "Playing Cat and Mouse With The Blue Team - \n          Introduction Nowadays, we see a continuous increase of the adoption of the Elasticsearch Logstash Kibana (ELK) stack for security monitoring purposes.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

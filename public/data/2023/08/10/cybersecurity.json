@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Making the Cloudflare WARP VPN leak DNS requests",
+        "date": "2023-08-10T18:26:00.002+02:00",
+        "permalink": "https://www.mathyvanhoef.com/2023/08/making-cloudflare-warp-vpn-leak-dns.html",
+        "image": null,
+        "summary": "Cloudflare offers a free VPN client called Cloudflare WARP.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

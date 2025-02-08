@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Bypassing WAFs with the phantom $Version cookie",
+        "date": "Wed, 04 Dec 2024 15:03:35 GMT",
+        "permalink": "https://portswigger.net/research/bypassing-wafs-with-the-phantom-version-cookie",
+        "image": null,
+        "summary": "HTTP cookies often control critical website features, but their long and convoluted history exposes them to parser discrepancy vulnerabilities.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Your team’s next TTX (probably) isn’t realistic enough to prep for attacks. Here's why",
+        "date": "Wed, 04 Dec 2024 16:33:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/why-the-traditional-ttxs-isnt-realistic-enough",
+        "image": null,
+        "summary": "We’ve seen how traditional TTXs create a loop of rehearsed scenarios and safe assumptions, leaving organizations vulnerable to threats that don’t play by the rules.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

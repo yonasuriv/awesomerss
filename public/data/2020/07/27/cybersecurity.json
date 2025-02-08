@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Coverage Guided Fuzzing in Go",
+        "date": "2020-07-27T00:00:00+00:00",
+        "permalink": "https://alexplaskett.github.io/coverage-guided-fuzzing-golang/",
+        "image": null,
+        "summary": "Recently I had the need to explore coverage guided fuzzing in Go.",
+        "category": "cybersecurity",
+        "tags": [
+            "Go",
+            "Fuzzing"
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Weaponizing your favorite Go program for Cobalt Strike",
+        "date": "Sun, 26 Jan 2020 17:40:54 +0000",
+        "permalink": "https://ethicalchaos.dev/2020/01/26/weaponizing-your-favorite-go-program-for-cobalt-strike/?utm_source=rss&utm_medium=rss&utm_campaign=weaponizing-your-favorite-go-program-for-cobalt-strike",
+        "image": null,
+        "summary": "How to convert a Go program to a reflective DLL for Cobalt Strike\nThe post Weaponizing your favorite Go program for Cobalt Strike appeared first on Ethical Chaos.",
+        "category": "cybersecurity",
+        "tags": [
+            "Cobalt Strike",
+            "Golang",
+            "Weaponize",
+            "bypass",
+            "cobalt strike",
+            "edr",
+            "go",
+            "golang",
+            "reflective dll",
+            "weaponizing"
+        ]
+    }
+]

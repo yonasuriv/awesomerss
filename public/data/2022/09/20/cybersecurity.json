@@ -1,0 +1,11 @@
+[
+    {
+        "title": "AttachMe: critical OCI vulnerability allows unauthorized access to customer cloud storage volumes",
+        "date": "Tue, 20 Sep 2022 12:57:00 GMT",
+        "permalink": "https://www.wiz.io/blog/attachme-oracle-cloud-vulnerability-allows-unauthorized-cross-tenant-volume-access",
+        "image": null,
+        "summary": "Before it was patched, #AttachMe could have allowed attackers to access and modify any other users' OCI storage volumes without authorization, thereby violating cloud isolation.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

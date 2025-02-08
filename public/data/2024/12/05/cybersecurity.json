@@ -1,0 +1,41 @@
+[
+    {
+        "title": "On-Demand BOF",
+        "date": "Thu, 05 Dec 2024 00:00:00 -0500",
+        "permalink": "https://trustedsec.com/blog/on-demand-bof",
+        "image": null,
+        "summary": "<p>From the team that brought you COFF Loader, CS-Situational-Awareness-BOF, CS-Remote-OPs-BOF, and numerous blogs on BOFs, we are excited to release our first on-demand class: Building BOFs.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Announcing the launch of Vanir: Open-source Security Patch Validation",
+        "date": "2024-12-05T12:53:00.017-05:00",
+        "permalink": "http://security.googleblog.com/2024/12/announcing-launch-of-vanir-open-source.html",
+        "image": null,
+        "summary": "Posted by Hyunwook Baek, Duy Truong, Justin Dunlap and Lauren Stan from Android Security and Privacy, and Oliver Chang with the Google Open Source Security TeamToday, we are announcing the availability of Vanir, a new open-source security patch validation tool.",
+        "category": "cybersecurity",
+        "tags": [
+            "android",
+            "android security"
+        ]
+    },
+    {
+        "title": "Furry, Queer, and Lonely",
+        "date": "Thu, 05 Dec 2024 09:33:29 +0000",
+        "permalink": "https://soatok.blog/2024/12/05/furry-queer-and-lonely/",
+        "image": null,
+        "summary": "What is it about being queer that makes loneliness, isolation, and rejection so much more intense than enduring than what our straight friends and family purport to experience? Are we just being sensitive, or egoistic? Do they perhaps feel these emotions with the same severity as we do, but are better at coping with it? […]",
+        "category": "cybersecurity",
+        "tags": [
+            "(Anti-)Social Media",
+            "The Furry Fandom",
+            "furries",
+            "furry",
+            "Furry Fandom",
+            "loneliness",
+            "Social Media",
+            "Society"
+        ]
+    }
+]

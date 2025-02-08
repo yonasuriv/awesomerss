@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Analyzing a Modern In-the-wild Android Exploit",
+        "date": "2023-09-19T09:01:00.002-07:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2023/09/analyzing-modern-in-wild-android-exploit.html",
+        "image": null,
+        "summary": "By Seth Jenkins, Project ZeroIntroductionIn December 2022, Google’s Threat Analysis Group (TAG) discovered an in-the-wild exploit chain targeting Samsung Android devices.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

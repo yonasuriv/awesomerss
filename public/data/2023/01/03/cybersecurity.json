@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Malicious PyTorch dependency 'torchtriton' on PyPI: everything you need to know",
+        "date": "Tue, 03 Jan 2023 13:10:27 GMT",
+        "permalink": "https://www.wiz.io/blog/malicious-pytorch-dependency-torchtriton-on-pypi-everything-you-need-to-know",
+        "image": null,
+        "summary": "The developers of PyTorch (a popular machine-learning framework) recently identified a malicious dependency confusion attack on the open-source project.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Linux rootkits explained – Part 1: Dynamic linker hijacking",
+        "date": "Wed, 05 Jul 2023 13:34:27 GMT",
+        "permalink": "https://www.wiz.io/blog/linux-rootkits-explained-part-1-dynamic-linker-hijacking",
+        "image": null,
+        "summary": "Dynamic linker hijacking via LD_PRELOAD is a Linux rootkit technique utilized by different threat actors in the wild.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

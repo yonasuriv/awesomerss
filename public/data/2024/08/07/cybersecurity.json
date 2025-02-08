@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Splitting the email atom: exploiting parsers to bypass access controls",
+        "date": "Wed, 07 Aug 2024 21:32:47 GMT",
+        "permalink": "https://portswigger.net/research/splitting-the-email-atom",
+        "image": null,
+        "summary": "Some websites parse email addresses to extract the domain and infer which organisation the owner belongs to.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Listen to the whispers: web timing attacks that actually work",
+        "date": "Wed, 07 Aug 2024 18:10:21 GMT",
+        "permalink": "https://portswigger.net/research/listen-to-the-whispers-web-timing-attacks-that-actually-work",
+        "image": null,
+        "summary": "Websites are riddled with timing oracles eager to divulge their innermost secrets.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "The SSID Confusion Attack: Common Misconceptions",
+        "date": "2024-08-07T00:44:00.005+02:00",
+        "permalink": "https://www.mathyvanhoef.com/2024/08/the-ssid-confusion-attack-common.html",
+        "image": null,
+        "summary": "We've spotted some confusion about the SSID confusion attack.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

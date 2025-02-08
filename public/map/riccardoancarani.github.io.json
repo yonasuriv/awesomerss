@@ -1,0 +1,54 @@
+{
+    "favicon": null,
+    "dates": {
+        "2023-11-07": [
+            "https://riccardoancarani.github.io/2023-11-07-attacking-an-edr-part-3/"
+        ],
+        "2023-09-14": [
+            "https://riccardoancarani.github.io/2023-09-14-attacking-an-edr-part-2/"
+        ],
+        "2023-08-03": [
+            "https://riccardoancarani.github.io/2023-08-03-attacking-an-edr-part-1/"
+        ],
+        "2023-07-31": [
+            "https://riccardoancarani.github.io/2023-07-31-mockingjay-what-is-old-is-new-again/"
+        ],
+        "2021-01-25": [
+            "https://riccardoancarani.github.io/2021-01-25-random-notes-on-task-scheduler-lateral-movement/"
+        ],
+        "2020-10-10": [
+            "https://riccardoancarani.github.io/2020-10-10-donut-crumbs/"
+        ],
+        "2020-08-08": [
+            "https://riccardoancarani.github.io/2020-08-08-hunting-for-skeleton-keys/"
+        ],
+        "2020-05-10": [
+            "https://riccardoancarani.github.io/2020-05-10-hunting-for-impacket/"
+        ],
+        "2020-03-21": [
+            "https://riccardoancarani.github.io/2020-03-21-fooling-the-blue-team-abusing-insecure-elk/"
+        ],
+        "2020-02-06": [
+            "https://riccardoancarani.github.io/2020-02-06-extending-bloodhound-pt1/"
+        ],
+        "2019-12-16": [
+            "https://riccardoancarani.github.io/2019-12-16-hunting-for-scshell-usage/"
+        ],
+        "2019-12-08": [
+            "https://riccardoancarani.github.io/2019-12-08-streamlining-bloodhound-analytics/"
+        ],
+        "2019-11-08": [
+            "https://riccardoancarani.github.io/2019-11-08-not-all-paths-are-equal/"
+        ],
+        "2019-10-19": [
+            "https://riccardoancarani.github.io/2019-10-19-hunting-for-domain-enumeration/",
+            "https://riccardoancarani.github.io/2019-10-19-hunting-covenant-msbuild/"
+        ],
+        "2019-10-04": [
+            "https://riccardoancarani.github.io/2019-10-04-lateral-movement-megaprimer/"
+        ],
+        "2019-09-28": [
+            "https://riccardoancarani.github.io/2019-09-28-modern-c2-infra/"
+        ]
+    }
+}

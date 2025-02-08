@@ -1,0 +1,13 @@
+[
+    {
+        "title": "CVE-2023-4632: Local Privilege Escalation in Lenovo System Updater",
+        "date": "Thu, 26 Oct 2023 16:56:34 +0000",
+        "permalink": "https://enigma0x3.net/2023/10/26/cve-2023-4632-local-privilege-escalation-in-lenovo-system-updater/",
+        "image": "https://0.gravatar.com/avatar/0f161ac75650450dda1b3fa7804f6480c2ab941d109cbace01922f66af22ef2c?s=96&d=identicon&r=G",
+        "summary": "Version: Lenovo Updater Version <= 5.",
+        "category": "cybersecurity",
+        "tags": [
+            "Uncategorized"
+        ]
+    }
+]

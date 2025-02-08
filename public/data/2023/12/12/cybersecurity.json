@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Introducing Swagger Jacker: Auditing OpenAPI Definition Files",
+        "date": "Tue, 12 Dec 2023 06:00:00 -0800",
+        "permalink": "https://bishopfox.com/blog/swagger-jacker-auditing-openapi-definition-files",
+        "image": null,
+        "summary": "Download Swagger Jacker, an open-source tool made for penetration testers that enables better auditing of OpenAPI definition files.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Finding that one weird endpoint, with Bambdas",
+        "date": "Tue, 12 Dec 2023 14:11:17 GMT",
+        "permalink": "https://portswigger.net/research/finding-that-one-weird-endpoint-with-bambdas",
+        "image": null,
+        "summary": "Security research involves a lot of failure.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

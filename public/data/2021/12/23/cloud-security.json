@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Terraform Enterprise: Attack the Metadata Service",
+        "date": "Thu, 23 Dec 2021 21:59:38 +0000",
+        "permalink": "https://hackingthe.cloud/terraform/terraform_enterprise_metadata_service/",
+        "image": null,
+        "summary": "Leverage a default configuration in Terraform Enterprise to steal credentials from the Metadata Service",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Fuzzing - Serverless Crash Triage",
+        "date": "2020-04-09T00:00:00+00:00",
+        "permalink": "https://alexplaskett.github.io/serverless-crash-triage/",
+        "image": null,
+        "summary": "In order to learn about serverless architecture, I experimented with implementing a quick proof of concept crash triaging tool using AWS Lambda Functions.",
+        "category": "cybersecurity",
+        "tags": [
+            "Lambda",
+            "Serverless",
+            "Python"
+        ]
+    }
+]

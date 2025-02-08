@@ -1,0 +1,33 @@
+{
+    "favicon": "https://s1.wp.com/i/favicon.ico",
+    "dates": {
+        "2023-10-26": [
+            "https://enigma0x3.net/2023/10/26/cve-2023-4632-local-privilege-escalation-in-lenovo-system-updater/"
+        ],
+        "2020-01-15": [
+            "https://enigma0x3.net/2020/01/15/avira-vpn-local-privilege-escalation-via-insecure-update-location/"
+        ],
+        "2019-12-10": [
+            "https://enigma0x3.net/2019/12/10/cve-2019-19248-local-privilege-escalation-in-eas-origin-client/"
+        ],
+        "2019-08-29": [
+            "https://enigma0x3.net/2019/08/29/avira-optimizer-local-privilege-escalation/"
+        ],
+        "2019-07-24": [
+            "https://enigma0x3.net/2019/07/24/cve-2019-13382-privilege-escalation-in-snagit/"
+        ],
+        "2019-07-05": [
+            "https://enigma0x3.net/2019/07/05/cve-2019-13142-razer-surround-1-1-63-0-eop/"
+        ],
+        "2019-03-20": [
+            "https://enigma0x3.net/2019/03/20/avira-vpn-2-15-2-28160-elevation-of-privilege-through-insecure-update-location/",
+            "https://enigma0x3.net/2019/03/20/avira-vpn-2-15-2-28160-elevation-of-privilege/"
+        ],
+        "2019-01-21": [
+            "https://enigma0x3.net/2019/01/21/razer-synapse-3-elevation-of-privilege/"
+        ],
+        "2018-10-23": [
+            "https://enigma0x3.net/2018/10/23/cve-2018-8414-a-case-study-in-responsible-disclosure/"
+        ]
+    }
+}

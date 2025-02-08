@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Whoami - Get Principal Name From Keys",
+        "date": "Fri, 21 Aug 2020 17:00:02 +0000",
+        "permalink": "https://hackingthe.cloud/aws/enumeration/whoami/",
+        "image": null,
+        "summary": "During an assessment you may find AWS IAM credentials.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

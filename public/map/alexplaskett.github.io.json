@@ -1,0 +1,32 @@
+{
+    "favicon": "https://alexplaskett.github.io/images/favicon-32x32.png",
+    "dates": {
+        "2022-12-29": [
+            "https://alexplaskett.github.io/macos-ios-security-research/"
+        ],
+        "2022-04-24": [
+            "https://alexplaskett.github.io/demystifying-security-research-part1/"
+        ],
+        "2021-06-01": [
+            "https://alexplaskett.github.io/CVE-2021-30660/"
+        ],
+        "2020-12-22": [
+            "https://alexplaskett.github.io/CVE-2020-9967/"
+        ],
+        "2020-07-27": [
+            "https://alexplaskett.github.io/coverage-guided-fuzzing-golang/"
+        ],
+        "2020-04-21": [
+            "https://alexplaskett.github.io/uninitialized-kernel-memory/"
+        ],
+        "2020-04-09": [
+            "https://alexplaskett.github.io/serverless-crash-triage/"
+        ],
+        "2020-03-29": [
+            "https://alexplaskett.github.io/CVE-2020-3919/"
+        ],
+        "2020-02-18": [
+            "https://alexplaskett.github.io/macos-kasan/"
+        ]
+    }
+}

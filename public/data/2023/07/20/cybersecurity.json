@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Introducing jsluice: A Technical Deep-Dive for JavaScript Gold (Part 2)",
+        "date": "Thu, 20 Jul 2023 06:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/jsluice-javascript-technical-deep-dive",
+        "image": null,
+        "summary": "Join us for a technical deep-dive of jsluice, an open-source mining tool for JavaScript code and files.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Introducing jsluice: The Why Behind JavaScript Gold Mining (Part 1)",
+        "date": "Thu, 20 Jul 2023 06:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/jsluice-javascript-gold-mining",
+        "image": null,
+        "summary": "Learn how to use jsluice, an open-source, Go package and command-line tool used to extract information from JavaScript files and code.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

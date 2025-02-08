@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Exploiting Public AWS Resources Programmatically - The Playbook",
+        "date": "Thu, 05 Dec 2024 17:37:27 +0000",
+        "permalink": "https://hackingthe.cloud/aws/exploitation/Misconfigured_Resource-Based_Policies/exploting_public_resources_attack_playbook/",
+        "image": null,
+        "summary": "A playbook on how to exploit AWS resources that can be misconfigured via resource-based policies.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

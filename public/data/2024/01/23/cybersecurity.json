@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Hiding payloads in Java source code strings",
+        "date": "Tue, 23 Jan 2024 15:00:00 GMT",
+        "permalink": "https://portswigger.net/research/hiding-payloads-in-java-source-code-strings",
+        "image": null,
+        "summary": "In this post we'll show you how Java handles unicode escapes in source code strings in a way you might find surprising - and how you can abuse them to conceal payloads.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

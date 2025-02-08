@@ -1,0 +1,11 @@
+[
+    {
+        "title": "How to build custom scanners for web security research automation",
+        "date": "Tue, 03 Oct 2023 13:34:47 GMT",
+        "permalink": "https://portswigger.net/research/how-to-build-custom-scanners-for-web-security-research-automation",
+        "image": null,
+        "summary": "In this post, I'll share my approach to developing custom automation to aid research into under-appreciated attack classes and (hopefully) push the boundaries of web security.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

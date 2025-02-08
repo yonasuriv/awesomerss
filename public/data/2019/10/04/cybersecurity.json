@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Lateral Movement",
+        "date": "Fri, 04 Oct 2019 00:00:00 -0700",
+        "permalink": "https://riccardoancarani.github.io/2019-10-04-lateral-movement-megaprimer/",
+        "image": null,
+        "summary": "Windows and Active Directory - \n          Introduction Find Where We Have Access Local Group Membership - The Blind Approach Local Group Membership - Group Policy Objects Access to File Shares Access Control Lists MSSQL Access WMI Remote Service Creation Remote Desktop Protocol PowerShell Remoting Task Scheduler PsExec DCOM Password Spray Folder Redirection and Roaming Profiles RDP.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

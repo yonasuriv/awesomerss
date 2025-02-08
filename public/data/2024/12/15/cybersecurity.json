@@ -1,0 +1,20 @@
+[
+    {
+        "title": "The Qualcomm DSP Driver - Unexpectedly Excavating an Exploit",
+        "date": "2024-12-15T22:11:00.000-08:00",
+        "permalink": "https://googleprojectzero.blogspot.com/2024/12/qualcomm-dsp-driver-unexpectedly-excavating-exploit.html",
+        "image": null,
+        "summary": "Posted by Seth Jenkins, Google Project ZeroThis blog post provides a technical analysis of exploit artifacts provided to us by Google's Threat Analysis Group (TAG) from Amnesty International.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "New Developments in LLM Hijacking Activity",
+        "date": "Sun, 15 Dec 2024 14:07:55 GMT",
+        "permalink": "https://www.wiz.io/blog/jinx-2401-llm-hijacking-aws",
+        "image": null,
+        "summary": "Discover the latest in LLM hijacking activity, including a dive into the JINX-2401 campaign targeting AWS environments with IAM privilege escalation tactics.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

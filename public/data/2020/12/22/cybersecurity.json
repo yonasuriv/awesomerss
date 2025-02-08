@@ -1,0 +1,15 @@
+[
+    {
+        "title": "CVE-2020-9967 - Apple macOS 6LowPAN Vulnerability",
+        "date": "2020-12-22T00:00:00+00:00",
+        "permalink": "https://alexplaskett.github.io/CVE-2020-9967/",
+        "image": null,
+        "summary": "Inspired by Kevin Backhouse’s great work on finding XNU remote vulnerabilities I decided to spend some time looking at CodeQL and performing some variant analysis.",
+        "category": "cybersecurity",
+        "tags": [
+            "Apple",
+            "XNU",
+            "6LowPAN"
+        ]
+    }
+]

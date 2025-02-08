@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Random Notes on Task Scheduler Lateral Movement",
+        "date": "Mon, 25 Jan 2021 00:00:00 -0800",
+        "permalink": "https://riccardoancarani.github.io/2021-01-25-random-notes-on-task-scheduler-lateral-movement/",
+        "image": null,
+        "summary": "Putting some sunscreen - \n          Introduction File Replacement Task Replacement COM Handlers Detection Evasion References Introduction Reading FireEye’s UNC2452 writeup, I started to think about how to emulate them in purple teaming exercises.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

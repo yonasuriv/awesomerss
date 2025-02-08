@@ -1,0 +1,33 @@
+[
+    {
+        "title": "KubeCon NA 2024 CTF Writeup",
+        "date": "Thu, 14 Nov 2024 23:00:00 +0000",
+        "permalink": "https://skybound.link/2024/11/kubecon-na-2024-ctf-writeup/",
+        "image": null,
+        "summary": "Time for another KubeCon, time for another CTF from ControlPlane.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Attestations: A new generation of signatures on PyPI",
+        "date": "Thu, 14 Nov 2024 14:00:15 +0000",
+        "permalink": "https://blog.trailofbits.com/2024/11/14/attestations-a-new-generation-of-signatures-on-pypi/",
+        "image": null,
+        "summary": "For the past year, we’ve worked with the Python Package Index (PyPI) on a new security feature for the Python ecosystem: index-hosted digital attestations, as specified in PEP 740.",
+        "category": "cybersecurity",
+        "tags": [
+            "Uncategorized"
+        ]
+    },
+    {
+        "title": "Interested in ICS pentesting? Here's how to get started",
+        "date": "Thu, 14 Nov 2024 03:51:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/ics-pentesting-career-guide",
+        "image": null,
+        "summary": "Demand for ICS pentesting and OT security is on the rise.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

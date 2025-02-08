@@ -1,0 +1,43 @@
+[
+    {
+        "title": "How we kept the Google Play & Android app ecosystems safe in 2024",
+        "date": "2025-01-29T12:59:00.002-05:00",
+        "permalink": "http://security.googleblog.com/2025/01/how-we-kept-google-play-android-app-ecosystem-safe-2024.html",
+        "image": null,
+        "summary": "Posted by Bethel Otuteye and Khawaja Shams (Android Security and Privacy Team), and Ron Aquino (Play Trust and Safety)\n\nAndroid and Google Play comprise a vibrant ecosystem with billions of users around the globe and millions of helpful apps.",
+        "category": "cybersecurity",
+        "tags": [
+            "android",
+            "android security",
+            "google play",
+            "google play protect"
+        ]
+    },
+    {
+        "title": "How we estimate the risk from prompt injection attacks on AI systems",
+        "date": "2025-01-29T05:00:00.003-05:00",
+        "permalink": "http://security.googleblog.com/2025/01/how-we-estimate-risk-from-prompt.html",
+        "image": null,
+        "summary": "Posted by the Agentic AI Security Team at Google DeepMindModern AI systems, like Gemini, are more capable than ever, helping retrieve data and perform actions on behalf of users.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "PrintNightmare Aftermath: Windows Print Spooler Is Better. What's Next?",
+        "date": "Wed, 29 Jan 2025 22:10:29 GMT",
+        "permalink": "https://www.darkreading.com/endpoint-security/windows-print-spooler-security-improves-in-wake-of-printnightmare-scare",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1daf0331a00425c3/678a5782a169b9d231c7ee9a/printnightmare_Mashka_shutterstock.jpg",
+        "summary": "While Microsoft has boosted the security of Windows Print Spooler in the three years since the disclosure of the PrintNightmare vulnerability, the service remains a spooky threat that organizations cannot afford to ignore.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Wiz Research Uncovers Exposed DeepSeek Database Leaking Sensitive Information, Including Chat History",
+        "date": "Wed, 29 Jan 2025 20:47:40 GMT",
+        "permalink": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak",
+        "image": null,
+        "summary": "A publicly accessible database belonging to DeepSeek allowed full control over database operations, including the ability to access internal data.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Fuzzing between the lines in popular barcode software",
+        "date": "Thu, 31 Oct 2024 13:00:18 +0000",
+        "permalink": "https://blog.trailofbits.com/2024/10/31/fuzzing-between-the-lines-in-popular-barcode-software/",
+        "image": null,
+        "summary": "By Artur Cygan Fuzzing—one of the most successful techniques for finding security bugs, consistently featured in articles and industry conferences—has become so popular that you may think most important software has already been extensively fuzzed.",
+        "category": "cybersecurity",
+        "tags": [
+            "Application Security",
+            "Fuzzing"
+        ]
+    },
+    {
+        "title": "Supply chain attack on lottie-player: everything you need to know",
+        "date": "Thu, 31 Oct 2024 12:55:28 GMT",
+        "permalink": "https://www.wiz.io/blog/lottie-player-supply-chain-attack",
+        "image": null,
+        "summary": "Supply chain attack in popular lottie-player library compromises websites with malicious Web3 wallet prompts – update or revert the library to avoid the compromised versions.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

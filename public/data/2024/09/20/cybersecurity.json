@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Cryptographic Innuendos",
+        "date": "Fri, 20 Sep 2024 11:35:50 +0000",
+        "permalink": "https://soatok.blog/2024/09/20/cryptographic-innuendos/",
+        "image": null,
+        "summary": "Neil Madden recently wrote a blog post titled, Digital Signatures and How to Avoid Them.",
+        "category": "cybersecurity",
+        "tags": [
+            "Cryptography",
+            "asymmetric cryptography",
+            "cryptographic innuendos",
+            "Ratchet trees"
+        ]
+    },
+    {
+        "title": "When \"Easy\" isn't easy: How to build skills for hacking success",
+        "date": "Fri, 20 Sep 2024 10:55:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/when-easy-isnt-easy",
+        "image": null,
+        "summary": "The truth about completing content to build real-world hacking & cybersecurity skills, even “Easy” ones",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

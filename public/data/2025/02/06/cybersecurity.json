@@ -1,0 +1,83 @@
+[
+    {
+        "title": "The Hidden Trap in the PCI DSS SAQ A Changes",
+        "date": "Thu, 06 Feb 2025 00:00:00 -0500",
+        "permalink": "https://trustedsec.com/blog/the-hidden-trap-in-the-pci-dss-saq-a-changes",
+        "image": null,
+        "summary": "<p>The Payment Card Industry Security Standards Council (PCI SSC) just announced a change to Self Assessment Questionnaire A (SAQ A).",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Cybercrime Forces Local Law Enforcement to Shift Focus",
+        "date": "Thu, 06 Feb 2025 23:29:34 GMT",
+        "permalink": "https://www.darkreading.com/cyberattacks-data-breaches/cybercrime-forces-local-law-enforcement-to-shift-focus",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1c176f88d20d41c2/67a60c9f5b6b8abd21f9a743/policelaptop_motortion-AdobeStock.jpg",
+        "summary": "Local law enforcements need to steer away from \"place-based policing\" when investigating cybercrimes.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "7AI Streamlines Security Operations With Autonomous AI Agents",
+        "date": "Thu, 06 Feb 2025 22:36:16 GMT",
+        "permalink": "https://www.darkreading.com/cybersecurity-operations/7ai-streamlines-security-operations-with-autonomous-ai-agents",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf5ae2981cb5cbc98/67a6074e7dd6537daef9a0fa/robot-army-laurent-davoust-alamy.jpg",
+        "summary": "Cybereason co-founders launch their second act with a security startup focused on offering a platform that uses agentic AI to offload repetitive tasks commonly performed by security analysts.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Researcher Outsmarts, Jailbreaks OpenAI's New o3-mini",
+        "date": "Thu, 06 Feb 2025 21:20:50 GMT",
+        "permalink": "https://www.darkreading.com/application-security/researcher-jailbreaks-openai-o3-mini",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt94525a83023db91d/67a4fb53db283bec3c39198a/OpenAI-SOPA_Images_Limited-Alamy.jpg",
+        "summary": "OpenAI's latest tech can reason better than its previous models could, but not well enough to ferret out careful social engineering.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "US Cybersecurity Efforts for Spacecraft Are Up in the Air",
+        "date": "Thu, 06 Feb 2025 21:15:35 GMT",
+        "permalink": "https://www.darkreading.com/threat-intelligence/us-cybersecurity-spacecraft",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4573d793be77363e/6792c2da6706a1cf4ccd5561/Andrei_Armiagov-satellite-over-earth-shutterstock.jpg",
+        "summary": "While President Trump supported federal space efforts during his first administration, the addition of SpaceX chief Elon Musk to his circle likely means challenges for regulating spacecraft cybersecurity, experts say.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "DeepSeek Phishing Sites Pursue User Data, Crypto Wallets",
+        "date": "Thu, 06 Feb 2025 20:54:57 GMT",
+        "permalink": "https://www.darkreading.com/cyber-risk/deepseek-phishing-sites-pursue-user-data-crypto-wallets",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6ba00013f7ce94a5/67a511492737975a3d060ba3/deepseek_mundissima_shutterstock.jpg",
+        "summary": "Riding the wave of notoriety from the Chinese company's R1 AT chatbot, attackers are spinning up lookalike sites for different malicious use cases.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Agencies Sound Alarm on Patient Monitors With Hardcoded Backdoor",
+        "date": "Thu, 06 Feb 2025 20:53:41 GMT",
+        "permalink": "https://www.darkreading.com/vulnerabilities-threats/agencies-sound-alarm-patient-monitors-hardcoded-backdoor",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt43ea76e101812233/67a4eaa047af5910ae040e44/patientmoniotr1800_Mumin_Mutlu_alamy.jpg",
+        "summary": "CISA and the FDA are warning that Contec CMS8000 and Epsimed MN-120 patient monitors are open to meddling and data theft; Claroty Team82 flagged the vulnerability as an avoidable insecure design issue.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "The Cyber Savanna: A Rigged Race You Can't Win, but Must Run Anyway",
+        "date": "Thu, 06 Feb 2025 15:00:00 GMT",
+        "permalink": "https://www.darkreading.com/vulnerabilities-threats/cyber-savanna-rigged-race-you-cant-win-must-run-anyway",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt176912dc707b7629/67a4c7e02f8fd4d25a38e20a/Gazelle_(1800)_Daniel_Lamborn_Alamy.jpg",
+        "summary": "When it comes to protecting your company from cyberattacks, you don't have to be the fastest gazelle — you just can't afford to be the slowest.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Basket of Bank Trojans Defraud Citizens of East India",
+        "date": "Thu, 06 Feb 2025 03:30:00 GMT",
+        "permalink": "https://www.darkreading.com/cyberattacks-data-breaches/bank-trojans-defraud-citizens-east-india",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt7c2ea2afa404a462/67a281606c10840bf0d93e1d/HDFC_Bank-Jayant_Bahel-Alamy.jpg",
+        "summary": "Cheap banking scams are often easier to pull off in a country with older devices, fewer regulations, and experienced fraudsters.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

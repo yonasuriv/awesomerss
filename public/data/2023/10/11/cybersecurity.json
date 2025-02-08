@@ -1,0 +1,11 @@
+[
+    {
+        "title": "CVE-2023-38545 high severity vulnerability in cURL: everything you need to know",
+        "date": "Wed, 11 Oct 2023 16:56:35 GMT",
+        "permalink": "https://www.wiz.io/blog/cve-2023-38545-curl-vulnerability",
+        "image": null,
+        "summary": "Detect and mitigate CVE-2023-38545, a high severity buffer overflow vulnerability in cURL.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

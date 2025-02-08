@@ -1,0 +1,22 @@
+[
+    {
+        "title": "SweetPotato – Local Service to SYSTEM",
+        "date": "Mon, 13 Apr 2020 17:30:53 +0000",
+        "permalink": "https://ethicalchaos.dev/2020/04/13/sweetpotato-local-service-to-system-privesc/?utm_source=rss&utm_medium=rss&utm_campaign=sweetpotato-local-service-to-system-privesc",
+        "image": null,
+        "summary": "Upgraded JuicyPotato performing Local Service to SYSTEM privilege escalation on Windows 7 to the latest Windows 10 / Server 2019.",
+        "category": "cybersecurity",
+        "tags": [
+            "Cobalt Strike",
+            "DCOM",
+            "PrivEsc",
+            "Weaponize",
+            "dcom",
+            "juicypotato",
+            "privesc",
+            "rottenpotato",
+            "sweetpotato",
+            "winrm"
+        ]
+    }
+]

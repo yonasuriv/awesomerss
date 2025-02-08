@@ -1,0 +1,72 @@
+{
+    "favicon": "https://security.googleblog.com/favicon.ico",
+    "dates": {
+        "2025-01-29": [
+            "http://security.googleblog.com/2025/01/how-we-kept-google-play-android-app-ecosystem-safe-2024.html",
+            "http://security.googleblog.com/2025/01/how-we-estimate-risk-from-prompt.html"
+        ],
+        "2025-01-23": [
+            "http://security.googleblog.com/2025/01/android-theft-protection-identity-check-expanded-features.html"
+        ],
+        "2025-01-16": [
+            "http://security.googleblog.com/2025/01/osv-scalibr-library-for-software.html"
+        ],
+        "2024-12-10": [
+            "http://security.googleblog.com/2024/12/google-cloud-expands-vulnerability.html"
+        ],
+        "2024-12-05": [
+            "http://security.googleblog.com/2024/12/announcing-launch-of-vanir-open-source.html"
+        ],
+        "2024-11-20": [
+            "http://security.googleblog.com/2024/11/leveling-up-fuzzing-finding-more.html"
+        ],
+        "2024-11-15": [
+            "http://security.googleblog.com/2024/11/retrofitting-spatial-safety-to-hundreds.html"
+        ],
+        "2024-11-13": [
+            "http://security.googleblog.com/2024/11/new-real-time-protections-on-Android.html"
+        ],
+        "2024-10-22": [
+            "http://security.googleblog.com/2024/10/5-new-protections-on-google-messages.html"
+        ],
+        "2024-10-15": [
+            "http://security.googleblog.com/2024/10/safer-with-google-advancing-memory.html",
+            "http://security.googleblog.com/2024/10/android-theft-protection.html"
+        ],
+        "2024-10-10": [
+            "http://security.googleblog.com/2024/10/using-chromes-accessibility-apis-to.html"
+        ],
+        "2024-10-03": [
+            "http://security.googleblog.com/2024/10/pixel-proactive-security-cellular-modems.html",
+            "http://security.googleblog.com/2024/10/evaluating-mitigations-vulnerabilities.html"
+        ],
+        "2024-09-25": [
+            "http://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html"
+        ],
+        "2024-09-24": [
+            "http://security.googleblog.com/2024/09/google-arm-raising-bar-on-gpu-security.html"
+        ],
+        "2024-09-13": [
+            "http://security.googleblog.com/2024/09/a-new-path-for-kyber-on-web.html"
+        ],
+        "2024-09-04": [
+            "http://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html"
+        ],
+        "2024-08-13": [
+            "http://security.googleblog.com/2024/08/android-private-ai-approach.html",
+            "http://security.googleblog.com/2024/08/post-quantum-cryptography-standards.html"
+        ],
+        "2024-08-01": [
+            "http://security.googleblog.com/2024/08/keeping-your-android-device-safe-from.html"
+        ],
+        "2024-07-30": [
+            "http://security.googleblog.com/2024/07/improving-security-of-chrome-cookies-on.html"
+        ],
+        "2024-07-24": [
+            "http://security.googleblog.com/2024/07/building-security-into-redesigned.html"
+        ],
+        "2024-06-27": [
+            "http://security.googleblog.com/2024/06/sustaining-digital-certificate-security.html"
+        ]
+    }
+}

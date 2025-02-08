@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Badge of Shame - Breaking Into Secure Facilities with OSDP",
+        "date": "Wed, 09 Aug 2023 00:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/breaking-into-secure-facilities-with-osdp",
+        "image": null,
+        "summary": "Learn about five exploitable vulnerabilities we've identified in OSDP and share what defenders can do about them.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "Smashing the state machine: the true potential of web race conditions",
+        "date": "Wed, 09 Aug 2023 18:00:00 GMT",
+        "permalink": "https://portswigger.net/research/smashing-the-state-machine",
+        "image": null,
+        "summary": "For too long, web race condition attacks have focused on a tiny handful of scenarios.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

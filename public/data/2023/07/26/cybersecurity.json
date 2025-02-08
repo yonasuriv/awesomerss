@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Zenbleed: cross-process infoleak vulnerability in AMD Zen 2 Processors - everything you need to know",
+        "date": "Wed, 26 Jul 2023 19:35:06 GMT",
+        "permalink": "https://www.wiz.io/blog/zenbleed",
+        "image": null,
+        "summary": "Learn about the impact in cloud environments of CVE-2023-20593, a cross-process information leak vulnerability in AMD Zen 2 Processors.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

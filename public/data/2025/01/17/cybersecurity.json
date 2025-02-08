@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Introducing BloodHound CLI",
+        "date": "Fri, 17 Jan 2025 15:59:59 GMT",
+        "permalink": "https://posts.specterops.io/introducing-bloodhound-cli-7dfaf82e2df8?source=rss----f05f8696e3cc---4",
+        "image": null,
+        "summary": "We created a new tool to help you install and manage BloodHound instances, BloodHound CLI!GitHub - SpecterOps/bloodhound-cliWritten entirely in Go, this command-line tool can be cross-compiled to support Windows, macOS, and Linux, so you can use whichever operating system you like as your host system for BloodHound.",
+        "category": "cybersecurity",
+        "tags": [
+            "attack-path-management",
+            "attack-surface-management",
+            "security",
+            "cybersecurity",
+            "information-security"
+        ]
+    },
+    {
+        "title": "The complete list of Q4 2024 releases and updates on HTB Enterprise Platform",
+        "date": "Fri, 17 Jan 2025 02:18:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/product-updates-q4-2024",
+        "image": null,
+        "summary": "Building on the feedback from our 3.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    }
+]

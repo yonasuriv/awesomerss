@@ -1,0 +1,11 @@
+[
+    {
+        "title": "ripgen: Taking the Guesswork Out of Subdomain Discovery",
+        "date": "Wed, 01 Jun 2022 13:00:00 -0700",
+        "permalink": "https://bishopfox.com/blog/ripgen-tool",
+        "image": null,
+        "summary": "ripgen is a super-fast subdomain permutation discovery tool that helps map the full scope of an attack surface.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

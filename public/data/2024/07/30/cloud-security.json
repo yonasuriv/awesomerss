@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Prevent Expensive AWS API Actions with SCPs",
+        "date": "Tue, 30 Jul 2024 00:15:57 +0000",
+        "permalink": "https://hackingthe.cloud/aws/general-knowledge/block-expensive-actions-with-scps/",
+        "image": null,
+        "summary": "Avoid AWS bill surprises by blocking known-expensive API calls with an SCP.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

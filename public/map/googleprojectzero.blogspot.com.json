@@ -1,0 +1,70 @@
+{
+    "favicon": "https://googleprojectzero.blogspot.com/favicon.ico",
+    "dates": {
+        "2025-01-30": [
+            "https://googleprojectzero.blogspot.com/2025/01/windows-bug-class-accessing-trapped-com.html",
+            "https://googleprojectzero.blogspot.com/2025/01/windows-exploitation-tricks-trapping.html"
+        ],
+        "2024-12-19": [
+            "https://googleprojectzero.blogspot.com/2024/12/the-windows-registry-adventure-5-regf.html"
+        ],
+        "2024-12-15": [
+            "https://googleprojectzero.blogspot.com/2024/12/qualcomm-dsp-driver-unexpectedly-excavating-exploit.html"
+        ],
+        "2024-12-12": [
+            "https://googleprojectzero.blogspot.com/2024/12/windows-tooling-updates-oleviewnet.html"
+        ],
+        "2024-11-21": [
+            "https://googleprojectzero.blogspot.com/2024/11/simple-macos-kernel-extension-fuzzing.html"
+        ],
+        "2024-11-01": [
+            "https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html"
+        ],
+        "2024-10-25": [
+            "https://googleprojectzero.blogspot.com/2024/10/the-windows-registry-adventure-4-hives.html"
+        ],
+        "2024-10-03": [
+            "https://googleprojectzero.blogspot.com/2024/10/effective-fuzzing-dav1d-case-study.html"
+        ],
+        "2024-06-27": [
+            "https://googleprojectzero.blogspot.com/2024/06/the-windows-registry-adventure-3.html"
+        ],
+        "2024-06-20": [
+            "https://googleprojectzero.blogspot.com/2024/06/project-naptime.html"
+        ],
+        "2024-06-13": [
+            "https://googleprojectzero.blogspot.com/2024/06/driving-forward-in-android-drivers.html"
+        ],
+        "2024-04-18": [
+            "https://googleprojectzero.blogspot.com/2024/04/the-windows-registry-adventure-2.html",
+            "https://googleprojectzero.blogspot.com/2024/04/the-windows-registry-adventure-1.html"
+        ],
+        "2023-11-03": [
+            "https://googleprojectzero.blogspot.com/2023/11/first-handset-with-mte-on-market.html"
+        ],
+        "2023-10-13": [
+            "https://googleprojectzero.blogspot.com/2023/10/an-analysis-of-an-in-the-wild-ios-safari-sandbox-escape.html"
+        ],
+        "2023-09-19": [
+            "https://googleprojectzero.blogspot.com/2023/09/analyzing-modern-in-wild-android-exploit.html"
+        ],
+        "2023-08-02": [
+            "https://googleprojectzero.blogspot.com/2023/08/mte-as-implemented-part-1.html",
+            "https://googleprojectzero.blogspot.com/2023/08/mte-as-implemented-part-3-kernel.html",
+            "https://googleprojectzero.blogspot.com/2023/08/mte-as-implemented-part-2-mitigation.html",
+            "https://googleprojectzero.blogspot.com/2023/08/summary-mte-as-implemented.html"
+        ],
+        "2023-04-24": [
+            "https://googleprojectzero.blogspot.com/2023/04/technical-report-into-intel-tdx.html"
+        ],
+        "2023-03-16": [
+            "https://googleprojectzero.blogspot.com/2023/03/multiple-internet-to-baseband-remote-rce.html"
+        ],
+        "2023-01-19": [
+            "https://googleprojectzero.blogspot.com/2023/01/exploiting-null-dereferences-in-linux.html"
+        ],
+        "2023-01-12": [
+            "https://googleprojectzero.blogspot.com/2023/01/der-entitlements-brief-return-of.html"
+        ]
+    }
+}

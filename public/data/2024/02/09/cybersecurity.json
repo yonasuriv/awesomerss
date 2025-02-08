@@ -1,0 +1,11 @@
+[
+    {
+        "title": "New attack vectors in EKS",
+        "date": "Fri, 09 Feb 2024 19:10:22 GMT",
+        "permalink": "https://www.wiz.io/blog/new-attack-vectors-emerge-via-recent-eks-access-entries-and-pod-identity-features",
+        "image": null,
+        "summary": "We explore how advancements in EKS Access Entries and Pod Identity have opened new attack vectors and offer examples of how adversaries could exploit them.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

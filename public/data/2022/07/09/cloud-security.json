@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Terraform ANSI Escape",
+        "date": "Sat, 09 Jul 2022 00:02:47 +0000",
+        "permalink": "https://hackingthe.cloud/terraform/terraform_ansi_escape_evasion/",
+        "image": null,
+        "summary": "Using ANSI Escape Sequences to Hide Malicious Terraform Code",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

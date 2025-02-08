@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Derive a Principal ARN from an AWS Unique Identifier",
+        "date": "Mon, 20 Nov 2023 00:54:35 +0000",
+        "permalink": "https://hackingthe.cloud/aws/enumeration/enumerate_principal_arn_from_unique_id/",
+        "image": null,
+        "summary": "How to convert an unique identifier to a principal ARN.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Breaking the Chain: Wiz Uncovers a Signature Verification Bypass in Nuclei, the Popular Vulnerability Scanner (CVE-2024-43405)",
+        "date": "Fri, 03 Jan 2025 15:00:01 GMT",
+        "permalink": "https://www.wiz.io/blog/nuclei-signature-verification-bypass",
+        "image": null,
+        "summary": "Wiz’s engineering team discovered a high-severity signature verification bypass in Nuclei, one of the most popular open-source security tools, which could potentially lead to arbitrary code execution.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

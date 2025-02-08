@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Solving CSAW challenge Wyvern (rev-500) using afl-fuzz",
+        "date": "2015-09-23T01:14:00.001+02:00",
+        "permalink": "https://www.mathyvanhoef.com/2015/09/csaw-ctf-solving-reversing-wyvern-500.html",
+        "image": null,
+        "summary": "We're given a Linux binary which asks for input:\n\n +-----------------------+ |    Welcome Hero       | +-----------------------+ [!] Quest: there is a dragon prowling the domain.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

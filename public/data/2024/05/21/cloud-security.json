@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Enumerate Root User Email Address from the AWS Console",
+        "date": "Tue, 21 May 2024 20:10:23 +0000",
+        "permalink": "https://hackingthe.cloud/aws/enumeration/enumerate_root_email_from_console/",
+        "image": null,
+        "summary": "Identify if an email address belongs to the root user of an AWS account.",
+        "category": "cloud-security",
+        "tags": []
+    }
+]

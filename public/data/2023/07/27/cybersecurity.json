@@ -1,0 +1,11 @@
+[
+    {
+        "title": "GameOver(lay): Easy-to-exploit local privilege escalation vulnerabilities in Ubuntu Linux affect 40% of Ubuntu cloud workloads",
+        "date": "Thu, 27 Jul 2023 19:33:45 GMT",
+        "permalink": "https://www.wiz.io/blog/ubuntu-overlayfs-vulnerability",
+        "image": null,
+        "summary": "Wiz Research discovered CVE-2023-2640 and CVE-2023-32629, two easy-to-exploit privilege escalation vulnerabilities in the OverlayFS module in Ubuntu affecting 40% of Ubuntu cloud workloads.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]

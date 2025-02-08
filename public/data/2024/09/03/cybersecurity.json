@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Introducing the URL validation bypass cheat sheet",
+        "date": "Tue, 03 Sep 2024 14:52:12 GMT",
+        "permalink": "https://portswigger.net/research/introducing-the-url-validation-bypass-cheat-sheet",
+        "image": null,
+        "summary": "URL validation bypasses are the root cause of numerous vulnerabilities including many instances of SSRF, CORS misconfiguration, and open redirection.",
+        "category": "cybersecurity",
+        "tags": []
+    },
+    {
+        "title": "CVE-2024-27198 explained (TeamCity Auth Bypass)",
+        "date": "Tue, 03 Sep 2024 14:56:00 +0000",
+        "permalink": "https://www.hackthebox.com/blog/cve-2024-27198-explained",
+        "image": null,
+        "summary": "We deep dive into CVE-2024-27198, also known as the JetBrains TeamCity Multiple Authentication Bypass.",
+        "category": "cybersecurity",
+        "tags": [
+            "All Content"
+        ]
+    },
+    {
+        "title": "Avoiding security incidents due to request collapsing",
+        "date": "Tue, 03 Sep 2024 13:47:27 GMT",
+        "permalink": "https://www.wiz.io/blog/preventing-risk-of-request-collapsing-in-web-caching",
+        "image": null,
+        "summary": "This feature of caching services can result in unexpected behavior.",
+        "category": "cybersecurity",
+        "tags": []
+    }
+]
